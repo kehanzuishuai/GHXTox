@@ -1,0 +1,130 @@
+{
+  "rows": [
+    {
+      "target_fold": 0,
+      "source_fold": 0,
+      "target_test_groups_seen_in_source_train": 0
+    },
+    {
+      "target_fold": 0,
+      "source_fold": 1,
+      "target_test_groups_seen_in_source_train": 790
+    },
+    {
+      "target_fold": 0,
+      "source_fold": 2,
+      "target_test_groups_seen_in_source_train": 767
+    },
+    {
+      "target_fold": 0,
+      "source_fold": 3,
+      "target_test_groups_seen_in_source_train": 797
+    },
+    {
+      "target_fold": 0,
+      "source_fold": 4,
+      "target_test_groups_seen_in_source_train": 774
+    },
+    {
+      "target_fold": 1,
+      "source_fold": 0,
+      "target_test_groups_seen_in_source_train": 801
+    },
+    {
+      "target_fold": 1,
+      "source_fold": 1,
+      "target_test_groups_seen_in_source_train": 0
+    },
+    {
+      "target_fold": 1,
+      "source_fold": 2,
+      "target_test_groups_seen_in_source_train": 785
+    },
+    {
+      "target_fold": 1,
+      "source_fold": 3,
+      "target_test_groups_seen_in_source_train": 784
+    },
+    {
+      "target_fold": 1,
+      "source_fold": 4,
+      "target_test_groups_seen_in_source_train": 796
+    },
+    {
+      "target_fold": 2,
+      "source_fold": 0,
+      "target_test_groups_seen_in_source_train": 791
+    },
+    {
+      "target_fold": 2,
+      "source_fold": 1,
+      "target_test_groups_seen_in_source_train": 781
+    },
+    {
+      "target_fold": 2,
+      "source_fold": 2,
+      "target_test_groups_seen_in_source_train": 0
+    },
+    {
+      "target_fold": 2,
+      "source_fold": 3,
+      "target_test_groups_seen_in_source_train": 776
+    },
+    {
+      "target_fold": 2,
+      "source_fold": 4,
+      "target_test_groups_seen_in_source_train": 793
+    },
+    {
+      "target_fold": 3,
+      "source_fold": 0,
+      "target_test_groups_seen_in_source_train": 771
+    },
+    {
+      "target_fold": 3,
+      "source_fold": 1,
+      "target_test_groups_seen_in_source_train": 782
+    },
+    {
+      "target_fold": 3,
+      "source_fold": 2,
+      "target_test_groups_seen_in_source_train": 814
+    },
+    {
+      "target_fold": 3,
+      "source_fold": 3,
+      "target_test_groups_seen_in_source_train": 0
+    },
+    {
+      "target_fold": 3,
+      "source_fold": 4,
+      "target_test_groups_seen_in_source_train": 793
+    },
+    {
+      "target_fold": 4,
+      "source_fold": 0,
+      "target_test_groups_seen_in_source_train": 792
+    },
+    {
+      "target_fold": 4,
+      "source_fold": 1,
+      "target_test_groups_seen_in_source_train": 802
+    },
+    {
+      "target_fold": 4,
+      "source_fold": 2,
+      "target_test_groups_seen_in_source_train": 788
+    },
+    {
+      "target_fold": 4,
+      "source_fold": 3,
+      "target_test_groups_seen_in_source_train": 797
+    },
+    {
+      "target_fold": 4,
+      "source_fold": 4,
+      "target_test_groups_seen_in_source_train": 0
+    }
+  ],
+  "interpretation": "Different outer-fold model train groups overlap target-fold held groups. Naive reuse of global OOF difficulty for training another outer fold is not strictly outer-safe; group counts do not prove actual prediction impact."
+}

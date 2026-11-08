@@ -1,0 +1,277 @@
+{
+  "schema": {
+    "point_fields": [
+      "concentration",
+      "acid_percent",
+      "amide_percent",
+      "acid_reported_error",
+      "amide_reported_error"
+    ],
+    "point_errors_optional": true,
+    "conditions_apply_to_both_forms": true,
+    "endpoint": "fixed-dose percent hemolysis",
+    "effect": "amide_percent minus acid_percent; retain raw difference, no significance inferred"
+  },
+  "studies": [
+    {
+      "id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "notes": [
+        "MSI-103 series 2 is a separate matched measurement series.",
+        "MAP doses with both 100% at 128, 512 and 1024 ug/mL were not measured; only the tabulated measured 32 ug/mL is included.",
+        "The article summarizes the acid form as less hemolytic overall; retain the low-dose differences from Table 3 without claiming significance."
+      ],
+      "pairs": [
+        {
+          "name": "PGLa",
+          "sequence": "GMASKAGAIAGKIAKVALKAL",
+          "series": "1",
+          "points": [
+            [
+              32,
+              7,
+              2
+            ],
+            [
+              128,
+              7,
+              13
+            ],
+            [
+              512,
+              10,
+              24
+            ],
+            [
+              1024,
+              10,
+              61
+            ]
+          ]
+        },
+        {
+          "name": "MSI-103",
+          "sequence": "KIAGKIAKIAGKIAKIAGKIA",
+          "series": "1",
+          "points": [
+            [
+              32,
+              6,
+              5
+            ],
+            [
+              128,
+              8,
+              12
+            ],
+            [
+              512,
+              14,
+              33
+            ],
+            [
+              1024,
+              19,
+              51
+            ]
+          ]
+        },
+        {
+          "name": "MSI-103",
+          "sequence": "KIAGKIAKIAGKIAKIAGKIA",
+          "series": "2",
+          "points": [
+            [
+              128,
+              3,
+              9
+            ],
+            [
+              512,
+              2,
+              45
+            ],
+            [
+              1024,
+              4,
+              76
+            ]
+          ]
+        },
+        {
+          "name": "MAP",
+          "sequence": "KLALKLALKALKAALKLA",
+          "series": "1",
+          "points": [
+            [
+              32,
+              86,
+              100
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chekmenev_2006",
+      "source": "https://citeseerx.ist.psu.edu/document?doi=c27a0bbcfc094d6a3a58e09209a647764a829c5a&repid=rep1&type=pdf",
+      "doi": "10.1016/j.bbamem.2006.03.034",
+      "locator": "Sections 2.3, 3.1 and 3.2, Figure 1",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 30,
+        "buffer": "PBS wash",
+        "rbc_percent": 5,
+        "concentration_unit": "ug/mL",
+        "donors": 2,
+        "independent_assays_per_donor": 3
+      },
+      "notes": [
+        "Article gives approximate means. Reported plus-minus values are retained without assigning an error type."
+      ],
+      "pairs": [
+        {
+          "name": "Piscidin 1",
+          "sequence": "FFHHIFRGIVHVGKTIHRLVTG",
+          "series": "1",
+          "points": [
+            [
+              100,
+              78,
+              73,
+              11,
+              8
+            ]
+          ]
+        },
+        {
+          "name": "Piscidin 3",
+          "sequence": "FIHHIFRGIVHAGRSIGRFLTG",
+          "series": "1",
+          "points": [
+            [
+              100,
+              15,
+              50,
+              2,
+              11
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardon_2018",
+      "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205727",
+      "locator": "Tables 1 and 2, Hemolytic activity methods",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": "PBS",
+        "rbc_percent": 4,
+        "concentration_unit": "uM",
+        "independent_assays": 2
+      },
+      "notes": [
+        "Table-reported errors retained without assigning an error type. The authors do not claim an increased hemolytic activity for the amide."
+      ],
+      "pairs": [
+        {
+          "name": "DMS-DA6",
+          "sequence": "GVWGIAKIAGKVLGNILPHVFSSNQS",
+          "series": "1",
+          "points": [
+            [
+              10,
+              0.9,
+              1.2,
+              1.5,
+              1.8
+            ],
+            [
+              50,
+              7.4,
+              3.7,
+              5.5,
+              3.3
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "other_evidence": [
+    {
+      "name": "AurH1",
+      "sequence": "WFKIIKK",
+      "source": "https://link.springer.com/article/10.1186/s12866-023-03090-7",
+      "locator": "Hemolysis test results and Figure 4",
+      "status": "bounded",
+      "species": "human",
+      "temperature_c": 37,
+      "minutes": 60,
+      "buffer": "PBS",
+      "concentration": 1000,
+      "concentration_unit": "ug/mL",
+      "acid_percent_upper_bound_exclusive": 5,
+      "amide_percent_upper_bound_exclusive": 5,
+      "notes": "No significant difference reported across the three peptides. HC50 values exceed the measured concentration range."
+    },
+    {
+      "name": "ChBac3.4 and ChBac3.4-1",
+      "sequences": [
+        "RFRLPFRRPPIRIHPPPFYPPFRRFL",
+        "RFRLPFRRIHPPPFVRIHPPPFYRRFL"
+      ],
+      "source": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2020.552905/full",
+      "locator": "Table 1, Figure 3 and Hemolysis Assay",
+      "status": "figure_and_background",
+      "species": "human",
+      "temperature_c": 37,
+      "minutes": 30,
+      "buffer": "PBS",
+      "rbc_percent": 2.5,
+      "notes": "Same-sequence forms are shown in Figure 3; retain as low-response leads without imputing precise values. ChBac3.4-2-COOH also inserts two Trp residues."
+    },
+    {
+      "name": "Osmin",
+      "source": "https://www.academia.edu/22675548/Structural_identification_by_mass_spectrometry_of_a_novel_antimicrobial_peptide_from_the_venom_of_the_solitary_bee_Osmia_rufa_Hymenoptera_Megachilidae_",
+      "locator": "Sections 3.4–3.5",
+      "status": "other_endpoint",
+      "species": "human",
+      "endpoint": "HU/mg",
+      "acid": 5,
+      "amide": 16.6
+    },
+    {
+      "name": "Pteroicidin alpha",
+      "source": "https://sygal.normandie-univ.fr/informations/fichiers/telecharger/303",
+      "locator": "Primary paper reproduced in author's thesis, Section 3.4 and Figure 4",
+      "status": "figure",
+      "species": [
+        "human",
+        "sea bass",
+        "lesser-spotted dogfish"
+      ],
+      "notes": "Species-specific human curve retained as a lead without treating the fish figures as human measurements."
+    },
+    {
+      "name": "Grammistin",
+      "source": "https://link.springer.com/article/10.1111/j.1444-2906.2006.01264.x",
+      "locator": "Abstract",
+      "status": "abstract_only",
+      "notes": "Five same-sequence acid/amide pairs reported. Publisher, society issue archive and author listing checked; species, conditions and quantitative source table pending."
+    }
+  ]
+}

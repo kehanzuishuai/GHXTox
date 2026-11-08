@@ -1,0 +1,14 @@
+{
+  "model_sha256": "be4ba36edec22a9bfaa4946ff6b2815f1f19d8a3d7e0eada8b796d5a0eae9fd4",
+  "cache_sha256": "f8a6ddf7dd81198142ad8c30a0f7926de1967618b01720bd90cb483a45dfdb5b",
+  "features_sha256": "52f548bf96aec491e8cacc53e654c54b7b33c697c92e99b0bc9a03e5b60ea197",
+  "n": 6387,
+  "width": 512,
+  "seconds": 142.4944805999985,
+  "device": "cuda",
+  "centering": "mean of all N CA C atoms per peptide",
+  "confidence_input": "1.0 default",
+  "training_only": true,
+  "toxicity_labels_used": false,
+  "limitation": "predicted geometry; preliminary rotation/translation checks not exact"
+}

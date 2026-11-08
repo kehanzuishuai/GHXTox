@@ -1,0 +1,167 @@
+{
+  "protocol": "PROTOCOL.md",
+  "description": "post hoc initial fixed frozen geometry probe, not optimized or confirmatory",
+  "feature_sha256": "52f548bf96aec491e8cacc53e654c54b7b33c697c92e99b0bc9a03e5b60ea197",
+  "folds": [
+    {
+      "fold": 0,
+      "train_n": 3841,
+      "calibration_fit_n": 329,
+      "test_n": 1271,
+      "platt": [
+        0.7615612436538457,
+        -0.022913787987245342
+      ]
+    },
+    {
+      "fold": 1,
+      "train_n": 3884,
+      "calibration_fit_n": 319,
+      "test_n": 1229,
+      "platt": [
+        0.8969543033391627,
+        -0.3194606230499576
+      ]
+    },
+    {
+      "fold": 2,
+      "train_n": 3863,
+      "calibration_fit_n": 323,
+      "test_n": 1273,
+      "platt": [
+        0.96031776504531,
+        -0.32792109404911945
+      ]
+    },
+    {
+      "fold": 3,
+      "train_n": 3828,
+      "calibration_fit_n": 309,
+      "test_n": 1291,
+      "platt": [
+        0.7091129620000934,
+        0.010073428042869939
+      ]
+    },
+    {
+      "fold": 4,
+      "train_n": 3810,
+      "calibration_fit_n": 313,
+      "test_n": 1323,
+      "platt": [
+        0.8936286895784752,
+        -0.05835995565924225
+      ]
+    }
+  ],
+  "metrics": {
+    "p_seq6": {
+      "mcc": 0.8557990156055267,
+      "auroc": 0.9717875595832729,
+      "auprc": 0.9486434113221899,
+      "brier": 0.04758253567966531,
+      "errors": 371,
+      "corrects_vs_seq6": 0,
+      "harms_vs_seq6": 0,
+      "fold_mcc": [
+        0.881795106489096,
+        0.8432814802730013,
+        0.8396456431646727,
+        0.8642648359689512,
+        0.8495621291013741
+      ],
+      "cys0_toxic_errors": 125,
+      "cys7plus_nontoxic_errors": 10
+    },
+    "p_old3d": {
+      "mcc": 0.8053165722428572,
+      "auroc": 0.9618319131103304,
+      "auprc": 0.9266708295691286,
+      "brier": 0.06094855682077833,
+      "errors": 505,
+      "corrects_vs_seq6": 96,
+      "harms_vs_seq6": 230,
+      "fold_mcc": [
+        0.8196575766648535,
+        0.7717801504873443,
+        0.8092592997265851,
+        0.8254938184492998,
+        0.7998871392726694
+      ],
+      "cys0_toxic_errors": 142,
+      "cys7plus_nontoxic_errors": 14
+    },
+    "p_esmif": {
+      "mcc": 0.716709195103578,
+      "auroc": 0.9105158381892029,
+      "auprc": 0.8611483028486705,
+      "brier": 0.08892213656619843,
+      "errors": 717,
+      "corrects_vs_seq6": 114,
+      "harms_vs_seq6": 460,
+      "fold_mcc": [
+        0.745976189916563,
+        0.7022341202976091,
+        0.6825721817663072,
+        0.729027464635289,
+        0.7226893000420302
+      ],
+      "cys0_toxic_errors": 187,
+      "cys7plus_nontoxic_errors": 17
+    },
+    "p_fused_old": {
+      "mcc": 0.8593743376095823,
+      "auroc": 0.9741147894609989,
+      "auprc": 0.9524487312367446,
+      "brier": 0.0469382113639944,
+      "errors": 362,
+      "corrects_vs_seq6": 43,
+      "harms_vs_seq6": 34,
+      "fold_mcc": [
+        0.8816932449734984,
+        0.8591967885613419,
+        0.8435373382218624,
+        0.8629493646471721,
+        0.8496912137327067
+      ],
+      "cys0_toxic_errors": 126,
+      "cys7plus_nontoxic_errors": 11
+    },
+    "p_fused_esmif": {
+      "mcc": 0.856268361258832,
+      "auroc": 0.9713359823616416,
+      "auprc": 0.9488959726953445,
+      "brier": 0.04950433940129869,
+      "errors": 369,
+      "corrects_vs_seq6": 47,
+      "harms_vs_seq6": 45,
+      "fold_mcc": [
+        0.8912368180267473,
+        0.8450548143668265,
+        0.8331401805021644,
+        0.8662845220060198,
+        0.845548056703834
+      ],
+      "cys0_toxic_errors": 136,
+      "cys7plus_nontoxic_errors": 10
+    }
+  },
+  "comparisons_vs_seq6": {
+    "p_fused_old": {
+      "delta_mcc": 0.0035753220040555256,
+      "group_bootstrap_ci95": [
+        -0.0032576409977307513,
+        0.010395315044549727
+      ]
+    },
+    "p_fused_esmif": {
+      "delta_mcc": 0.00046934565330525313,
+      "group_bootstrap_ci95": [
+        -0.007094863620408195,
+        0.008169206471473695
+      ]
+    }
+  },
+  "test1_test2_used": false,
+  "limitations": "sequence group OOF, no new independent test; six seed and old 3d upstream limitations; ESM-IF1 unsupervised pretraining overlap unknown; no geometry-free matched control; frozen linear probe only; fixed-prediction bootstrap excludes retraining uncertainty"
+}

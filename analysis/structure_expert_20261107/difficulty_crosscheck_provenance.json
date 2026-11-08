@@ -1,0 +1,18 @@
+{
+  "input_sha256": {
+    "sample_profiles.csv": "460652b54e4bac1b12a0da46d3ff7760e0a2bf0d6e5c832b646cfd1d5732b3d4",
+    "esm_if_probe_predictions.csv": "875e4e2380c3a470b420c2955c47006785b258269f97eac0d69737cd372682f7"
+  },
+  "aligned_rows": 6387,
+  "matched_positive_cases": {
+    "matched_negative": 67,
+    "matched_negative_1d_le_0.1": 67
+  },
+  "main_cutoff": 0.5,
+  "match_rule": "Same fold, Cys=0, length difference <=3, different sequence group. Unique negative controls.",
+  "sensitivity_cutoffs": [
+    0.4,
+    0.6
+  ],
+  "test1_test2_used": false
+}

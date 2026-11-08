@@ -1,0 +1,20 @@
+{
+  "samples": 6387,
+  "inputs": {
+    "D:\\dachuang2026\\GHXTox\\analysis\\six_seed_1d_weakness_20261107\\sample_profiles.csv": "460652b54e4bac1b12a0da46d3ff7760e0a2bf0d6e5c832b646cfd1d5732b3d4",
+    "D:\\dachuang2026\\GHXTox\\analysis\\reviewer_response_20261102\\six_seed_nested_autodl_20261106\\data\\nested_folds.csv": "5ccae957f2c4129f5e67c3ff66f48071dff7f32eba72edd7f97a8523acde8840",
+    "D:\\dachuang2026\\GHXTox\\data\\folds\\prottox_tsk_train_prott5_official_mean_folds_v1.csv": "a2a2c1ed1ac5bc4e8efbcce6c50662950d2243f14b336ca46428faa2376f6dbe",
+    "D:\\dachuang2026\\GHXTox-ziliao\\train_chemical_sites_final_esm2_multisource_1_30_full2795.pt": "f8a6ddf7dd81198142ad8c30a0f7926de1967618b01720bd90cb483a45dfdb5b",
+    "D:\\dachuang2026\\GHXTox-ziliao\\train_prott5_official_mean.pt": "71b8b55be48855e8feab3a3cc0c132229e85521be8db461be819c8fb9c0df2d5",
+    "D:\\dachuang2026\\GHXTox\\analysis\\structure_expert_20261107\\esm_if_train_mean.npz": "52f548bf96aec491e8cacc53e654c54b7b33c697c92e99b0bc9a03e5b60ea197",
+    "D:\\dachuang2026\\GHXTox\\analysis\\structure_expert_20261107\\esm_if_probe_predictions.csv": "875e4e2380c3a470b420c2955c47006785b258269f97eac0d69737cd372682f7",
+    "D:\\dachuang2026\\GHXTox\\runs\\representation_shootout_v1\\pepbert_large_uniparc_seed20260905_v1\\oof_predictions.csv": "b281aff301bf6827e08076545e348e7e329ba138f5d2f0dd5905d6ccc36ee318",
+    "D:\\dachuang2026\\GHXTox\\runs\\representation_shootout_v1\\pepbert_large_uniparc_seed20260906_v1\\oof_predictions.csv": "e110a0346c91cfca5fbacab20b95c562b49d4233b49eaa614446ed4372bbfcfb",
+    "D:\\dachuang2026\\GHXTox\\runs\\representation_shootout_v1\\pepbert_large_uniparc_features.pt": "7404a8212e1247189f0451649b4e8a428e899ba201c88ce08342efdfdb09d82d",
+    "D:\\dachuang2026\\GHXTox\\runs\\representation_shootout_v1\\pepbert_small_uniparc_seed20260905_v1\\oof_predictions.csv": "aed84306d6737936b287e0d1052b456905d05b21f519775de66602d64fcee3c4",
+    "D:\\dachuang2026\\GHXTox\\runs\\representation_shootout_v1\\pepbert_small_uniparc_seed20260906_v1\\oof_predictions.csv": "d270d0a7b32250c5c2690b1f8285866e0a5a9a88d6ab8117e6ecadabaa392348",
+    "D:\\dachuang2026\\GHXTox\\runs\\representation_shootout_v1\\pepbert_small_uniparc_features.pt": "3b77e9a55aab6af7c7fd77f1b459be6acc5063b0fe282ac72fcdd0a194b93caf"
+  },
+  "head": "StandardScaler + logistic regression C=0.1",
+  "test1_test2_used": false
+}

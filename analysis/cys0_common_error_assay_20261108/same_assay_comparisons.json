@@ -1,0 +1,769 @@
+{
+  "mastoparan": {
+    "matched_n": 23,
+    "group_n": 20,
+    "n_with_ec50": 12,
+    "spearman_percent": {
+      "p_1d": -0.007978399797642333,
+      "esm2_mean": 0.030417649228511395,
+      "egnn_existing": -0.00947434975970027,
+      "esmif_mean": 0.32212789182980917
+    },
+    "spearman_negative_ec50": {
+      "p_1d": 0.0979020979020979,
+      "esm2_mean": -0.22377622377622378,
+      "egnn_existing": -0.034965034965034975,
+      "esmif_mean": 0.055944055944055944
+    },
+    "cases": {
+      "peptide_44": {
+        "name": "EMP-AF",
+        "form": "INLLKIAKGIIKSL-NH2",
+        "human_hemolysis_percent": 100.0,
+        "human_ec50_uM": 110.6
+      },
+      "peptide_4031": {
+        "name": "EMP-ER",
+        "form": "FDIMGLIKKVAGAL-NH2",
+        "human_hemolysis_percent": 25.0,
+        "human_ec50_uM": null
+      },
+      "peptide_5047": {
+        "name": "Eumenitin-R",
+        "form": "LNLKGLIKKVASLLN",
+        "human_hemolysis_percent": 5.0,
+        "human_ec50_uM": null
+      },
+      "peptide_5045": {
+        "name": "Eumenitin",
+        "form": "LNLKGIFKKVASLLT",
+        "human_hemolysis_percent": 6.0,
+        "human_ec50_uM": null
+      },
+      "peptide_97": {
+        "name": "Mastoparan (L)",
+        "form": "INLKALAALAKKIL-NH2",
+        "human_hemolysis_percent": 100.0,
+        "human_ec50_uM": 82.9
+      },
+      "peptide_2021": {
+        "name": "Mastoparan-V1",
+        "form": "INWKKIKSIIKAAMN-NH2",
+        "human_hemolysis_percent": 9.0,
+        "human_ec50_uM": null
+      },
+      "peptide_5595": {
+        "name": "Mastoparan-V2",
+        "form": "INWKKIKSLIKAAMS-NH2",
+        "human_hemolysis_percent": 15.0,
+        "human_ec50_uM": null
+      },
+      "peptide_4042": {
+        "name": "Mastoparan-X(V)",
+        "form": "INWKGIAAMAKKLL-NH2",
+        "human_hemolysis_percent": 29.0,
+        "human_ec50_uM": 349.4
+      },
+      "peptide_5594": {
+        "name": "Mastoparan-A",
+        "form": "IKWKAILDAVKKVL-NH2",
+        "human_hemolysis_percent": 7.0,
+        "human_ec50_uM": null
+      },
+      "peptide_5677": {
+        "name": "Mastoparan-B",
+        "form": "LKLKSIVSWAKKVL-NH2",
+        "human_hemolysis_percent": 22.0,
+        "human_ec50_uM": null
+      },
+      "peptide_5088": {
+        "name": "HR1",
+        "form": "INLKAIAALVKKVL-NH2",
+        "human_hemolysis_percent": 56.0,
+        "human_ec50_uM": 197.7
+      },
+      "peptide_4045": {
+        "name": "Agelaia-MPI",
+        "form": "INWLKLGKAIIDAL-NH2",
+        "human_hemolysis_percent": 100.0,
+        "human_ec50_uM": 3.7
+      },
+      "peptide_383": {
+        "name": "Protopolybia-MP I",
+        "form": "INWLKLGKKVSAIL-NH2",
+        "human_hemolysis_percent": 5.0,
+        "human_ec50_uM": null
+      },
+      "peptide_5149": {
+        "name": "Protopolybia-MPII",
+        "form": "INWKAIIEAAKQAL-NH2",
+        "human_hemolysis_percent": 13.0,
+        "human_ec50_uM": null
+      },
+      "peptide_4097": {
+        "name": "Protonectarina-MP",
+        "form": "INWKALLDAAKKVL-NH2",
+        "human_hemolysis_percent": 100.0,
+        "human_ec50_uM": 85.2
+      },
+      "peptide_4909": {
+        "name": "Polybia-MP I",
+        "form": "IDWKKLLDAAKQIL-NH2",
+        "human_hemolysis_percent": 56.0,
+        "human_ec50_uM": 176.6
+      },
+      "peptide_3907": {
+        "name": "Polybia-MP II",
+        "form": "INWLKLGKMVIDAL-NH2",
+        "human_hemolysis_percent": 91.0,
+        "human_ec50_uM": 23.3
+      },
+      "peptide_102": {
+        "name": "Polybia-MP III",
+        "form": "IDWLKLGKMVMDVL-NH2",
+        "human_hemolysis_percent": 79.0,
+        "human_ec50_uM": 38.5
+      },
+      "peptide_3621": {
+        "name": "Parapolybia-MP",
+        "form": "INWKKMAATALKMI-NH2",
+        "human_hemolysis_percent": 32.0,
+        "human_ec50_uM": 306.4
+      },
+      "peptide_5575": {
+        "name": "Mastoparan-J",
+        "form": "VDWKKIGQHILSVL-NH2",
+        "human_hemolysis_percent": 100.0,
+        "human_ec50_uM": 69.5
+      },
+      "peptide_5242": {
+        "name": "PMM2",
+        "form": "INWKKIASIGKEVLKAL-NH2",
+        "human_hemolysis_percent": 100.0,
+        "human_ec50_uM": 42.6
+      },
+      "peptide_5038": {
+        "name": "Dominulin A",
+        "form": "INWKKIAEVGGKILSSL-NH2",
+        "human_hemolysis_percent": 4.0,
+        "human_ec50_uM": null
+      },
+      "peptide_3747": {
+        "name": "Dominulin B",
+        "form": "INWKKIAEIGKQVLSAL-NH2",
+        "human_hemolysis_percent": 8.0,
+        "human_ec50_uM": null
+      }
+    }
+  },
+  "ponericin": {
+    "HEK293_CC50": [
+      {
+        "stronger": "peptide_249",
+        "weaker": "peptide_3912",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "right",
+          "esm2_mean": "reversed",
+          "egnn_existing": "reversed",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_249",
+        "weaker": "peptide_463",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "right",
+          "esm2_mean": "right",
+          "egnn_existing": "reversed",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_249",
+        "weaker": "peptide_444",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "right",
+          "esm2_mean": "reversed",
+          "egnn_existing": "reversed",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_3912",
+        "weaker": "peptide_463",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "right",
+          "esm2_mean": "right",
+          "egnn_existing": "right",
+          "esmif_mean": "reversed"
+        }
+      },
+      {
+        "stronger": "peptide_3912",
+        "weaker": "peptide_444",
+        "same_outer_fold": true,
+        "ranking": {
+          "p_1d": "reversed",
+          "esm2_mean": "reversed",
+          "egnn_existing": "reversed",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_463",
+        "weaker": "peptide_444",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "reversed",
+          "esm2_mean": "reversed",
+          "egnn_existing": "reversed",
+          "esmif_mean": "right"
+        }
+      }
+    ],
+    "human_RBC_HC50": [
+      {
+        "stronger": "peptide_249",
+        "weaker": "peptide_463",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "right",
+          "esm2_mean": "right",
+          "egnn_existing": "reversed",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_249",
+        "weaker": "peptide_444",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "right",
+          "esm2_mean": "reversed",
+          "egnn_existing": "reversed",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_3912",
+        "weaker": "peptide_463",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "right",
+          "esm2_mean": "right",
+          "egnn_existing": "right",
+          "esmif_mean": "reversed"
+        }
+      },
+      {
+        "stronger": "peptide_3912",
+        "weaker": "peptide_444",
+        "same_outer_fold": true,
+        "ranking": {
+          "p_1d": "reversed",
+          "esm2_mean": "reversed",
+          "egnn_existing": "reversed",
+          "esmif_mean": "right"
+        }
+      }
+    ],
+    "CC50_reported_ranges_uM": {
+      "peptide_249": [
+        4.5,
+        5.9
+      ],
+      "peptide_3912": [
+        12.6,
+        13.5
+      ],
+      "peptide_463": [
+        48.2,
+        56.9
+      ],
+      "peptide_444": [
+        300,
+        null
+      ]
+    },
+    "HC50_reported_ranges_uM": {
+      "peptide_249": [
+        39.9,
+        61.5
+      ],
+      "peptide_3912": [
+        28.6,
+        48.2
+      ],
+      "peptide_463": [
+        250,
+        null
+      ],
+      "peptide_444": [
+        300,
+        null
+      ]
+    }
+  },
+  "grammistin": {
+    "detected_vs_not_detected_2005": [
+      {
+        "stronger": "peptide_58",
+        "weaker": "peptide_1864",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "reversed",
+          "esm2_mean": "right",
+          "egnn_existing": "right",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_58",
+        "weaker": "peptide_3463",
+        "same_outer_fold": true,
+        "ranking": {
+          "p_1d": "reversed",
+          "esm2_mean": "reversed",
+          "egnn_existing": "reversed",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_58",
+        "weaker": "peptide_5786",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "right",
+          "esm2_mean": "right",
+          "egnn_existing": "right",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_59",
+        "weaker": "peptide_1864",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "reversed",
+          "esm2_mean": "right",
+          "egnn_existing": "right",
+          "esmif_mean": "right"
+        }
+      },
+      {
+        "stronger": "peptide_59",
+        "weaker": "peptide_3463",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "reversed",
+          "esm2_mean": "reversed",
+          "egnn_existing": "reversed",
+          "esmif_mean": "reversed"
+        }
+      },
+      {
+        "stronger": "peptide_59",
+        "weaker": "peptide_5786",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "right",
+          "esm2_mean": "reversed",
+          "egnn_existing": "right",
+          "esmif_mean": "reversed"
+        }
+      }
+    ],
+    "Gs2_vs_Gs1_2000": [
+      {
+        "stronger": "peptide_59",
+        "weaker": "peptide_58",
+        "same_outer_fold": false,
+        "ranking": {
+          "p_1d": "reversed",
+          "esm2_mean": "reversed",
+          "egnn_existing": "reversed",
+          "esmif_mean": "reversed"
+        }
+      }
+    ],
+    "Pp3_terminal_pair_2006": {
+      "sample_id": "peptide_347",
+      "sequence_only_same_score_by_construction": true
+    }
+  },
+  "H1_H2": {
+    "ids": [
+      "peptide_251",
+      "peptide_424"
+    ],
+    "quantitative_pair_included": false,
+    "reason": "Primary quantitative table and terminal-state conflict unresolved."
+  },
+  "eight_target_ids": [
+    "peptide_102",
+    "peptide_251",
+    "peptide_347",
+    "peptide_424",
+    "peptide_44",
+    "peptide_463",
+    "peptide_59",
+    "peptide_97"
+  ],
+  "test1_test2_scores_used": false,
+  "frozen_scores": {
+    "peptide_102": {
+      "fold": 3,
+      "sequence": "IDWLKLGKMVMDVL",
+      "label": 1,
+      "group_id": "reference_000097",
+      "p_1d": 0.027663178551217,
+      "esm2_mean": 0.0123859323446136,
+      "egnn_existing": 0.0205780833525154,
+      "esmif_mean": 0.0361382567569964
+    },
+    "peptide_1864": {
+      "fold": 3,
+      "sequence": "WWRELLKKLAFTAAGHLGSVLAAKQSGW",
+      "label": 0,
+      "group_id": "reference_001507",
+      "p_1d": 0.4120719471039915,
+      "esm2_mean": 2.294722244125582e-05,
+      "egnn_existing": 0.0057460264316609,
+      "esmif_mean": 0.0080868573140232
+    },
+    "peptide_2021": {
+      "fold": 1,
+      "sequence": "INWKKIKSIIKAAMN",
+      "label": 0,
+      "group_id": "reference_001664",
+      "p_1d": 0.0425503804376707,
+      "esm2_mean": 0.4264926052222634,
+      "egnn_existing": 0.0429838702482816,
+      "esmif_mean": 0.0362231759069902
+    },
+    "peptide_249": {
+      "fold": 0,
+      "sequence": "FLGALLKIGAKLLPSVVGLFKKKQQ",
+      "label": 1,
+      "group_id": "reference_000242",
+      "p_1d": 0.3993370701488424,
+      "esm2_mean": 0.022918580483716,
+      "egnn_existing": 0.0261769216210846,
+      "esmif_mean": 0.4290848669041144
+    },
+    "peptide_251": {
+      "fold": 3,
+      "sequence": "MSGIVEAISNAVKSGLDHDWVNMGTSIADVVAKGADFIAGFFS",
+      "label": 1,
+      "group_id": "reference_000244",
+      "p_1d": 0.0024639716852269,
+      "esm2_mean": 0.0001861025028262,
+      "egnn_existing": 0.0043724389943836,
+      "esmif_mean": 0.0070207220794715
+    },
+    "peptide_3463": {
+      "fold": 4,
+      "sequence": "NWRKILGKIAKVAAGLLGSMLAGYQV",
+      "label": 0,
+      "group_id": "reference_003098",
+      "p_1d": 0.245463257186148,
+      "esm2_mean": 0.588775357103795,
+      "egnn_existing": 0.1563187566817486,
+      "esmif_mean": 0.0984220986919846
+    },
+    "peptide_347": {
+      "fold": 3,
+      "sequence": "NWRKILGQIASVGAGLLGSLLAGYE",
+      "label": 1,
+      "group_id": "reference_000338",
+      "p_1d": 0.0357469988422159,
+      "esm2_mean": 0.0310005897850384,
+      "egnn_existing": 0.0584010760176506,
+      "esmif_mean": 0.0953609754113463
+    },
+    "peptide_3621": {
+      "fold": 2,
+      "sequence": "INWKKMAATALKMI",
+      "label": 0,
+      "group_id": "reference_003256",
+      "p_1d": 0.0142068369416872,
+      "esm2_mean": 0.3669400801342909,
+      "egnn_existing": 0.1892814819133862,
+      "esmif_mean": 0.1446368387589178
+    },
+    "peptide_3747": {
+      "fold": 3,
+      "sequence": "INWKKIAEIGKQVLSAL",
+      "label": 0,
+      "group_id": "reference_003381",
+      "p_1d": 0.0196103326467721,
+      "esm2_mean": 0.0255228271973388,
+      "egnn_existing": 0.1558345795098029,
+      "esmif_mean": 0.1904308544290462
+    },
+    "peptide_383": {
+      "fold": 3,
+      "sequence": "INWLKLGKKVSAIL",
+      "label": 1,
+      "group_id": "reference_000374",
+      "p_1d": 0.1258458109318082,
+      "esm2_mean": 0.015650538951549,
+      "egnn_existing": 0.1767754660984367,
+      "esmif_mean": 0.0259112446704897
+    },
+    "peptide_3907": {
+      "fold": 2,
+      "sequence": "INWLKLGKMVIDAL",
+      "label": 0,
+      "group_id": "reference_003540",
+      "p_1d": 0.7556456364659642,
+      "esm2_mean": 0.3815450017335396,
+      "egnn_existing": 0.3180599448580375,
+      "esmif_mean": 0.6716354865104164
+    },
+    "peptide_3912": {
+      "fold": 4,
+      "sequence": "FWGAAAKMLGKALPGLISMFQKN",
+      "label": 0,
+      "group_id": "reference_003545",
+      "p_1d": 0.0606913634848138,
+      "esm2_mean": 0.0480857428778095,
+      "egnn_existing": 0.0775115922398369,
+      "esmif_mean": 0.2059217662625682
+    },
+    "peptide_4031": {
+      "fold": 3,
+      "sequence": "FDIMGLIKKVAGAL",
+      "label": 0,
+      "group_id": "reference_003639",
+      "p_1d": 0.0044653847875194,
+      "esm2_mean": 0.0001729787917747,
+      "egnn_existing": 0.0048517295524666,
+      "esmif_mean": 0.0499461294497965
+    },
+    "peptide_4042": {
+      "fold": 0,
+      "sequence": "INWKGIAAMAKKLL",
+      "label": 0,
+      "group_id": "reference_003648",
+      "p_1d": 0.1264204049308758,
+      "esm2_mean": 0.2511074746476464,
+      "egnn_existing": 0.0898479950197503,
+      "esmif_mean": 0.3186960802513271
+    },
+    "peptide_4045": {
+      "fold": 2,
+      "sequence": "INWLKLGKAIIDAL",
+      "label": 0,
+      "group_id": "reference_003540",
+      "p_1d": 0.4011845988422803,
+      "esm2_mean": 0.1637588447585609,
+      "egnn_existing": 0.1269478078666719,
+      "esmif_mean": 0.3024572983815087
+    },
+    "peptide_4097": {
+      "fold": 4,
+      "sequence": "INWKALLDAAKKVL",
+      "label": 0,
+      "group_id": "reference_003687",
+      "p_1d": 0.0615447486071751,
+      "esm2_mean": 0.2675905875455637,
+      "egnn_existing": 0.0982804234636613,
+      "esmif_mean": 0.2578749576379832
+    },
+    "peptide_424": {
+      "fold": 3,
+      "sequence": "MDFIIDIIKKIVGLFTGK",
+      "label": 1,
+      "group_id": "reference_000415",
+      "p_1d": 0.0013591430344932,
+      "esm2_mean": 2.0470359357260575e-05,
+      "egnn_existing": 0.0045489821510453,
+      "esmif_mean": 0.3449709630306664
+    },
+    "peptide_44": {
+      "fold": 1,
+      "sequence": "INLLKIAKGIIKSL",
+      "label": 1,
+      "group_id": "reference_000041",
+      "p_1d": 0.0597508441604603,
+      "esm2_mean": 0.0308270182251191,
+      "egnn_existing": 0.0513182471407233,
+      "esmif_mean": 0.1294292648495617
+    },
+    "peptide_444": {
+      "fold": 4,
+      "sequence": "AGTKEWLNKAKDFIKEKGLGMLSAAANAALN",
+      "label": 1,
+      "group_id": "reference_000435",
+      "p_1d": 0.2467407240073568,
+      "esm2_mean": 0.4681316416111751,
+      "egnn_existing": 0.1952170920769137,
+      "esmif_mean": 0.0237851485730915
+    },
+    "peptide_463": {
+      "fold": 1,
+      "sequence": "FVKELWDKVKKMGSAAWSAAKGAFA",
+      "label": 1,
+      "group_id": "reference_000450",
+      "p_1d": 0.048386570944831,
+      "esm2_mean": 0.0027054925459055,
+      "egnn_existing": 0.0305304327574033,
+      "esmif_mean": 0.2601702565034958
+    },
+    "peptide_4909": {
+      "fold": 2,
+      "sequence": "IDWKKLLDAAKQIL",
+      "label": 0,
+      "group_id": "reference_004209",
+      "p_1d": 0.1829163506961983,
+      "esm2_mean": 0.1169554177089311,
+      "egnn_existing": 0.2351418793208943,
+      "esmif_mean": 0.5608723324743938
+    },
+    "peptide_5038": {
+      "fold": 3,
+      "sequence": "INWKKIAEVGGKILSSL",
+      "label": 0,
+      "group_id": "reference_004302",
+      "p_1d": 0.0095367393347411,
+      "esm2_mean": 0.0260028037814754,
+      "egnn_existing": 0.1037075332226337,
+      "esmif_mean": 0.163888326543308
+    },
+    "peptide_5045": {
+      "fold": 0,
+      "sequence": "LNLKGIFKKVASLLT",
+      "label": 0,
+      "group_id": "reference_004308",
+      "p_1d": 0.1041202628798508,
+      "esm2_mean": 0.0561467728226014,
+      "egnn_existing": 0.0435680020433462,
+      "esmif_mean": 0.1427987041653683
+    },
+    "peptide_5047": {
+      "fold": 0,
+      "sequence": "LNLKGLIKKVASLLN",
+      "label": 0,
+      "group_id": "reference_004308",
+      "p_1d": 0.1917281481364122,
+      "esm2_mean": 0.1255848910426382,
+      "egnn_existing": 0.1212241260915198,
+      "esmif_mean": 0.1646890861432655
+    },
+    "peptide_5088": {
+      "fold": 0,
+      "sequence": "INLKAIAALVKKVL",
+      "label": 0,
+      "group_id": "singleton_005087",
+      "p_1d": 0.7137409303405319,
+      "esm2_mean": 0.3446886563091176,
+      "egnn_existing": 0.930039970624994,
+      "esmif_mean": 0.1399286296034393
+    },
+    "peptide_5149": {
+      "fold": 0,
+      "sequence": "INWKAIIEAAKQAL",
+      "label": 0,
+      "group_id": "reference_004381",
+      "p_1d": 0.2011222284060742,
+      "esm2_mean": 0.6556805480288846,
+      "egnn_existing": 0.0653366394534553,
+      "esmif_mean": 0.2055278336870821
+    },
+    "peptide_5242": {
+      "fold": 3,
+      "sequence": "INWKKIASIGKEVLKAL",
+      "label": 0,
+      "group_id": "reference_004448",
+      "p_1d": 0.0230728488062374,
+      "esm2_mean": 0.1170830417310989,
+      "egnn_existing": 0.2370871315386748,
+      "esmif_mean": 0.2754410099080592
+    },
+    "peptide_5575": {
+      "fold": 1,
+      "sequence": "VDWKKIGQHILSVL",
+      "label": 0,
+      "group_id": "reference_004597",
+      "p_1d": 0.0229117117012542,
+      "esm2_mean": 0.0335411378990261,
+      "egnn_existing": 0.0925931262589808,
+      "esmif_mean": 0.0312151935658123
+    },
+    "peptide_5594": {
+      "fold": 0,
+      "sequence": "IKWKAILDAVKKVL",
+      "label": 0,
+      "group_id": "reference_004611",
+      "p_1d": 0.104949537103301,
+      "esm2_mean": 0.26156729915981,
+      "egnn_existing": 0.4019241544388193,
+      "esmif_mean": 0.0878108024892211
+    },
+    "peptide_5595": {
+      "fold": 1,
+      "sequence": "INWKKIKSLIKAAMS",
+      "label": 0,
+      "group_id": "reference_001664",
+      "p_1d": 0.0659290292068249,
+      "esm2_mean": 0.1690897683285148,
+      "egnn_existing": 0.0399470856971905,
+      "esmif_mean": 0.050755282161372
+    },
+    "peptide_5677": {
+      "fold": 0,
+      "sequence": "LKLKSIVSWAKKVL",
+      "label": 0,
+      "group_id": "reference_004676",
+      "p_1d": 0.5313800895094882,
+      "esm2_mean": 0.0553023304687237,
+      "egnn_existing": 0.0892422163288768,
+      "esmif_mean": 0.0282246887688919
+    },
+    "peptide_5786": {
+      "fold": 3,
+      "sequence": "IGGIISFFKRLF",
+      "label": 0,
+      "group_id": "reference_004755",
+      "p_1d": 0.0018849773238774,
+      "esm2_mean": 0.073285193359034,
+      "egnn_existing": 0.0066557220074041,
+      "esmif_mean": 0.013747685085381
+    },
+    "peptide_58": {
+      "fold": 4,
+      "sequence": "LFGFLIKLIPSLFGALSNIGRNRNQ",
+      "label": 1,
+      "group_id": "reference_000055",
+      "p_1d": 0.0987637262956399,
+      "esm2_mean": 0.3664164968015892,
+      "egnn_existing": 0.1494942244906696,
+      "esmif_mean": 0.5699404642496237
+    },
+    "peptide_59": {
+      "fold": 1,
+      "sequence": "LFGFLIPLLPHIIGAIPQVIGAIR",
+      "label": 1,
+      "group_id": "reference_000056",
+      "p_1d": 0.0310301242957265,
+      "esm2_mean": 0.0546113296960368,
+      "egnn_existing": 0.0545518317225285,
+      "esmif_mean": 0.0119335313509902
+    },
+    "peptide_97": {
+      "fold": 1,
+      "sequence": "INLKALAALAKKIL",
+      "label": 1,
+      "group_id": "singleton_000096",
+      "p_1d": 0.0283555174891793,
+      "esm2_mean": 0.0196118570279403,
+      "egnn_existing": 0.0351532999471992,
+      "esmif_mean": 0.3632386486534026
+    }
+  }
+}

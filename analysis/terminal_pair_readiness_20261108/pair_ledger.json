@@ -1,0 +1,605 @@
+{
+  "summary": {
+    "distinct_bare_sequences": 12,
+    "backbones_by_tier": {
+      "quantitative": 6,
+      "figure": 1,
+      "abstract": 5
+    },
+    "quantitative_studies": 5,
+    "quantitative_dose_blocks": 19,
+    "quantitative_human_backbones": 4,
+    "quantitative_human_studies": 3,
+    "quantitative_human_c_terminal_backbones": 1
+  },
+  "pairs": [
+    {
+      "name": "BP76/BP77",
+      "sequence": "KKLFKKILKFL",
+      "group": "BP76",
+      "source": "https://www.academia.edu/18839892/A_library_of_linear_undecapeptides_with_bactericidal_activity_against_phytopathogenic_bacteria",
+      "source_locator": "Table 1 and hemolysis methods",
+      "pmid": "17980935",
+      "tier": "quantitative",
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide"
+        },
+        {
+          "n_terminal": "acetyl",
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [
+        "human"
+      ],
+      "matched_percent_hemolysis": [
+        {
+          "dose_uM": 50.0,
+          "percent_by_form": [
+            3.0,
+            6.0
+          ],
+          "legacy_record_ids": [
+            "1829",
+            "1833"
+          ]
+        },
+        {
+          "dose_uM": 150.0,
+          "percent_by_form": [
+            34.0,
+            40.0
+          ],
+          "legacy_record_ids": [
+            "1843",
+            "1847"
+          ],
+          "legacy_dose_uM": 100.0
+        }
+      ],
+      "legacy_record_ids": [
+        [
+          "1829",
+          "1833"
+        ],
+        [
+          "1843",
+          "1847"
+        ]
+      ]
+    },
+    {
+      "name": "Mast 21",
+      "sequence": "KNWKGIAGMAKKLLGKNWKLM",
+      "group": "Mast 21",
+      "source": "https://www.jstage.jst.go.jp/article/bbb/64/5/64_5_985/_pdf",
+      "source_locator": "Tables 1–2 and hemolysis methods",
+      "pmid": "10879468",
+      "tier": "quantitative",
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid"
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [
+        "human"
+      ],
+      "matched_percent_hemolysis": [
+        {
+          "dose_uM": 10.0,
+          "percent_by_form": [
+            5.4,
+            12.3
+          ],
+          "legacy_record_ids": [
+            "2459",
+            "2468"
+          ]
+        }
+      ],
+      "legacy_record_ids": [
+        [
+          "2459",
+          "2468"
+        ]
+      ]
+    },
+    {
+      "name": "MreB1–9",
+      "sequence": "MLKKFRGMF",
+      "group": "MreB1–9 series",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322399/",
+      "source_locator": "Tables 1 and 5 and hemolysis methods",
+      "pmid": "28230084",
+      "tier": "quantitative",
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide"
+        },
+        {
+          "n_terminal": "acetyl",
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [
+        "human"
+      ],
+      "matched_percent_hemolysis": [
+        {
+          "dose_uM": 50.0,
+          "percent_by_form": [
+            0.0,
+            0.0
+          ],
+          "legacy_record_ids": [
+            "7041",
+            "7042"
+          ]
+        },
+        {
+          "dose_uM": 100.0,
+          "percent_by_form": [
+            0.0,
+            0.0
+          ],
+          "legacy_record_ids": [
+            "7045",
+            "7046"
+          ]
+        }
+      ],
+      "legacy_record_ids": [
+        [
+          "7041",
+          "7042"
+        ],
+        [
+          "7045",
+          "7046"
+        ]
+      ]
+    },
+    {
+      "name": "W-MreB1–9",
+      "sequence": "WMLKKFRGMF",
+      "group": "MreB1–9 series",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322399/",
+      "source_locator": "Tables 1 and 5 and hemolysis methods",
+      "pmid": "28230084",
+      "tier": "quantitative",
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide"
+        },
+        {
+          "n_terminal": "acetyl",
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [
+        "human"
+      ],
+      "matched_percent_hemolysis": [
+        {
+          "dose_uM": 50.0,
+          "percent_by_form": [
+            0.0,
+            4.15
+          ],
+          "legacy_record_ids": [
+            "7043",
+            "7044"
+          ]
+        },
+        {
+          "dose_uM": 100.0,
+          "percent_by_form": [
+            1.62,
+            11.88
+          ],
+          "legacy_record_ids": [
+            "7047",
+            "7048"
+          ]
+        }
+      ],
+      "legacy_record_ids": [
+        [
+          "7043",
+          "7044"
+        ],
+        [
+          "7047",
+          "7048"
+        ]
+      ]
+    },
+    {
+      "name": "Pteroicidin alpha",
+      "sequence": "FIHHIIGGLFHVGKSIHDLIR",
+      "group": "Pteroicidin alpha",
+      "source": "https://sygal.normandie-univ.fr/informations/fichiers/telecharger/303",
+      "source_locator": "Primary article reproduced in thesis, section 3.4 and Figure 4",
+      "pmid": "29108968",
+      "tier": "figure",
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid"
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [
+        "human",
+        "sea bass",
+        "lesser-spotted dogfish"
+      ],
+      "matched_percent_hemolysis": [],
+      "legacy_record_ids": [
+        [
+          "8912",
+          "8915"
+        ]
+      ],
+      "evidence_note": "Do not reuse legacy fish 50% vs 90% as an exact species-matched pair. Reported 90% is an upper value across conditions."
+    },
+    {
+      "name": "Kn2-5R",
+      "sequence": "FIRRIARLLRRIF",
+      "group": "Kn2-5R",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8348142/",
+      "source_locator": "Table 4 and hemolysis methods",
+      "pmid": "34361810",
+      "tier": "quantitative",
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid"
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [
+        "sheep"
+      ],
+      "matched_percent_hemolysis": [
+        {
+          "dose_uM": 1.0,
+          "percent_by_form": [
+            0.0,
+            0.1
+          ],
+          "legacy_record_ids": [
+            "11996",
+            "12006"
+          ]
+        },
+        {
+          "dose_uM": 2.0,
+          "percent_by_form": [
+            0.0,
+            0.3
+          ],
+          "legacy_record_ids": [
+            "11997",
+            "12007"
+          ]
+        },
+        {
+          "dose_uM": 4.0,
+          "percent_by_form": [
+            0.4,
+            2.0
+          ],
+          "legacy_record_ids": [
+            "11998",
+            "12008"
+          ]
+        },
+        {
+          "dose_uM": 8.0,
+          "percent_by_form": [
+            0.7,
+            2.5
+          ],
+          "legacy_record_ids": [
+            "11999",
+            "12009"
+          ]
+        },
+        {
+          "dose_uM": 16.0,
+          "percent_by_form": [
+            1.4,
+            5.4
+          ],
+          "legacy_record_ids": [
+            "12000",
+            "12010"
+          ]
+        },
+        {
+          "dose_uM": 32.0,
+          "percent_by_form": [
+            1.5,
+            16.9
+          ],
+          "legacy_record_ids": [
+            "12001",
+            "12011"
+          ]
+        },
+        {
+          "dose_uM": 64.0,
+          "percent_by_form": [
+            1.8,
+            40.3
+          ],
+          "legacy_record_ids": [
+            "12002",
+            "12012"
+          ]
+        },
+        {
+          "dose_uM": 128.0,
+          "percent_by_form": [
+            2.4,
+            99.3
+          ],
+          "legacy_record_ids": [
+            "12003",
+            "12013"
+          ]
+        },
+        {
+          "dose_uM": 256.0,
+          "percent_by_form": [
+            10.6,
+            99.5
+          ],
+          "legacy_record_ids": [
+            "12004",
+            "12014"
+          ]
+        }
+      ],
+      "legacy_record_ids": [
+        [
+          "11996",
+          "12006"
+        ],
+        [
+          "11997",
+          "12007"
+        ],
+        [
+          "11998",
+          "12008"
+        ],
+        [
+          "11999",
+          "12009"
+        ],
+        [
+          "12000",
+          "12010"
+        ],
+        [
+          "12001",
+          "12011"
+        ],
+        [
+          "12002",
+          "12012"
+        ],
+        [
+          "12003",
+          "12013"
+        ],
+        [
+          "12004",
+          "12014"
+        ]
+      ]
+    },
+    {
+      "name": "RR4",
+      "sequence": "WLRRIKAWLRRIKA",
+      "group": "RR4",
+      "source": "https://doi.org/10.3389/fmicb.2021.753874",
+      "source_locator": "Supplementary Tables 1 and 4 and hemolysis methods",
+      "pmid": "34819923",
+      "tier": "quantitative",
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid"
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [
+        "horse"
+      ],
+      "matched_percent_hemolysis": [
+        {
+          "dose_uM": 150.0,
+          "percent_by_form": [
+            3.2,
+            64.3
+          ],
+          "legacy_record_ids": [
+            "12226",
+            "12229"
+          ]
+        },
+        {
+          "dose_uM": 250.0,
+          "percent_by_form": [
+            9.8,
+            85.0
+          ],
+          "source_locator": "Supplementary Table 4"
+        },
+        {
+          "dose_uM": 375.0,
+          "percent_by_form": [
+            17.8,
+            100.0
+          ],
+          "legacy_record_ids": [
+            "12288",
+            "12291"
+          ]
+        }
+      ],
+      "legacy_record_ids": [
+        [
+          "12226",
+          "12229"
+        ],
+        [
+          "12288",
+          "12291"
+        ]
+      ]
+    },
+    {
+      "name": "Gs1",
+      "aliases": [],
+      "sequence": "LFGFLIKLIPSLFGALSNIGRNRNQ",
+      "group": "Grammistin 2006 study",
+      "source": "https://link.springer.com/article/10.1111/j.1444-2906.2006.01264.x",
+      "sequence_source": "https://www.jstage.jst.go.jp/article/fishsci1994/67/1/67_1_163/_pdf",
+      "source_locator": "Abstract",
+      "tier": "abstract",
+      "forms": [
+        {
+          "n_terminal": null,
+          "c_terminal": "acid"
+        },
+        {
+          "n_terminal": null,
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [],
+      "reported_activity_direction": "no_observed_difference",
+      "matched_percent_hemolysis": []
+    },
+    {
+      "name": "Gs2",
+      "aliases": [
+        "Pp4a"
+      ],
+      "sequence": "LFGFLIPLLPHIIGAIPQVIGAIR",
+      "group": "Grammistin 2006 study",
+      "source": "https://link.springer.com/article/10.1111/j.1444-2906.2006.01264.x",
+      "sequence_source": "https://www.jstage.jst.go.jp/article/fishsci1994/67/1/67_1_163/_pdf",
+      "source_locator": "Abstract",
+      "tier": "abstract",
+      "forms": [
+        {
+          "n_terminal": null,
+          "c_terminal": "acid"
+        },
+        {
+          "n_terminal": null,
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [],
+      "reported_activity_direction": "amidated_higher",
+      "matched_percent_hemolysis": []
+    },
+    {
+      "name": "Pp1",
+      "aliases": [
+        "GsD"
+      ],
+      "sequence": "FIGGIISFFKRLF",
+      "group": "Grammistin 2006 study",
+      "source": "https://link.springer.com/article/10.1111/j.1444-2906.2006.01264.x",
+      "sequence_source": "https://www.jstage.jst.go.jp/article/fishsci1994/67/1/67_1_163/_pdf",
+      "source_locator": "Abstract",
+      "tier": "abstract",
+      "forms": [
+        {
+          "n_terminal": null,
+          "c_terminal": "acid"
+        },
+        {
+          "n_terminal": null,
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [],
+      "reported_activity_direction": "amidated_higher",
+      "matched_percent_hemolysis": []
+    },
+    {
+      "name": "Pp2b",
+      "aliases": [
+        "GsE"
+      ],
+      "sequence": "FIGGIISFIKKLF",
+      "group": "Grammistin 2006 study",
+      "source": "https://link.springer.com/article/10.1111/j.1444-2906.2006.01264.x",
+      "sequence_source": "https://www.jstage.jst.go.jp/article/fishsci1994/67/1/67_1_163/_pdf",
+      "source_locator": "Abstract",
+      "tier": "abstract",
+      "forms": [
+        {
+          "n_terminal": null,
+          "c_terminal": "acid"
+        },
+        {
+          "n_terminal": null,
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [],
+      "reported_activity_direction": "amidated_higher",
+      "matched_percent_hemolysis": []
+    },
+    {
+      "name": "Pp3",
+      "aliases": [],
+      "sequence": "NWRKILGQIASVGAGLLGSLLAGYE",
+      "group": "Grammistin 2006 study",
+      "source": "https://link.springer.com/article/10.1111/j.1444-2906.2006.01264.x",
+      "sequence_source": "https://www.jstage.jst.go.jp/article/fishsci1994/67/1/67_1_163/_pdf",
+      "source_locator": "Abstract",
+      "tier": "abstract",
+      "forms": [
+        {
+          "n_terminal": null,
+          "c_terminal": "acid"
+        },
+        {
+          "n_terminal": null,
+          "c_terminal": "amide"
+        }
+      ],
+      "rbc_species": [],
+      "reported_activity_direction": "amidated_higher",
+      "matched_percent_hemolysis": []
+    }
+  ]
+}

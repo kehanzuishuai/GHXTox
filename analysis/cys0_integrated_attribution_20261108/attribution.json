@@ -1,0 +1,1372 @@
+{
+  "summary": {
+    "n": 67,
+    "common_errors": 62,
+    "categories": {
+      "fragment": 22,
+      "damage": 10,
+      "specific": 15,
+      "identity": 6,
+      "analogue": 1,
+      "precursor": 4,
+      "unresolved": 8,
+      "limited_negative": 1
+    },
+    "family_annotated": 41,
+    "family_train_has_match": 21,
+    "family_train_no_match": 20,
+    "family_unknown": 26
+  },
+  "rows": [
+    {
+      "sample_id": "peptide_11",
+      "sequence": "IKFEPPLPPKKAHKKFWEDDGIYYPPNHNFP",
+      "outer_fold": 4,
+      "p_1d": 0.05836725433969,
+      "common_error": false,
+      "evidence_category": "fragment",
+      "note": "31 aa 对应 LAAO 部分序列。该 31 aa 正好拼接了原文三个分别合成且各自酰胺化的衍生肽（13、8、10 aa）。原文列出的实验对象是整蛋白或单独衍生肽，不能把数据库对 31 aa 的记录当成原文对该拼接体的测量。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22438972/",
+        "https://dramp.cpu-bioinfor.org/browse/All_Information.php?dataset=General&id=DRAMP02478"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the flavin monoamine oxidase family. fig1 subfamily"
+      ],
+      "train_family_sample_count": 1,
+      "train_family_group_count": 1,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_38",
+      "sequence": "PNPKVFFDMTIGGQSAGRIVMEEYA",
+      "outer_fold": 0,
+      "p_1d": 0.0192156335745967,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "原文小鼠 LD50 5.6 mg/kg 的对象是 44 kDa 双亚基 SBTX。输入仅为 17 kDa 亚基的测序片段。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18328522/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_40",
+      "sequence": "ANFPTVSLNTVGITRQIPQDFMNAV",
+      "outer_fold": 4,
+      "p_1d": 0.0094868534361094,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "25 aa 只是 Aralin A 链的局部序列。原文细胞毒性测的是约 29.1+32.2 kDa 双亚基蛋白。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12963119/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the ribosome-inactivating protein family. type 2 rip subfamily"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_44",
+      "sequence": "INLLKIAKGIIKSL",
+      "outer_fold": 1,
+      "p_1d": 0.0597508441604603,
+      "common_error": true,
+      "evidence_category": "damage",
+      "note": "C 端酰胺化 EMP-AF。人红细胞在 320 μg/mL 下溶血 100%，EC50 110.6 ± 9.8 μM，PBS 37°C 1 h。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37888622/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the mcd family. mastoparan subfamily"
+      ],
+      "train_family_sample_count": 3,
+      "train_family_group_count": 3,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": true
+    },
+    {
+      "sample_id": "peptide_50",
+      "sequence": "GPMEDPLEIIRI",
+      "outer_fold": 2,
+      "p_1d": 0.004935933293609,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "成熟 Conorfamide-Sr2 有第 4、8 位 γ-羧基谷氨酸和 C 端酰胺化；原研究测小鼠、软体动物行为效应。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18201803/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the farp (fmrfamide related peptide) family"
+      ],
+      "train_family_sample_count": 1,
+      "train_family_group_count": 1,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_58",
+      "sequence": "LFGFLIKLIPSLFGALSNIGRNRNQ",
+      "outer_fold": 4,
+      "p_1d": 0.0987637262956399,
+      "common_error": false,
+      "evidence_category": "damage",
+      "note": "Grammistin Gs1。有直接溶血和鱼毒性；原文与 Gs2 比活性较低，后续见磷脂抑制溶血。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10669014/",
+        "https://www.jstage.jst.go.jp/article/fishsci1994/67/5/67_5_928/_pdf"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the grammistin family. group 1 subfamily"
+      ],
+      "train_family_sample_count": 1,
+      "train_family_group_count": 1,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_59",
+      "sequence": "LFGFLIPLLPHIIGAIPQVIGAIR",
+      "outer_fold": 1,
+      "p_1d": 0.0310301242957265,
+      "common_error": true,
+      "evidence_category": "damage",
+      "note": "Grammistin Gs2，亦对应 Pp4a 序列。原文 Gs2 有直接溶血和鱼毒性，溶血活性约为 Gs1 的 6–11 倍。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10669014/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the grammistin family. group 1 subfamily"
+      ],
+      "train_family_sample_count": 1,
+      "train_family_group_count": 1,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": true
+    },
+    {
+      "sample_id": "peptide_76",
+      "sequence": "GFLSALKKYLPIVLKHV",
+      "outer_fold": 2,
+      "p_1d": 0.013368370612455,
+      "common_error": false,
+      "evidence_category": "damage",
+      "note": "Osmin 成熟天然形式 C 端酰胺化；有合成肽溶血实验。另有细胞实验，效应随细胞类型变化。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19109988/",
+        "https://pubmed.ncbi.nlm.nih.gov/36548715/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the xylopin-like family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_79",
+      "sequence": "DINGGGATLPQALYQTSGVL",
+      "outer_fold": 3,
+      "p_1d": 0.0046410822511604,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "20 aa 为碱性磷酸酶的局部记录，数据库注明末端不完整。原论文线索指向酶的纯化，孤立片段没有查到实验。",
+      "sources": [
+        "https://www.uniprot.org/uniprotkb/P86348/entry"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_97",
+      "sequence": "INLKALAALAKKIL",
+      "outer_fold": 1,
+      "p_1d": 0.0283555174891793,
+      "common_error": true,
+      "evidence_category": "damage",
+      "note": "酰胺化 Mastoparan-L。人红细胞在 320 μg/mL 下溶血 100%，EC50 82.9 ± 3.8 μM。另一篇同序列对照中酰胺化形式细胞毒性更强，见 Fig. 4A。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37888622/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5097029/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the mcd family. mastoparan subfamily"
+      ],
+      "train_family_sample_count": 3,
+      "train_family_group_count": 3,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": true
+    },
+    {
+      "sample_id": "peptide_102",
+      "sequence": "IDWLKLGKMVMDVL",
+      "outer_fold": 3,
+      "p_1d": 0.027663178551217,
+      "common_error": true,
+      "evidence_category": "damage",
+      "note": "C 端酰胺化 Polybia-MP III。人红细胞在 320 μg/mL 下溶血 79%，EC50 38.5 ± 5.9 μM，PBS 37°C 1 h。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37888622/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the mcd family. mastoparan subfamily"
+      ],
+      "train_family_sample_count": 3,
+      "train_family_group_count": 3,
+      "train_family_positive_count": 2,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": true
+    },
+    {
+      "sample_id": "peptide_104",
+      "sequence": "AYDPDPYKRYSAEHTFFLL",
+      "outer_fold": 2,
+      "p_1d": 0.013400337493031,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "输入是 Partitagin 的 19 aa 部分序列。完整金属蛋白酶有出血效应，原摘要报告所测条件下未见致死、肌毒性或水肿。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17555860/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the venom metalloproteinase (m12b) family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_110",
+      "sequence": "ASGENQAELKLATHNVYML",
+      "outer_fold": 2,
+      "p_1d": 0.0250098266492179,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "输入是葡萄球菌 β-毒素研究中用于鉴定的 N 端 19 aa。测定及比较的是完整鞘磷脂酶。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/8914839/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the neutral sphingomyelinase family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_124",
+      "sequence": "DVSFSLSGGGTASYEK",
+      "outer_fold": 4,
+      "p_1d": 0.0445181563642531,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "16 aa 为 trichokirin 部分 N 端序列；原研究中核糖体失活对象为约 27 kDa 整蛋白。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/3262509/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the ribosome-inactivating protein family. type 1 rip subfamily"
+      ],
+      "train_family_sample_count": 2,
+      "train_family_group_count": 2,
+      "train_family_positive_count": 2,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_139",
+      "sequence": "MEKIANAVKSAIEAGQNQDWTKLGTSILDIVSNGVTELSKIFGF",
+      "outer_fold": 3,
+      "p_1d": 0.0046760334928489,
+      "common_error": true,
+      "evidence_category": "identity",
+      "note": "P11698 有 N 端甲酰化与溶血注释，另一个同序列条目为相似性推断。已读原摘要确认淋球菌抑制分离物及部分测序，未直接核实完整 44 aa 的红细胞结果。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/3138972/",
+        "https://www.uniprot.org/uniprotkb/P11698/entry"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the staphylococcal hemolytic protein family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_151",
+      "sequence": "DLWSWGQMIQETGLLPSYTTY",
+      "outer_fold": 3,
+      "p_1d": 0.0142376403716432,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "输入是 Bj IV PLA2 部分序列；研究分离和表征的是完整 PLA2 蛋白。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11565904/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the phospholipase a2 family. group ii subfamily"
+      ],
+      "train_family_sample_count": 3,
+      "train_family_group_count": 3,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_156",
+      "sequence": "RIKKPIFAFPRF",
+      "outer_fold": 1,
+      "p_1d": 0.0160162080251646,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "Conorfamide-As1a 与 As1b 共用裸序列，分别为酰胺化和游离形式。原文测 nAChR 与 ASIC 调节，α7 和肌型 nAChR 抑制可达 nM 浓度范围。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31028742/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the farp (fmrfamide related peptide) family"
+      ],
+      "train_family_sample_count": 2,
+      "train_family_group_count": 2,
+      "train_family_positive_count": 2,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_162",
+      "sequence": "AKTGILDSDGPTVAGNSLSGT",
+      "outer_fold": 0,
+      "p_1d": 0.0498885758442763,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "输入是 4,958 Da 完整 Granulitoxin 的 N 端 21 aa。小鼠腹腔给药 2 h LD50 400 ± 83 μg/kg 对应完整分离物。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/9876306/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_174",
+      "sequence": "SVDMVMKGIKLWPL",
+      "outer_fold": 3,
+      "p_1d": 0.0203328521070696,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "Polybine-II 天然 N 端乙酰化。原文对比不同 N 端形式，乙酰化与炎症活性增强相关；所测形式均未观察到溶血或抗菌。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/15572194/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_175",
+      "sequence": "NYLHDTVGRLWGPSRAGLLDGLDWMVGDVQSR",
+      "outer_fold": 4,
+      "p_1d": 0.0146039631828853,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "32 aa 为 NJF 局部序列。原文纤溶测的是 28–32 kDa 蛋白。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19896371/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_193",
+      "sequence": "MAQDIISTIGDLVKWIIDTVNKFTKK",
+      "outer_fold": 3,
+      "p_1d": 0.0011470921533914,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "原文用精确序列的未甲酰化合成 δ-toxin 测肥大细胞脱颗粒及皮肤炎症；天然记录另有 N-甲酰化，独立论文/数据库有红细胞结果，分开保留。",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4090780/",
+        "https://pubmed.ncbi.nlm.nih.gov/15629533/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the delta-lysin family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_228",
+      "sequence": "LNLTKWLGKLGVILSHLNK",
+      "outer_fold": 3,
+      "p_1d": 0.0634912595606841,
+      "common_error": false,
+      "evidence_category": "specific",
+      "note": "Bombolitin-6 先有质谱鉴定，后续有 BL6 抗菌与 DPC 膜模拟物结合及构象实验。未核实该肽的直接宿主毒性，不借用 Bombolitin V 的结果。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16626777/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6428940/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the mcd family. bombolitin subfamily"
+      ],
+      "train_family_sample_count": 1,
+      "train_family_group_count": 1,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_247",
+      "sequence": "DVTFSLLGANTKSYAAFITNFRKDVASEKK",
+      "outer_fold": 2,
+      "p_1d": 0.092099503025281,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "输入为 momorcochin-S 部分序列。实验对象为约 30 kDa 核糖体失活蛋白及其免疫毒素构建体。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/2597699/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the ribosome-inactivating protein family. type 1 rip subfamily"
+      ],
+      "train_family_sample_count": 2,
+      "train_family_group_count": 2,
+      "train_family_positive_count": 2,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_251",
+      "sequence": "MSGIVEAISNAVKSGLDHDWVNMGTSIADVVAKGADFIAGFFS",
+      "outer_fold": 3,
+      "p_1d": 0.0024639716852269,
+      "common_error": true,
+      "evidence_category": "damage",
+      "note": "H1 原摘要支持溶血和人纤维细胞效应。UniProt N-甲酰化与数据库 Free 注释冲突，HD50 的单位及条件暂不当作已核实原表。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18752624/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the staphylococcal hemolytic protein family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": true
+    },
+    {
+      "sample_id": "peptide_259",
+      "sequence": "GIWGTLAKIGIKAVPRVISMLKKKKQ",
+      "outer_fold": 3,
+      "p_1d": 0.0464309690992199,
+      "common_error": true,
+      "evidence_category": "analogue",
+      "note": "原文详细实验用少一个 Lys 的 W3-desK，天然 W3 末端为 LKKKKQ，合成体为 LKKKQ。数据库按天然 W3 序列回挂红细胞结果，不作为本条的直接测量。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11279030/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the non-disulfide-bridged peptide (ndbp) superfamily. medium-length antimicrobial peptide (group 3) family. ponericin-w subfamily"
+      ],
+      "train_family_sample_count": 1,
+      "train_family_group_count": 1,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_289",
+      "sequence": "AKEKEVTFQSGGPT",
+      "outer_fold": 2,
+      "p_1d": 0.0149672129553065,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "输入 14 aa 约 1.48 kDa，注释对应 5,885.28 Da 分子的一部分。原研究报告家蝇毒性来自若干毒液组分，不能转给 14 aa。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17320133/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the scolopendra toxin 4 family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_298",
+      "sequence": "FLPLLILGSLLMTPPVIQAIHDAQR",
+      "outer_fold": 2,
+      "p_1d": 0.0086263514982949,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "精确骨架对应 Poneratoxin，成熟形式 C 端酰胺化。原研究支持钠通道效应，未核实 GHXTox 原标签采用哪项。",
+      "sources": [
+        "https://doi.org/10.1111/j.1432-1033.2004.04128.x",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10206162/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_309",
+      "sequence": "ARTQPGNIAPVGDFTLYPNAPRQGHIVA",
+      "outer_fold": 3,
+      "p_1d": 0.003287540520432,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "28 aa 是 38 kDa pleuturegin 的 N 端测序片段。原文 IC50 0.5 nM 对应完整蛋白在兔网织红细胞裂解液中的翻译抑制。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11676502/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the ribosome-inactivating protein family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_320",
+      "sequence": "KSPPQALNKPLPAPSAPSL",
+      "outer_fold": 2,
+      "p_1d": 0.0589087873393996,
+      "common_error": true,
+      "evidence_category": "identity",
+      "note": "原研究用质谱鉴定绿曼巴富脯氨酸糖肽；UniProt 映射存在不同剪切产物及 O-糖基化。未核实 19 aa 裸肽的功能。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21952754/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_322",
+      "sequence": "TVSDPPARPAVFHSREELMNYVRELNRYFAIVGRPRF",
+      "outer_fold": 0,
+      "p_1d": 0.0074083229629672,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "Cono-NPY1。原文小鼠脑室给药后观察行为；C 端酰胺化。未将该终点等同于溶血。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20705590/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the npy family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_324",
+      "sequence": "MKTIELITIFAMITTLMVTVVAGDPIDPKVLESLVGK",
+      "outer_fold": 4,
+      "p_1d": 0.0115261612466229,
+      "common_error": true,
+      "evidence_category": "precursor",
+      "note": "输入 37 aa 含信号肽及前体区域，原实验测的是 26–35 位成熟酰胺化十肽，对蚜虫有麻痹及存活效应。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31557881/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_347",
+      "sequence": "NWRKILGQIASVGAGLLGSLLAGYE",
+      "outer_fold": 3,
+      "p_1d": 0.0357469988422159,
+      "common_error": true,
+      "evidence_category": "damage",
+      "note": "Grammistin Pp3 原文有马红细胞及脂质体实验。脂质体泄漏与实际红细胞溶血分开解释。",
+      "sources": [
+        "https://www.jstage.jst.go.jp/article/fishsci1994/67/5/67_5_928/_pdf"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the grammistin family. group 3 subfamily"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": true
+    },
+    {
+      "sample_id": "peptide_366",
+      "sequence": "SIVLRGKAPFR",
+      "outer_fold": 3,
+      "p_1d": 0.0271810576740669,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "Fulvonin 原文有大鼠痛觉过敏，B1 受体拮抗剂可阻断。终点为疼痛及受体相关作用。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19716363/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the bradykinin-related peptide family"
+      ],
+      "train_family_sample_count": 2,
+      "train_family_group_count": 2,
+      "train_family_positive_count": 2,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_373",
+      "sequence": "ESIVRPPPVEAKVEETPE",
+      "outer_fold": 4,
+      "p_1d": 0.016589249920475,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "Porflan 原文测小鼠微循环白细胞募集与黏附，支持炎症作用，未把结果换算成一般细胞毒性。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19682520/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_378",
+      "sequence": "LKLKDILGKIKVILSHLNK",
+      "outer_fold": 4,
+      "p_1d": 0.0763776458625477,
+      "common_error": true,
+      "evidence_category": "identity",
+      "note": "Bombolitin-7 有质谱序列证据，未找到精确肽直接功能实验，不用 Bombolitin-6 或 V 的结果替代。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16626777/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the mcd family. bombolitin subfamily"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_397",
+      "sequence": "LVSVSPAFNGNYFVE",
+      "outer_fold": 4,
+      "p_1d": 0.0204530404531362,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "15 aa 是 VAFXA-I 重链的部分序列；原文凝血因子活化对象为约 58 kDa 多链分子。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18760294/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the venom metalloproteinase (m12b) family. p-iii subfamily. p-iiid sub-subfamily"
+      ],
+      "train_family_sample_count": 1,
+      "train_family_group_count": 1,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_401",
+      "sequence": "ATPFGGSSYEGH",
+      "outer_fold": 4,
+      "p_1d": 0.0131285249424187,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "12 aa 为抗凝蛋白的部分序列；原文凝血因子抑制由纯化完整蛋白测定。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/8310445/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_418",
+      "sequence": "FIGAALGALTAIPSIIKLFK",
+      "outer_fold": 0,
+      "p_1d": 0.0133981028510049,
+      "common_error": true,
+      "evidence_category": "identity",
+      "note": "Ni1a 末端 Lys 酰胺注释。参考文献为综述，未核实该精确肽的直接毒性实验。",
+      "sources": [
+        "https://www.uniprot.org/uniprotkb/P0DSM3/entry"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the non-disulfide-bridged peptide (ndbp) superfamily. medium-length antimicrobial peptide (group 3) family. ponericin-w subfamily"
+      ],
+      "train_family_sample_count": 1,
+      "train_family_group_count": 1,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_424",
+      "sequence": "MDFIIDIIKKIVGLFTGK",
+      "outer_fold": 3,
+      "p_1d": 0.0013591430344932,
+      "common_error": true,
+      "evidence_category": "damage",
+      "note": "H2 原摘要支持溶血和人纤维细胞效应。UniProt N-甲酰化与数据库 Free 注释冲突，数值暂保留待原表核验。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18752624/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": true
+    },
+    {
+      "sample_id": "peptide_431",
+      "sequence": "GWKDWLKKGKEWLKAKGPGIVKAALQAATQ",
+      "outer_fold": 0,
+      "p_1d": 0.0529034775941151,
+      "common_error": true,
+      "evidence_category": "identity",
+      "note": "原研究鉴定 Ponericin-G2（P82415），其明确列出的十条合成肽未含 G2。未核实孤立 G2 的单独毒性读数。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11279030/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the ponericin-g family"
+      ],
+      "train_family_sample_count": 2,
+      "train_family_group_count": 2,
+      "train_family_positive_count": 1,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_447",
+      "sequence": "MFKPRVILLITIIAVFSEFKKAFKGLFEKAANKYLH",
+      "outer_fold": 1,
+      "p_1d": 0.0060196043723889,
+      "common_error": true,
+      "evidence_category": "precursor",
+      "note": "Dv63 输入含前体 N 端；原文 Table 2 合成并检测的序列是输入 C 端 21 aa（与 UniProt 当前标注的 17 aa 成熟区不同），果蝇注射麻痹 EP50 10.27 nmol/g。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33893140/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the limacoditoxin-7 family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_458",
+      "sequence": "MSKLLVLFVVSAMALLQFSMVEATPQKFHVNGRYGK",
+      "outer_fold": 4,
+      "p_1d": 0.0333433786442981,
+      "common_error": true,
+      "evidence_category": "precursor",
+      "note": "Dv5 输入 36 aa 含信号肽；注释成熟区 26–34，带 N 端焦谷氨酸和 C 端酰胺化。原文 Table 2 的成熟肽实验中昆虫 EC50 >50 nmol/g、ACPR EC50 >10,000 nM，DRG 未见效应。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33893140/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the limacoditoxin-1 (acp-like) family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_461",
+      "sequence": "MPKSLLLVLALALLAQTALANGPQGSSDRNWIRLG",
+      "outer_fold": 2,
+      "p_1d": 0.0092790350453271,
+      "common_error": true,
+      "evidence_category": "precursor",
+      "note": "Dv73 输入 35 aa 含信号肽；注释成熟链是 21–34 且 C 端酰胺化。原文 Table 2 使用对应的成熟酰胺化形式，线虫 EC50 94.5 μM，昆虫 EC50 >50 nmol/g。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33893140/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the limacoditoxin-13 family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_463",
+      "sequence": "FVKELWDKVKKMGSAAWSAAKGAFA",
+      "outer_fold": 1,
+      "p_1d": 0.048386570944831,
+      "common_error": true,
+      "evidence_category": "damage",
+      "note": "Nc2a 的 HEK293 CC50 48.2–56.9 μM，人红细胞 HC50 >250 μM。复用原表核查，细胞毒性与溶血分开。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34302796/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the ponericin-l family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": true
+    },
+    {
+      "sample_id": "peptide_706",
+      "sequence": "TPPAGPDVGPR",
+      "outer_fold": 2,
+      "p_1d": 0.0219158226929281,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "Bradykinin inhibitor peptide，原文报告精确序列和抑制相关实验。保留缓激肽/酶活终点，未据此推断细胞毒性。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19371136/",
+        "https://doi.org/10.1186/s12953-016-0090-0"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the bradykinin inhibitor peptide family"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_721",
+      "sequence": "SVAVAGAVIEGATLTFNVLQ",
+      "outer_fold": 2,
+      "p_1d": 0.0842500685791782,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "输入 20 aa 对应 Equinatoxin I″ 的部分 N 端测序。研究对象为天然整蛋白和基因家族，未核实孤立片段。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10414864/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the actinoporin family. sea anemone subfamily"
+      ],
+      "train_family_sample_count": 2,
+      "train_family_group_count": 2,
+      "train_family_positive_count": 2,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_730",
+      "sequence": "LTLNPEMFGKFQIRNGEKIFKKLHQRRP",
+      "outer_fold": 1,
+      "p_1d": 0.0250836202081788,
+      "common_error": true,
+      "evidence_category": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "sources": [],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_738",
+      "sequence": "VDFASESNKRENQQIVDKHNAL",
+      "outer_fold": 3,
+      "p_1d": 0.093848680290439,
+      "common_error": true,
+      "evidence_category": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "sources": [],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_753",
+      "sequence": "GRDGYIAQPENVY",
+      "outer_fold": 3,
+      "p_1d": 0.0324803295767387,
+      "common_error": true,
+      "evidence_category": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "sources": [],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_800",
+      "sequence": "NLYQFKEMIRYTIP",
+      "outer_fold": 3,
+      "p_1d": 0.0695610107445151,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "14 aa 只是银环蛇属 β-BTx 样分子的 A 链 N 端。原文测的是纯化双链神经毒素。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/14769867/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the phospholipase a2 family. group i subfamily"
+      ],
+      "train_family_sample_count": 4,
+      "train_family_group_count": 4,
+      "train_family_positive_count": 2,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_802",
+      "sequence": "FAKRYVELVIVA",
+      "outer_fold": 0,
+      "p_1d": 0.0502255086734166,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "12 aa 是约 21.39 kDa Proteinase E 的 N 端测序结果；原文分离、酶学对象为完整蛋白。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/2188398/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the venom metalloproteinase (m12b) family. p-i subfamily"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_806",
+      "sequence": "LKVPDLPLPESYKKALELAKDDLAREII",
+      "outer_fold": 2,
+      "p_1d": 0.004918111264117,
+      "common_error": true,
+      "evidence_category": "unresolved",
+      "note": "复用旧精确匹配及网页搜索，未恢复可靠身份。",
+      "sources": [],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_815",
+      "sequence": "ALPSFSRADRYGRQ",
+      "outer_fold": 4,
+      "p_1d": 0.0132813979627732,
+      "common_error": true,
+      "evidence_category": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "sources": [],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_816",
+      "sequence": "VATSEQFNKTFIELVIVVD",
+      "outer_fold": 0,
+      "p_1d": 0.0400237098154807,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "19 aa 对应 RVV-X 重链的局部测序记录；原研究做毒液蛋白分离和结构鉴定，未核实孤立 19 aa 的效应。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20203422/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the venom metalloproteinase (m12b) family. p-iii subfamily. p-iiid sub-subfamily"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_841",
+      "sequence": "RIKIGLFDQLSRL",
+      "outer_fold": 1,
+      "p_1d": 0.0107528318490765,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "β-Pompilidotoxin 为 C 端酰胺化 13 aa。浦肯野神经元实验测钠通道失活及复苏电流。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/14715935/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6729564/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_865",
+      "sequence": "LKVPDLPLPESYALNLAD",
+      "outer_fold": 2,
+      "p_1d": 0.0049955421746126,
+      "common_error": true,
+      "evidence_category": "unresolved",
+      "note": "精确序列检索未恢复可靠身份，与另一条共享前缀不构成身份或活性证据。",
+      "sources": [],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_871",
+      "sequence": "NAAVAGAVIEGATLTFEVLQ",
+      "outer_fold": 2,
+      "p_1d": 0.0281014171688872,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "Tenebrosin-A 20 aa N 端片段。原研究的豚鼠红细胞溶血及心脏效应来自约 20 kDa 整蛋白。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/1970442/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the actinoporin family. sea anemone subfamily"
+      ],
+      "train_family_sample_count": 2,
+      "train_family_group_count": 2,
+      "train_family_positive_count": 2,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_880",
+      "sequence": "AGNKRPIWIMGAMVNAIKDIDFVNLGANNIEK",
+      "outer_fold": 2,
+      "p_1d": 0.0422124133966718,
+      "common_error": true,
+      "evidence_category": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "sources": [],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_891",
+      "sequence": "AFVKGSAQRVAHGY",
+      "outer_fold": 0,
+      "p_1d": 0.0338170502826432,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "Conomap-Vt 成熟肽第 2 位为 D-Phe，C 端酰胺化。原文神经兴奋相关实验表明 D 型比 L 型活性更强，裸序列把两者表示为同一输入。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16797543/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_907",
+      "sequence": "TVTPEQDRYLQVKKY",
+      "outer_fold": 0,
+      "p_1d": 0.0105089645685355,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "15 aa 对应 SVMP 片段，原研究为珊瑚蛇毒液蛋白组及转录组。未核实孤立 15 aa 活性。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21515432/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the venom metalloproteinase (m12b) family. p-iii subfamily. p-iiia sub-subfamily"
+      ],
+      "train_family_sample_count": 0,
+      "train_family_group_count": 0,
+      "train_family_positive_count": 0,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_945",
+      "sequence": "GDEEVAKFIEREREAGRLDLSKFP",
+      "outer_fold": 0,
+      "p_1d": 0.0183437702043471,
+      "common_error": true,
+      "evidence_category": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "sources": [],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_956",
+      "sequence": "DWEYHAHPKPNSFWT",
+      "outer_fold": 4,
+      "p_1d": 0.0398103727946733,
+      "common_error": true,
+      "evidence_category": "limited_negative",
+      "note": "精确序列对应 conomarphin Mr-1。原文合成肽在 100 μM 对大鼠 α4β2 报告 20 ± 8.5% 电流抑制，作者总结四种所测亚型无显著活性。只作条件受限结果。",
+      "sources": [
+        "https://www.scielo.br/j/jvatitd/a/6Xtt7D6swjH7h4XGj33LwYS/?format=pdf"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_1109",
+      "sequence": "ARFLHPFQYYTLYRYLTRFLHRYPIYYIRY",
+      "outer_fold": 3,
+      "p_1d": 0.0024317214947154,
+      "common_error": false,
+      "evidence_category": "specific",
+      "note": "CPY-Pl1 原文 Fig. 3 给出精确序列，测 Kv1 家族钾通道阻断，对非洲爪蟾卵母细胞表达的 Kv1.6，IC50 为 170 nM。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18505731/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_1148",
+      "sequence": "FDPALMSMQGMQGGQMPGMAGGQ",
+      "outer_fold": 2,
+      "p_1d": 0.0040371959590958,
+      "common_error": true,
+      "evidence_category": "identity",
+      "note": "线性 conopeptide-Cn2。原论文蛋白组/转录组与表格序列线索支持分离鉴定，未找到精确肽毒性测量。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22705119/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_1392",
+      "sequence": "MLTKFETKSARVKGLSFHPKRPWIL",
+      "outer_fold": 3,
+      "p_1d": 0.0011650791688091,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "精确序列匹配 xenin-25，原文合成该肽并测大鼠远端结肠环形肌收缩。未找到能回接 GHXTox 毒性标签的实验。",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7891183/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_1461",
+      "sequence": "QSEEGGSNATKKPYIL",
+      "outer_fold": 4,
+      "p_1d": 0.0536181237987851,
+      "common_error": true,
+      "evidence_category": "specific",
+      "note": "同骨架对应 Contulakin-G 或 Thr10 去糖类似物。天然 N 端焦谷氨酸和 Thr10 O-糖基化；小鼠脑室给药的运动效应在糖基化形式约低 10 倍剂量出现，受体终点另计。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10318778/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4322620/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [],
+      "train_family_sample_count": null,
+      "train_family_group_count": null,
+      "train_family_positive_count": null,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    },
+    {
+      "sample_id": "peptide_1731",
+      "sequence": "ANIVFDVESATTGTYSTFLTSF",
+      "outer_fold": 3,
+      "p_1d": 0.0175593821758184,
+      "common_error": true,
+      "evidence_category": "fragment",
+      "note": "22 aa 是 Dioicin-1 局部记录。原研究的多核苷酸糖苷酶/DNA 效应属于整蛋白。",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18704492/"
+      ],
+      "original_label_trace": "unresolved",
+      "curated_family": [
+        "belongs to the ribosome-inactivating protein family. type 1 rip subfamily"
+      ],
+      "train_family_sample_count": 2,
+      "train_family_group_count": 2,
+      "train_family_positive_count": 2,
+      "family_coverage_scope": "外折 role=train，沿用旧 UniProt curated_family 注释，未核终点",
+      "prior_assay_target": false
+    }
+  ]
+}

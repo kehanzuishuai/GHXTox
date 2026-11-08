@@ -1,0 +1,7 @@
+{
+  "cache": "D:\\dachuang2026\\GHXTox-ziliao\\train_chemical_sites_final_esm2_multisource_1_30_full2795.pt",
+  "sha256": "f8a6ddf7dd81198142ad8c30a0f7926de1967618b01720bd90cb483a45dfdb5b",
+  "n": 6387,
+  "test1_test2_used": false,
+  "notes": "C-alpha predicted structures; descriptive proxies, not disulfide or experimental evidence"
+}

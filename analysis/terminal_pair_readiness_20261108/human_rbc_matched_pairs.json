@@ -1,0 +1,832 @@
+{
+  "summary": {
+    "studies": 6,
+    "unique_sequences": 10,
+    "dose_pairs": 23,
+    "dose_pairs_by_terminal": {
+      "n_terminal": 6,
+      "c_terminal": 17
+    },
+    "c_terminal_sequences": 7,
+    "new_quantitative_sequences": 6,
+    "new_quantitative_dose_pairs": 16,
+    "six_seed_training_manifest_exact_overlaps": [
+      {
+        "sequence": "FIHHIFRGIVHAGRSIGRFLTG",
+        "sample_id": "peptide_2578"
+      },
+      {
+        "sequence": "GMASKAGAIAGKIAKVALKAL",
+        "sample_id": "peptide_4982"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "study_id": "17980935",
+      "source": "https://www.academia.edu/18839892/A_library_of_linear_undecapeptides_with_bactericidal_activity_against_phytopathogenic_bacteria",
+      "locator": "Table 1 and hemolysis methods",
+      "series": "1",
+      "name": "BP76/BP77",
+      "sequence": "KKLFKKILKFL",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": "Tris saline, pH 7.2",
+        "concentration_unit": "uM"
+      },
+      "concentration": 50.0,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 3.0
+        },
+        {
+          "n_terminal": "acetyl",
+          "c_terminal": "amide",
+          "hemolysis_percent": 6.0
+        }
+      ],
+      "origin": "previously_audited",
+      "changed_terminal": "n_terminal",
+      "delta_percentage_points": 3.0
+    },
+    {
+      "study_id": "17980935",
+      "source": "https://www.academia.edu/18839892/A_library_of_linear_undecapeptides_with_bactericidal_activity_against_phytopathogenic_bacteria",
+      "locator": "Table 1 and hemolysis methods",
+      "series": "1",
+      "name": "BP76/BP77",
+      "sequence": "KKLFKKILKFL",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": "Tris saline, pH 7.2",
+        "concentration_unit": "uM"
+      },
+      "concentration": 150.0,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 34.0
+        },
+        {
+          "n_terminal": "acetyl",
+          "c_terminal": "amide",
+          "hemolysis_percent": 40.0
+        }
+      ],
+      "origin": "previously_audited",
+      "changed_terminal": "n_terminal",
+      "delta_percentage_points": 6.0
+    },
+    {
+      "study_id": "10879468",
+      "source": "https://www.jstage.jst.go.jp/article/bbb/64/5/64_5_985/_pdf",
+      "locator": "Tables 1–2 and hemolysis methods",
+      "series": "1",
+      "name": "Mast 21",
+      "sequence": "KNWKGIAGMAKKLLGKNWKLM",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": null,
+        "concentration_unit": "uM"
+      },
+      "concentration": 10.0,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 5.4
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 12.3
+        }
+      ],
+      "origin": "previously_audited",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 6.9
+    },
+    {
+      "study_id": "28230084",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322399/",
+      "locator": "Tables 1 and 5 and hemolysis methods",
+      "series": "1",
+      "name": "MreB1–9",
+      "sequence": "MLKKFRGMF",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": "HEPES saline, pH 7.4",
+        "concentration_unit": "uM"
+      },
+      "concentration": 50.0,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 0.0
+        },
+        {
+          "n_terminal": "acetyl",
+          "c_terminal": "amide",
+          "hemolysis_percent": 0.0
+        }
+      ],
+      "origin": "previously_audited",
+      "changed_terminal": "n_terminal",
+      "delta_percentage_points": 0.0
+    },
+    {
+      "study_id": "28230084",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322399/",
+      "locator": "Tables 1 and 5 and hemolysis methods",
+      "series": "1",
+      "name": "MreB1–9",
+      "sequence": "MLKKFRGMF",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": "HEPES saline, pH 7.4",
+        "concentration_unit": "uM"
+      },
+      "concentration": 100.0,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 0.0
+        },
+        {
+          "n_terminal": "acetyl",
+          "c_terminal": "amide",
+          "hemolysis_percent": 0.0
+        }
+      ],
+      "origin": "previously_audited",
+      "changed_terminal": "n_terminal",
+      "delta_percentage_points": 0.0
+    },
+    {
+      "study_id": "28230084",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322399/",
+      "locator": "Tables 1 and 5 and hemolysis methods",
+      "series": "1",
+      "name": "W-MreB1–9",
+      "sequence": "WMLKKFRGMF",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": "HEPES saline, pH 7.4",
+        "concentration_unit": "uM"
+      },
+      "concentration": 50.0,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 0.0
+        },
+        {
+          "n_terminal": "acetyl",
+          "c_terminal": "amide",
+          "hemolysis_percent": 4.15
+        }
+      ],
+      "origin": "previously_audited",
+      "changed_terminal": "n_terminal",
+      "delta_percentage_points": 4.15
+    },
+    {
+      "study_id": "28230084",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322399/",
+      "locator": "Tables 1 and 5 and hemolysis methods",
+      "series": "1",
+      "name": "W-MreB1–9",
+      "sequence": "WMLKKFRGMF",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": "HEPES saline, pH 7.4",
+        "concentration_unit": "uM"
+      },
+      "concentration": 100.0,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 1.62
+        },
+        {
+          "n_terminal": "acetyl",
+          "c_terminal": "amide",
+          "hemolysis_percent": 11.88
+        }
+      ],
+      "origin": "previously_audited",
+      "changed_terminal": "n_terminal",
+      "delta_percentage_points": 10.26
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "1",
+      "name": "PGLa",
+      "sequence": "GMASKAGAIAGKIAKVALKAL",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 32,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 7
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 2
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": -5.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "1",
+      "name": "PGLa",
+      "sequence": "GMASKAGAIAGKIAKVALKAL",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 128,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 7
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 13
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 6.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "1",
+      "name": "PGLa",
+      "sequence": "GMASKAGAIAGKIAKVALKAL",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 512,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 10
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 24
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 14.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "1",
+      "name": "PGLa",
+      "sequence": "GMASKAGAIAGKIAKVALKAL",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 1024,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 10
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 61
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 51.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "1",
+      "name": "MSI-103",
+      "sequence": "KIAGKIAKIAGKIAKIAGKIA",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 32,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 6
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 5
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": -1.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "1",
+      "name": "MSI-103",
+      "sequence": "KIAGKIAKIAGKIAKIAGKIA",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 128,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 8
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 12
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 4.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "1",
+      "name": "MSI-103",
+      "sequence": "KIAGKIAKIAGKIAKIAGKIA",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 512,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 14
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 33
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 19.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "1",
+      "name": "MSI-103",
+      "sequence": "KIAGKIAKIAGKIAKIAGKIA",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 1024,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 19
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 51
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 32.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "2",
+      "name": "MSI-103",
+      "sequence": "KIAGKIAKIAGKIAKIAGKIA",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 128,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 3
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 9
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 6.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "2",
+      "name": "MSI-103",
+      "sequence": "KIAGKIAKIAGKIAKIAGKIA",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 512,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 2
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 45
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 43.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "2",
+      "name": "MSI-103",
+      "sequence": "KIAGKIAKIAGKIAKIAGKIA",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 1024,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 4
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 76
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 72.0
+    },
+    {
+      "study_id": "strandberg_2007",
+      "source": "https://publications.iupac.org/pac/pdf/2007/pdf/7904x0717.pdf",
+      "locator": "Tables 1 and 3, Hemolysis assay",
+      "series": "1",
+      "name": "MAP",
+      "sequence": "KLALKLALKALKAALKLA",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 20,
+        "buffer": "Tris, pH 7.6, with DMSO",
+        "rbc_percent": 0.25,
+        "concentration_unit": "ug/mL"
+      },
+      "concentration": 32,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 86
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 100
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 14.0
+    },
+    {
+      "study_id": "chekmenev_2006",
+      "source": "https://citeseerx.ist.psu.edu/document?doi=c27a0bbcfc094d6a3a58e09209a647764a829c5a&repid=rep1&type=pdf",
+      "locator": "Sections 2.3, 3.1 and 3.2, Figure 1",
+      "series": "1",
+      "name": "Piscidin 1",
+      "sequence": "FFHHIFRGIVHVGKTIHRLVTG",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 30,
+        "buffer": "PBS wash",
+        "rbc_percent": 5,
+        "concentration_unit": "ug/mL",
+        "donors": 2,
+        "independent_assays_per_donor": 3
+      },
+      "concentration": 100,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 78,
+          "reported_error": 11
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 73,
+          "reported_error": 8
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": -5.0
+    },
+    {
+      "study_id": "chekmenev_2006",
+      "source": "https://citeseerx.ist.psu.edu/document?doi=c27a0bbcfc094d6a3a58e09209a647764a829c5a&repid=rep1&type=pdf",
+      "locator": "Sections 2.3, 3.1 and 3.2, Figure 1",
+      "series": "1",
+      "name": "Piscidin 3",
+      "sequence": "FIHHIFRGIVHAGRSIGRFLTG",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 30,
+        "buffer": "PBS wash",
+        "rbc_percent": 5,
+        "concentration_unit": "ug/mL",
+        "donors": 2,
+        "independent_assays_per_donor": 3
+      },
+      "concentration": 100,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 15,
+          "reported_error": 2
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 50,
+          "reported_error": 11
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 35.0
+    },
+    {
+      "study_id": "cardon_2018",
+      "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205727",
+      "locator": "Tables 1 and 2, Hemolytic activity methods",
+      "series": "1",
+      "name": "DMS-DA6",
+      "sequence": "GVWGIAKIAGKVLGNILPHVFSSNQS",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": "PBS",
+        "rbc_percent": 4,
+        "concentration_unit": "uM",
+        "independent_assays": 2
+      },
+      "concentration": 10,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 0.9,
+          "reported_error": 1.5
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 1.2,
+          "reported_error": 1.8
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": 0.3
+    },
+    {
+      "study_id": "cardon_2018",
+      "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205727",
+      "locator": "Tables 1 and 2, Hemolytic activity methods",
+      "series": "1",
+      "name": "DMS-DA6",
+      "sequence": "GVWGIAKIAGKVLGNILPHVFSSNQS",
+      "assay": {
+        "species": "human",
+        "temperature_c": 37,
+        "minutes": 60,
+        "buffer": "PBS",
+        "rbc_percent": 4,
+        "concentration_unit": "uM",
+        "independent_assays": 2
+      },
+      "concentration": 50,
+      "forms": [
+        {
+          "n_terminal": "free",
+          "c_terminal": "acid",
+          "hemolysis_percent": 7.4,
+          "reported_error": 5.5
+        },
+        {
+          "n_terminal": "free",
+          "c_terminal": "amide",
+          "hemolysis_percent": 3.7,
+          "reported_error": 3.3
+        }
+      ],
+      "origin": "new_primary_source",
+      "changed_terminal": "c_terminal",
+      "delta_percentage_points": -3.7
+    }
+  ],
+  "other_evidence": [
+    {
+      "name": "AurH1",
+      "sequence": "WFKIIKK",
+      "source": "https://link.springer.com/article/10.1186/s12866-023-03090-7",
+      "locator": "Hemolysis test results and Figure 4",
+      "status": "bounded",
+      "species": "human",
+      "temperature_c": 37,
+      "minutes": 60,
+      "buffer": "PBS",
+      "concentration": 1000,
+      "concentration_unit": "ug/mL",
+      "acid_percent_upper_bound_exclusive": 5,
+      "amide_percent_upper_bound_exclusive": 5,
+      "notes": "No significant difference reported across the three peptides. HC50 values exceed the measured concentration range."
+    },
+    {
+      "name": "ChBac3.4 and ChBac3.4-1",
+      "sequences": [
+        "RFRLPFRRPPIRIHPPPFYPPFRRFL",
+        "RFRLPFRRIHPPPFVRIHPPPFYRRFL"
+      ],
+      "source": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2020.552905/full",
+      "locator": "Table 1, Figure 3 and Hemolysis Assay",
+      "status": "figure_and_background",
+      "species": "human",
+      "temperature_c": 37,
+      "minutes": 30,
+      "buffer": "PBS",
+      "rbc_percent": 2.5,
+      "notes": "Same-sequence forms are shown in Figure 3; retain as low-response leads without imputing precise values. ChBac3.4-2-COOH also inserts two Trp residues."
+    },
+    {
+      "name": "Osmin",
+      "source": "https://www.academia.edu/22675548/Structural_identification_by_mass_spectrometry_of_a_novel_antimicrobial_peptide_from_the_venom_of_the_solitary_bee_Osmia_rufa_Hymenoptera_Megachilidae_",
+      "locator": "Sections 3.4–3.5",
+      "status": "other_endpoint",
+      "species": "human",
+      "endpoint": "HU/mg",
+      "acid": 5,
+      "amide": 16.6
+    },
+    {
+      "name": "Pteroicidin alpha",
+      "source": "https://sygal.normandie-univ.fr/informations/fichiers/telecharger/303",
+      "locator": "Primary paper reproduced in author's thesis, Section 3.4 and Figure 4",
+      "status": "figure",
+      "species": [
+        "human",
+        "sea bass",
+        "lesser-spotted dogfish"
+      ],
+      "notes": "Species-specific human curve retained as a lead without treating the fish figures as human measurements."
+    },
+    {
+      "name": "Grammistin",
+      "source": "https://link.springer.com/article/10.1111/j.1444-2906.2006.01264.x",
+      "locator": "Abstract",
+      "status": "abstract_only",
+      "notes": "Five same-sequence acid/amide pairs reported. Publisher, society issue archive and author listing checked; species, conditions and quantitative source table pending."
+    }
+  ]
+}

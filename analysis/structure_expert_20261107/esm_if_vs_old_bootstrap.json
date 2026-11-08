@@ -1,0 +1,9 @@
+{
+  "delta_mcc_new_minus_old": -0.0031059763507502725,
+  "group_bootstrap_95ci": [
+    -0.01013968881733067,
+    0.004166497430350661
+  ],
+  "n": 6387,
+  "note": "post hoc fixed predictions; not independent; no retraining uncertainty"
+}

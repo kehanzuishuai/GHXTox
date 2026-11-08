@@ -1,0 +1,2875 @@
+{
+  "rows": 67,
+  "groups": {
+    "fragment": 22,
+    "damage": 10,
+    "specific": 15,
+    "identity": 6,
+    "analogue": 1,
+    "precursor": 4,
+    "unresolved": 8,
+    "limited_negative": 1
+  },
+  "common_errors": 62,
+  "common_error_groups": {
+    "fragment": 21,
+    "damage": 8,
+    "specific": 13,
+    "identity": 6,
+    "analogue": 1,
+    "precursor": 4,
+    "unresolved": 8,
+    "limited_negative": 1
+  },
+  "exact_sequence_archived_assay_samples": 13,
+  "exact_sequence_archived_assay_rows": 52,
+  "predictions_use_test1_test2": false,
+  "upstream_exact_membership_counts": {
+    "csm_positive": 54,
+    "csm_blind_positive": 4,
+    "csm_positive_cdhit70": 44,
+    "csm_blind_positive_cdhit70": 4,
+    "toxinpred2_positive": 4,
+    "atse_train_labels": 29,
+    "atse_test_labels": 4
+  },
+  "upstream_any_exact_membership_count": 60,
+  "records": [
+    {
+      "sample_id": "peptide_11",
+      "sequence": "IKFEPPLPPKKAHKKFWEDDGIYYPPNHNFP",
+      "fold": 4,
+      "group_id": "reference_000010",
+      "p_prott5_six": 0.05836725433969,
+      "alternative_probabilities": {
+        "egnn_existing": 0.2788697968367843,
+        "esm2_mean": 0.0724629341797227,
+        "pepbert_large_historical": 0.514192581,
+        "pepbert_small_historical": 0.1860630885,
+        "esmif_mean": 0.2121034052052036,
+        "esm2_esmif_mean": 0.046971408912975
+      },
+      "alternatives_calling_toxic": [
+        "PepBERT-L"
+      ],
+      "all_models_call_nontoxic": false,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "B3EWI9"
+      ],
+      "prior_name": "L-amino-acid oxidase;L-amino-acid oxidase (Bm-LAO) (LAAO) (EC 1.4.3.2)",
+      "exact_sequence_archived_assays": 1,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "31 aa 对应 LAAO 部分序列。该 31 aa 正好拼接了原文三个分别合成且各自酰胺化的衍生肽（13、8、10 aa）。原文列出的实验对象是整蛋白或单独衍生肽，不能把数据库对 31 aa 的记录当成原文对该拼接体的测量。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/22438972/",
+        "https://dramp.cpu-bioinfor.org/browse/All_Information.php?dataset=General&id=DRAMP02478"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|B3EWI9|OXLA_BOTMT"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|B3EWI9|OXLA_BOTMT"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_38",
+      "sequence": "PNPKVFFDMTIGGQSAGRIVMEEYA",
+      "fold": 0,
+      "group_id": "reference_000036",
+      "p_prott5_six": 0.0192156335745967,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0224107866560632,
+        "esm2_mean": 0.0019278375805526,
+        "pepbert_large_historical": 0.0925631039,
+        "pepbert_small_historical": 0.1105131915,
+        "esmif_mean": 0.0063041388063828,
+        "esm2_esmif_mean": 0.0007039501515618
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P86548"
+      ],
+      "prior_name": "Soybean toxin 17 kDa chain;Soybean toxin 17 kDa chain (SBTX 17 kDa chain) (Cyclophilin-like protein)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "原文小鼠 LD50 5.6 mg/kg 的对象是 44 kDa 双亚基 SBTX。输入仅为 17 kDa 亚基的测序片段。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/18328522/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P86548|SBTXB_SOYBN"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P86548|SBTXB_SOYBN"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_40",
+      "sequence": "ANFPTVSLNTVGITRQIPQDFMNAV",
+      "fold": 4,
+      "group_id": "reference_000037",
+      "p_prott5_six": 0.0094868534361094,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1133666082997165,
+        "esm2_mean": 0.1313357614709661,
+        "pepbert_large_historical": 0.05595309285,
+        "pepbert_small_historical": 0.08775269985,
+        "esmif_mean": 0.0198420380794961,
+        "esm2_esmif_mean": 0.0622874865108209
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P83572"
+      ],
+      "prior_name": "Aralin A chain;Aralin A chain (EC 3.2.2.22) (rRNA N-glycosidase)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "25 aa 只是 Aralin A 链的局部序列。原文细胞毒性测的是约 29.1+32.2 kDa 双亚基蛋白。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/12963119/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P83572|ARALA_ARAEL"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P83572|ARALA_ARAEL"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_44",
+      "sequence": "INLLKIAKGIIKSL",
+      "fold": 1,
+      "group_id": "reference_000041",
+      "p_prott5_six": 0.0597508441604603,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0513182471407233,
+        "esm2_mean": 0.0308270182251191,
+        "pepbert_large_historical": 0.0677825101,
+        "pepbert_small_historical": 0.07944520935,
+        "esmif_mean": 0.1294292648495617,
+        "esm2_esmif_mean": 0.0386057797634865
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0C022"
+      ],
+      "prior_name": "Eumenine mastoparan-AF;Eumenine mastoparan-AF (EMP-AF) (Af-113)",
+      "exact_sequence_archived_assays": 8,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "C 端酰胺化 EMP-AF。人红细胞在 320 μg/mL 下溶血 100%，EC50 110.6 ± 9.8 μM，PBS 37°C 1 h。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/37888622/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0C022|MAST_ANTFM"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0C022|MAST_ANTFM"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_50",
+      "sequence": "GPMEDPLEIIRI",
+      "fold": 2,
+      "group_id": "reference_000047",
+      "p_prott5_six": 0.004935933293609,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0421275975664289,
+        "esm2_mean": 0.0398601264691683,
+        "pepbert_large_historical": 0.06086495705,
+        "pepbert_small_historical": 0.10859879855,
+        "esmif_mean": 0.103689702579375,
+        "esm2_esmif_mean": 0.0653856829837435
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P85871"
+      ],
+      "prior_name": "Conorfamide-Sr2;Conorfamide-Sr2 (CNF-Sr2) (Cono-RFamide-Sr2)",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "成熟 Conorfamide-Sr2 有第 4、8 位 γ-羧基谷氨酸和 C 端酰胺化；原研究测小鼠、软体动物行为效应。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/18201803/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P85871|CRFA2_CONSP"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P85871|CRFA2_CONSP"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_58",
+      "sequence": "LFGFLIKLIPSLFGALSNIGRNRNQ",
+      "fold": 4,
+      "group_id": "reference_000055",
+      "p_prott5_six": 0.0987637262956399,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1494942244906696,
+        "esm2_mean": 0.3664164968015892,
+        "pepbert_large_historical": 0.0347378552,
+        "pepbert_small_historical": 0.0689527318,
+        "esmif_mean": 0.5699404642496237,
+        "esm2_esmif_mean": 0.7869525745715745
+      },
+      "alternatives_calling_toxic": [
+        "ESM-IF1",
+        "ESM-2+ESM-IF1"
+      ],
+      "all_models_call_nontoxic": false,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P69835"
+      ],
+      "prior_name": "Grammistin Gs F;Grammistin Gs F (Gs 1)",
+      "exact_sequence_archived_assays": 1,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "Grammistin Gs1。有直接溶血和鱼毒性；原文与 Gs2 比活性较低，后续见磷脂抑制溶血。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/10669014/",
+        "https://www.jstage.jst.go.jp/article/fishsci1994/67/5/67_5_928/_pdf"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P69835|GRAF_GRASX"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P69835|GRAF_GRASX"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_59",
+      "sequence": "LFGFLIPLLPHIIGAIPQVIGAIR",
+      "fold": 1,
+      "group_id": "reference_000056",
+      "p_prott5_six": 0.0310301242957265,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0545518317225285,
+        "esm2_mean": 0.0546113296960368,
+        "pepbert_large_historical": 0.0877388492,
+        "pepbert_small_historical": 0.0613277759,
+        "esmif_mean": 0.0119335313509902,
+        "esm2_esmif_mean": 0.012424957950152
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P69836",
+        "P69837"
+      ],
+      "prior_name": "Grammistin Gs G;Grammistin Gs G (Gs 2);Grammistin Pp 4a",
+      "exact_sequence_archived_assays": 1,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "Grammistin Gs2，亦对应 Pp4a 序列。原文 Gs2 有直接溶血和鱼毒性，溶血活性约为 Gs1 的 6–11 倍。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/10669014/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P69836|GRAG_GRASX",
+          "sp|P69837|GRA4A_POGPU"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P69836|GRAG_GRASX"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_76",
+      "sequence": "GFLSALKKYLPIVLKHV",
+      "fold": 2,
+      "group_id": "reference_000073",
+      "p_prott5_six": 0.013368370612455,
+      "alternative_probabilities": {
+        "egnn_existing": 0.300386304737642,
+        "esm2_mean": 0.5706144873319311,
+        "pepbert_large_historical": 0.0976025872,
+        "pepbert_small_historical": 0.05650574715,
+        "esmif_mean": 0.1075282335721033,
+        "esm2_esmif_mean": 0.5145195560018031
+      },
+      "alternatives_calling_toxic": [
+        "ESM-2",
+        "ESM-2+ESM-IF1"
+      ],
+      "all_models_call_nontoxic": false,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0CD70"
+      ],
+      "prior_name": "Osmin",
+      "exact_sequence_archived_assays": 3,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "Osmin 成熟天然形式 C 端酰胺化；有合成肽溶血实验。另有细胞实验，效应随细胞类型变化。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/19109988/",
+        "https://pubmed.ncbi.nlm.nih.gov/36548715/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0CD70|OSM_OSMRU"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0CD70|OSM_OSMRU"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_79",
+      "sequence": "DINGGGATLPQALYQTSGVL",
+      "fold": 3,
+      "group_id": "reference_000076",
+      "p_prott5_six": 0.0046410822511604,
+      "alternative_probabilities": {
+        "egnn_existing": 0.3271862119405765,
+        "esm2_mean": 0.0192312613597945,
+        "pepbert_large_historical": 0.02243717665,
+        "pepbert_small_historical": 0.0371764813999999,
+        "esmif_mean": 0.105333495465852,
+        "esm2_esmif_mean": 0.0334493105799669
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P86348"
+      ],
+      "prior_name": "Alkaline phosphatase;Alkaline phosphatase (EC 3.1.3.1)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "20 aa 为碱性磷酸酶的局部记录，数据库注明末端不完整。原论文线索指向酶的纯化，孤立片段没有查到实验。",
+      "references": [
+        "https://www.uniprot.org/uniprotkb/P86348/entry"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P86348|ALPH_DEIAC"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P86348|ALPH_DEIAC"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_97",
+      "sequence": "INLKALAALAKKIL",
+      "fold": 1,
+      "group_id": "singleton_000096",
+      "p_prott5_six": 0.0283555174891793,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0351532999471992,
+        "esm2_mean": 0.0196118570279403,
+        "pepbert_large_historical": 0.197942607,
+        "pepbert_small_historical": 0.119729407,
+        "esmif_mean": 0.3632386486534026,
+        "esm2_esmif_mean": 0.0840652484204371
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P01514"
+      ],
+      "prior_name": "Mastoparan-L;Mastoparan-L (MP-L) (Mast-L)",
+      "exact_sequence_archived_assays": 15,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "酰胺化 Mastoparan-L。人红细胞在 320 μg/mL 下溶血 100%，EC50 82.9 ± 3.8 μM。另一篇同序列对照中酰胺化形式细胞毒性更强，见 Fig. 4A。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/37888622/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5097029/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P01514|MAST_VESLE"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P01514|MAST_VESLE"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_102",
+      "sequence": "IDWLKLGKMVMDVL",
+      "fold": 3,
+      "group_id": "reference_000097",
+      "p_prott5_six": 0.027663178551217,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0205780833525154,
+        "esm2_mean": 0.0123859323446136,
+        "pepbert_large_historical": 0.1408619285,
+        "pepbert_small_historical": 0.0873363653,
+        "esmif_mean": 0.0361382567569964,
+        "esm2_esmif_mean": 0.0210795624616879
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P84914"
+      ],
+      "prior_name": "Polybia-mastoparan-III;Polybia-mastoparan-III (Polybia-MP-III) (Polybia-MPIII) (Mastoparan peptide) (MP) (Venom protein 13b) (VP13b)",
+      "exact_sequence_archived_assays": 6,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "C 端酰胺化 Polybia-MP III。人红细胞在 320 μg/mL 下溶血 79%，EC50 38.5 ± 5.9 μM，PBS 37°C 1 h。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/37888622/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P84914|MASP3_POLPI"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P84914|MASP3_POLPI"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_104",
+      "sequence": "AYDPDPYKRYSAEHTFFLL",
+      "fold": 2,
+      "group_id": "reference_000099",
+      "p_prott5_six": 0.013400337493031,
+      "alternative_probabilities": {
+        "egnn_existing": 0.2700953593975814,
+        "esm2_mean": 0.2822416241535495,
+        "pepbert_large_historical": 0.223337181,
+        "pepbert_small_historical": 0.1835923195,
+        "esmif_mean": 0.0455258543667235,
+        "esm2_esmif_mean": 0.1192713296156227
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P85975"
+      ],
+      "prior_name": "Zinc metalloproteinase partitagin;Zinc metalloproteinase partitagin (EC 3.4.24.-)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "输入是 Partitagin 的 19 aa 部分序列。完整金属蛋白酶有出血效应，原摘要报告所测条件下未见致死、肌毒性或水肿。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/17555860/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P85975|VMPAR_HIPPR"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P85975|VMPAR_HIPPR"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_110",
+      "sequence": "ASGENQAELKLATHNVYML",
+      "fold": 2,
+      "group_id": "reference_000105",
+      "p_prott5_six": 0.0250098266492179,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0592885494187231,
+        "esm2_mean": 0.0307593332016697,
+        "pepbert_large_historical": 0.124294672,
+        "pepbert_small_historical": 0.159572959,
+        "esmif_mean": 0.0470872439340893,
+        "esm2_esmif_mean": 0.0372999430706745
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P80924"
+      ],
+      "prior_name": "Sphingomyelinase C;Sphingomyelinase C (EC 3.1.4.12) (Beta-hemolysin) (Beta-toxin) (Neutral sphingomyelinase) (nSMase)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "输入是葡萄球菌 β-毒素研究中用于鉴定的 N 端 19 aa。测定及比较的是完整鞘磷脂酶。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/8914839/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P80924|PHLC_STAIN"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P80924|PHLC_STAIN"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_124",
+      "sequence": "DVSFSLSGGGTASYEK",
+      "fold": 4,
+      "group_id": "reference_000119",
+      "p_prott5_six": 0.0445181563642531,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0286309304085684,
+        "esm2_mean": 0.0693449882042731,
+        "pepbert_large_historical": 0.02389812005,
+        "pepbert_small_historical": 0.0332562728,
+        "esmif_mean": 0.0864403936567904,
+        "esm2_esmif_mean": 0.1470905678331259
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P16093"
+      ],
+      "prior_name": "Ribosome-inactivating protein trichokirin;Ribosome-inactivating protein trichokirin (EC 3.2.2.22) (rRNA N-glycosidase)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "16 aa 为 trichokirin 部分 N 端序列；原研究中核糖体失活对象为约 27 kDa 整蛋白。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/3262509/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P16093|RIPK_TRIKI"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P16093|RIPK_TRIKI"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_139",
+      "sequence": "MEKIANAVKSAIEAGQNQDWTKLGTSILDIVSNGVTELSKIFGF",
+      "fold": 3,
+      "group_id": "reference_000134",
+      "p_prott5_six": 0.0046760334928489,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0117822423851938,
+        "esm2_mean": 0.0142594600394139,
+        "pepbert_large_historical": 0.005313093775,
+        "pepbert_small_historical": 0.00208267954,
+        "esmif_mean": 0.0025216724851507,
+        "esm2_esmif_mean": 0.0073836896966555
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P11698",
+        "Q4L5M2"
+      ],
+      "prior_name": "Antibacterial protein 2",
+      "exact_sequence_archived_assays": 0,
+      "category": "identity",
+      "original_label_trace": "unresolved",
+      "note": "P11698 有 N 端甲酰化与溶血注释，另一个同序列条目为相似性推断。已读原摘要确认淋球菌抑制分离物及部分测序，未直接核实完整 44 aa 的红细胞结果。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/3138972/",
+        "https://www.uniprot.org/uniprotkb/P11698/entry"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P11698|GGI2_STAHA",
+          "sp|Q4L5M2|GGI2_STAHJ"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P11698|GGI2_STAHA"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [
+          "P_2995"
+        ],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_151",
+      "sequence": "DLWSWGQMIQETGLLPSYTTY",
+      "fold": 3,
+      "group_id": "reference_000146",
+      "p_prott5_six": 0.0142376403716432,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1363073663398306,
+        "esm2_mean": 0.0962090165006491,
+        "pepbert_large_historical": 0.1148097405,
+        "pepbert_small_historical": 0.09841135495,
+        "esmif_mean": 0.3862055759830558,
+        "esm2_esmif_mean": 0.1712838137895848
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P0CAR8"
+      ],
+      "prior_name": "Basic phospholipase A2 BjIV;Basic phospholipase A2 BjIV (svPLA2) (EC 3.1.1.4) (Phosphatidylcholine 2-acylhydrolase)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "输入是 Bj IV PLA2 部分序列；研究分离和表征的是完整 PLA2 蛋白。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/11565904/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0CAR8|PA2B_BOTJR"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0CAR8|PA2B_BOTJR"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": [
+          1
+        ]
+      }
+    },
+    {
+      "sample_id": "peptide_156",
+      "sequence": "RIKKPIFAFPRF",
+      "fold": 1,
+      "group_id": "reference_000151",
+      "p_prott5_six": 0.0160162080251646,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0872806491180177,
+        "esm2_mean": 0.1373020451537186,
+        "pepbert_large_historical": 0.156065725,
+        "pepbert_small_historical": 0.1445644125,
+        "esmif_mean": 0.2560166647797414,
+        "esm2_esmif_mean": 0.1726718477133167
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0DQH7"
+      ],
+      "prior_name": "Conorfamide-As1;Conorfamide-As1 (Conorfamide-As1a) (CNF-As1a) (Cono-RFamide-As1a) (Conorfamide-As1b) (CNF-As1b) (Cono-RFamide-As1b)",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "Conorfamide-As1a 与 As1b 共用裸序列，分别为酰胺化和游离形式。原文测 nAChR 与 ASIC 调节，α7 和肌型 nAChR 抑制可达 nM 浓度范围。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/31028742/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0DQH7|CRF1_CONCF"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0DQH7|CRF1_CONCF"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_162",
+      "sequence": "AKTGILDSDGPTVAGNSLSGT",
+      "fold": 0,
+      "group_id": "reference_000157",
+      "p_prott5_six": 0.0498885758442763,
+      "alternative_probabilities": {
+        "egnn_existing": 0.024130173618637,
+        "esm2_mean": 0.1140182617189555,
+        "pepbert_large_historical": 0.05263213815,
+        "pepbert_small_historical": 0.05297751725,
+        "esmif_mean": 0.0420696789833296,
+        "esm2_esmif_mean": 0.091952354888207
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P58305"
+      ],
+      "prior_name": "Granulitoxin;Granulitoxin (GRX)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "输入是 4,958 Da 完整 Granulitoxin 的 N 端 21 aa。小鼠腹腔给药 2 h LD50 400 ± 83 μg/kg 对应完整分离物。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/9876306/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P58305|TXGRX_BUNCN"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P58305|TXGRX_BUNCN"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": [
+          1
+        ]
+      }
+    },
+    {
+      "sample_id": "peptide_174",
+      "sequence": "SVDMVMKGIKLWPL",
+      "fold": 3,
+      "group_id": "reference_000169",
+      "p_prott5_six": 0.0203328521070696,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1693871954386957,
+        "esm2_mean": 0.0814049618462494,
+        "pepbert_large_historical": 0.133676827,
+        "pepbert_small_historical": 0.1102880575,
+        "esmif_mean": 0.2681428927639306,
+        "esm2_esmif_mean": 0.1413519902132044
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P84389"
+      ],
+      "prior_name": "Polybine-2;Polybine-2 (Polybine-II)",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "Polybine-II 天然 N 端乙酰化。原文对比不同 N 端形式，乙酰化与炎症活性增强相关；所测形式均未观察到溶血或抗菌。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/15572194/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P84389|PLYB2_POLPI"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P84389|PLYB2_POLPI"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_175",
+      "sequence": "NYLHDTVGRLWGPSRAGLLDGLDWMVGDVQSR",
+      "fold": 4,
+      "group_id": "reference_000170",
+      "p_prott5_six": 0.0146039631828853,
+      "alternative_probabilities": {
+        "egnn_existing": 0.00938292612767,
+        "esm2_mean": 0.0166271837693208,
+        "pepbert_large_historical": 0.03014605865,
+        "pepbert_small_historical": 0.0984535404,
+        "esmif_mean": 0.0380675238266806,
+        "esm2_esmif_mean": 0.0346033415454525
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P86330"
+      ],
+      "prior_name": "Fibrinolytic enzyme;Fibrinolytic enzyme (NJF) (EC 3.4.21.-)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "32 aa 为 NJF 局部序列。原文纤溶测的是 28–32 kDa 蛋白。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/19896371/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P86330|FIBR_HEDJA"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P86330|FIBR_HEDJA"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_193",
+      "sequence": "MAQDIISTIGDLVKWIIDTVNKFTKK",
+      "fold": 3,
+      "group_id": "reference_000188",
+      "p_prott5_six": 0.0011470921533914,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0055059159239119,
+        "esm2_mean": 0.0004081981904706,
+        "pepbert_large_historical": 0.01476231035,
+        "pepbert_small_historical": 0.00856153109,
+        "esmif_mean": 0.1670772701331342,
+        "esm2_esmif_mean": 0.0072750529699616
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0A0M1",
+        "P0A0M2",
+        "P0C1V1",
+        "Q2FWM8",
+        "Q5HEG6",
+        "Q6GF37"
+      ],
+      "prior_name": "Delta-hemolysin;Delta-hemolysin (Delta-lysin) (Delta-toxin)",
+      "exact_sequence_archived_assays": 2,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "原文用精确序列的未甲酰化合成 δ-toxin 测肥大细胞脱颗粒及皮肤炎症；天然记录另有 N-甲酰化，独立论文/数据库有红细胞结果，分开保留。",
+      "references": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4090780/",
+        "https://pubmed.ncbi.nlm.nih.gov/15629533/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0C1V1|HLD_STAAU",
+          "sp|P0A0M1|HLD_STAAM",
+          "sp|P0A0M2|HLD_STAAN",
+          "sp|Q2FWM8|HLD_STAA8",
+          "sp|Q5HEG6|HLD_STAAC",
+          "sp|Q6GF37|HLD_STAAR"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0C1V1|HLD_STAAU"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_228",
+      "sequence": "LNLTKWLGKLGVILSHLNK",
+      "fold": 3,
+      "group_id": "reference_000221",
+      "p_prott5_six": 0.0634912595606841,
+      "alternative_probabilities": {
+        "egnn_existing": 0.5256919668620956,
+        "esm2_mean": 0.7555714776348101,
+        "pepbert_large_historical": 0.08799387145,
+        "pepbert_small_historical": 0.0782488361,
+        "esmif_mean": 0.3368097692032414,
+        "esm2_esmif_mean": 0.683195302459101
+      },
+      "alternatives_calling_toxic": [
+        "EGNN",
+        "ESM-2",
+        "ESM-2+ESM-IF1"
+      ],
+      "all_models_call_nontoxic": false,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0CD67"
+      ],
+      "prior_name": "Bombolitin-6",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "Bombolitin-6 先有质谱鉴定，后续有 BL6 抗菌与 DPC 膜模拟物结合及构象实验。未核实该肽的直接宿主毒性，不借用 Bombolitin V 的结果。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/16626777/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6428940/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0CD67|BOL6_BOMLA"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0CD67|BOL6_BOMLA"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_247",
+      "sequence": "DVTFSLLGANTKSYAAFITNFRKDVASEKK",
+      "fold": 2,
+      "group_id": "reference_000240",
+      "p_prott5_six": 0.092099503025281,
+      "alternative_probabilities": {
+        "egnn_existing": 0.4220233143196398,
+        "esm2_mean": 0.0531828641590202,
+        "pepbert_large_historical": 0.04958137125,
+        "pepbert_small_historical": 0.0821791254,
+        "esmif_mean": 0.0621184316109049,
+        "esm2_esmif_mean": 0.0435985685284643
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P20655"
+      ],
+      "prior_name": "Ribosome-inactivating protein momorcochin-S;Ribosome-inactivating protein momorcochin-S (EC 3.2.2.22) (rRNA N-glycosidase)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "输入为 momorcochin-S 部分序列。实验对象为约 30 kDa 核糖体失活蛋白及其免疫毒素构建体。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/2597699/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P20655|RIPS_MOMCO"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P20655|RIPS_MOMCO"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": [
+          1
+        ]
+      }
+    },
+    {
+      "sample_id": "peptide_251",
+      "sequence": "MSGIVEAISNAVKSGLDHDWVNMGTSIADVVAKGADFIAGFFS",
+      "fold": 3,
+      "group_id": "reference_000244",
+      "p_prott5_six": 0.0024639716852269,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0043724389943836,
+        "esm2_mean": 0.0001861025028262,
+        "pepbert_large_historical": 0.004221555545,
+        "pepbert_small_historical": 0.002224632655,
+        "esmif_mean": 0.0070207220794715,
+        "esm2_esmif_mean": 6.71958972861392e-05
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P85219",
+        "P85222"
+      ],
+      "prior_name": "H1C/H1U",
+      "exact_sequence_archived_assays": 5,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "H1 原摘要支持溶血和人纤维细胞效应。UniProt N-甲酰化与数据库 Free 注释冲突，HD50 的单位及条件暂不当作已核实原表。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/18752624/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P85219|HLY1C_STACC",
+          "sp|P85222|HLY1U_STAUR"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P85219|HLY1C_STACC"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [
+          "P_5917"
+        ],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_259",
+      "sequence": "GIWGTLAKIGIKAVPRVISMLKKKKQ",
+      "fold": 3,
+      "group_id": "reference_000252",
+      "p_prott5_six": 0.0464309690992199,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0614059941881957,
+        "esm2_mean": 0.079491207472591,
+        "pepbert_large_historical": 0.02528679835,
+        "pepbert_small_historical": 0.07188063115,
+        "esmif_mean": 0.2439298022676129,
+        "esm2_esmif_mean": 0.0574119005660847
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P82425"
+      ],
+      "prior_name": "M-poneritoxin-Ng1c;M-poneritoxin-Ng1c (M-PONTX-Ng1c) (Poneratoxin) (Ponericin-W3)",
+      "exact_sequence_archived_assays": 3,
+      "category": "analogue",
+      "original_label_trace": "unresolved",
+      "note": "原文详细实验用少一个 Lys 的 W3-desK，天然 W3 末端为 LKKKKQ，合成体为 LKKKQ。数据库按天然 W3 序列回挂红细胞结果，不作为本条的直接测量。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/11279030/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P82425|WTX1C_NEOGO"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P82425|WTX1C_NEOGO"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_289",
+      "sequence": "AKEKEVTFQSGGPT",
+      "fold": 2,
+      "group_id": "reference_000282",
+      "p_prott5_six": 0.0149672129553065,
+      "alternative_probabilities": {
+        "egnn_existing": 0.2595151102990194,
+        "esm2_mean": 0.0790219627062879,
+        "pepbert_large_historical": 0.04794396085,
+        "pepbert_small_historical": 0.07415109875,
+        "esmif_mean": 0.1092923167071841,
+        "esm2_esmif_mean": 0.1306723495052814
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P0C8C4"
+      ],
+      "prior_name": "Scolopendra 5885.28 Da toxin",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "输入 14 aa 约 1.48 kDa，注释对应 5,885.28 Da 分子的一部分。原研究报告家蝇毒性来自若干毒液组分，不能转给 14 aa。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/17320133/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0C8C4|STX4_SCOVN"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0C8C4|STX4_SCOVN"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_298",
+      "sequence": "FLPLLILGSLLMTPPVIQAIHDAQR",
+      "fold": 2,
+      "group_id": "reference_000291",
+      "p_prott5_six": 0.0086263514982949,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0074782513560969,
+        "esm2_mean": 0.003736088397576,
+        "pepbert_large_historical": 0.03710957615,
+        "pepbert_small_historical": 0.0989908797,
+        "esmif_mean": 0.002554818773253,
+        "esm2_esmif_mean": 0.0050196147047086
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "精确骨架对应 Poneratoxin，成熟形式 C 端酰胺化。原研究支持钠通道效应，未核实 GHXTox 原标签采用哪项。",
+      "references": [
+        "https://doi.org/10.1111/j.1432-1033.2004.04128.x",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10206162/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P41736|TX1A_PARCV"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P41736|TX1A_PARCV"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_309",
+      "sequence": "ARTQPGNIAPVGDFTLYPNAPRQGHIVA",
+      "fold": 3,
+      "group_id": "reference_000302",
+      "p_prott5_six": 0.003287540520432,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0267699605992109,
+        "esm2_mean": 0.1736540534677054,
+        "pepbert_large_historical": 0.07109632345,
+        "pepbert_small_historical": 0.0474527348,
+        "esmif_mean": 0.2724377091626597,
+        "esm2_esmif_mean": 0.1087137914200143
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P83245"
+      ],
+      "prior_name": "Ribosome-inactivating protein pleuturegin",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "28 aa 是 38 kDa pleuturegin 的 N 端测序片段。原文 IC50 0.5 nM 对应完整蛋白在兔网织红细胞裂解液中的翻译抑制。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/11676502/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P83245|RIP_LENTR"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P83245|RIP_LENTR"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_320",
+      "sequence": "KSPPQALNKPLPAPSAPSL",
+      "fold": 2,
+      "group_id": "reference_000312",
+      "p_prott5_six": 0.0589087873393996,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0783246050252653,
+        "esm2_mean": 0.0733986323917001,
+        "pepbert_large_historical": 0.1254927814999999,
+        "pepbert_small_historical": 0.07149769735,
+        "esmif_mean": 0.0119840281638652,
+        "esm2_esmif_mean": 0.0202926164171917
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0DJ96"
+      ],
+      "prior_name": "Pro-rich toxin 4;Pro-rich toxin 4 [Cleaved into: Pro-rich toxin 1; Pro-rich toxin 2; Pro-rich toxin 3]",
+      "exact_sequence_archived_assays": 0,
+      "category": "identity",
+      "original_label_trace": "unresolved",
+      "note": "原研究用质谱鉴定绿曼巴富脯氨酸糖肽；UniProt 映射存在不同剪切产物及 O-糖基化。未核实 19 aa 裸肽的功能。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/21952754/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0DJ96|TX22_DENAN"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0DJ96|TX22_DENAN"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": [
+          1
+        ]
+      }
+    },
+    {
+      "sample_id": "peptide_322",
+      "sequence": "TVSDPPARPAVFHSREELMNYVRELNRYFAIVGRPRF",
+      "fold": 0,
+      "group_id": "reference_000314",
+      "p_prott5_six": 0.0074083229629672,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0355966210609821,
+        "esm2_mean": 0.1969514770139102,
+        "pepbert_large_historical": 0.08535570275,
+        "pepbert_small_historical": 0.1844912095,
+        "esmif_mean": 0.0105907285511623,
+        "esm2_esmif_mean": 0.0631142817774964
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0CJ22"
+      ],
+      "prior_name": "Neuropeptide Y1-like conopeptide",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "Cono-NPY1。原文小鼠脑室给药后观察行为；C 端酰胺化。未将该终点等同于溶血。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/20705590/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0CJ22|NPY1_CONBE"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0CJ22|NPY1_CONBE"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [
+          "P_6603"
+        ],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_324",
+      "sequence": "MKTIELITIFAMITTLMVTVVAGDPIDPKVLESLVGK",
+      "fold": 4,
+      "group_id": "reference_000316",
+      "p_prott5_six": 0.0115261612466229,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0251592994424703,
+        "esm2_mean": 0.2267254232480574,
+        "pepbert_large_historical": 0.03033870735,
+        "pepbert_small_historical": 0.0102600799649999,
+        "esmif_mean": 0.3110573930373511,
+        "esm2_esmif_mean": 0.1762623085365391
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "A0A6G9KHD3"
+      ],
+      "prior_name": "U12-myrmicitoxin-Mri1a;U12-myrmicitoxin-Mri1a (U12-MYRTX-Mri1a) (U-MYRTX-MANr1)",
+      "exact_sequence_archived_assays": 0,
+      "category": "precursor",
+      "original_label_trace": "unresolved",
+      "note": "输入 37 aa 含信号肽及前体区域，原实验测的是 26–35 位成熟酰胺化十肽，对蚜虫有麻痹及存活效应。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/31557881/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|A0A6G9KHD3|TX12A_MANRB"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|A0A6G9KHD3|TX12A_MANRB"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [
+          "P_2780"
+        ],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_347",
+      "sequence": "NWRKILGQIASVGAGLLGSLLAGYE",
+      "fold": 3,
+      "group_id": "reference_000338",
+      "p_prott5_six": 0.0357469988422159,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0584010760176506,
+        "esm2_mean": 0.0310005897850384,
+        "pepbert_large_historical": 0.01327180815,
+        "pepbert_small_historical": 0.0261244699,
+        "esmif_mean": 0.0953609754113463,
+        "esm2_esmif_mean": 0.0140409475631324
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P69847"
+      ],
+      "prior_name": "Grammistin Pp 3",
+      "exact_sequence_archived_assays": 1,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "Grammistin Pp3 原文有马红细胞及脂质体实验。脂质体泄漏与实际红细胞溶血分开解释。",
+      "references": [
+        "https://www.jstage.jst.go.jp/article/fishsci1994/67/5/67_5_928/_pdf"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P69847|GRA3_POGPU"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P69847|GRA3_POGPU"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_366",
+      "sequence": "SIVLRGKAPFR",
+      "fold": 3,
+      "group_id": "reference_000357",
+      "p_prott5_six": 0.0271810576740669,
+      "alternative_probabilities": {
+        "egnn_existing": 0.18283041583304,
+        "esm2_mean": 0.0456873756114595,
+        "pepbert_large_historical": 0.0541165881,
+        "pepbert_small_historical": 0.1295388935,
+        "esmif_mean": 0.1098638905926959,
+        "esm2_esmif_mean": 0.1012039066563396
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0DL32"
+      ],
+      "prior_name": "Fulvonin;Fulvonin (Bradykinin-related peptide)",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "Fulvonin 原文有大鼠痛觉过敏，B1 受体拮抗剂可阻断。终点为疼痛及受体相关作用。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/19716363/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0DL32|BRKF_CYPDO"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0DL32|BRKF_CYPDO"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_373",
+      "sequence": "ESIVRPPPVEAKVEETPE",
+      "fold": 4,
+      "group_id": "reference_000364",
+      "p_prott5_six": 0.016589249920475,
+      "alternative_probabilities": {
+        "egnn_existing": 0.116311467720754,
+        "esm2_mean": 0.0170573716636556,
+        "pepbert_large_historical": 0.118923053,
+        "pepbert_small_historical": 0.08078678695,
+        "esmif_mean": 0.1425289030637102,
+        "esm2_esmif_mean": 0.076363185094299
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P86295"
+      ],
+      "prior_name": "Porflan",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "Porflan 原文测小鼠微循环白细胞募集与黏附，支持炎症作用，未把结果换算成一般细胞毒性。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/19682520/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P86295|PORFL_POTOR"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P86295|PORFL_POTOR"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_378",
+      "sequence": "LKLKDILGKIKVILSHLNK",
+      "fold": 4,
+      "group_id": "reference_000369",
+      "p_prott5_six": 0.0763776458625477,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1692747526593231,
+        "esm2_mean": 0.415747896125459,
+        "pepbert_large_historical": 0.1326532435,
+        "pepbert_small_historical": 0.0798995234,
+        "esmif_mean": 0.061020448199405,
+        "esm2_esmif_mean": 0.2564499465627112
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0CD68"
+      ],
+      "prior_name": "Bombolitin-7",
+      "exact_sequence_archived_assays": 0,
+      "category": "identity",
+      "original_label_trace": "unresolved",
+      "note": "Bombolitin-7 有质谱序列证据，未找到精确肽直接功能实验，不用 Bombolitin-6 或 V 的结果替代。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/16626777/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0CD68|BOL7_BOMLA"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0CD68|BOL7_BOMLA"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_397",
+      "sequence": "LVSVSPAFNGNYFVE",
+      "fold": 4,
+      "group_id": "reference_000388",
+      "p_prott5_six": 0.0204530404531362,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1099381227607795,
+        "esm2_mean": 0.1748150322277779,
+        "pepbert_large_historical": 0.1010436416999999,
+        "pepbert_small_historical": 0.0551896803,
+        "esmif_mean": 0.1210379170956971,
+        "esm2_esmif_mean": 0.1181809795030586
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P0C8I7"
+      ],
+      "prior_name": "Factor X-activator 1 heavy chain;Factor X-activator 1 heavy chain (VAFXA-I HC) (EC 3.4.24.-) (Snake venom metalloproteinase) (SVMP)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "15 aa 是 VAFXA-I 重链的部分序列；原文凝血因子活化对象为约 58 kDa 多链分子。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/18760294/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0C8I7|VM3FA_VIPAA"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0C8I7|VM3FA_VIPAA"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_401",
+      "sequence": "ATPFGGSSYEGH",
+      "fold": 4,
+      "group_id": "reference_000392",
+      "p_prott5_six": 0.0131285249424187,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0331287477266668,
+        "esm2_mean": 0.0190176762126337,
+        "pepbert_large_historical": 0.0667113587,
+        "pepbert_small_historical": 0.0554933548,
+        "esmif_mean": 0.0758488050852279,
+        "esm2_esmif_mean": 0.0083419320014531
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "Q7LZ26"
+      ],
+      "prior_name": "Coagulation factor X inhibitor",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "12 aa 为抗凝蛋白的部分序列；原文凝血因子抑制由纯化完整蛋白测定。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/8310445/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|Q7LZ26|XI_DEIAC"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|Q7LZ26|XI_DEIAC"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_418",
+      "sequence": "FIGAALGALTAIPSIIKLFK",
+      "fold": 0,
+      "group_id": "reference_000409",
+      "p_prott5_six": 0.0133981028510049,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0427492971628064,
+        "esm2_mean": 0.0547993662365586,
+        "pepbert_large_historical": 0.03462964665,
+        "pepbert_small_historical": 0.0367336031,
+        "esmif_mean": 0.169005180213593,
+        "esm2_esmif_mean": 0.1219189531873045
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0DSM3"
+      ],
+      "prior_name": "U1-poneritoxin-Ni1a;U1-poneritoxin-Ni1a (U1-PONTX-Ni1a) (Poneratoxin) (Ponericin Pi II1)",
+      "exact_sequence_archived_assays": 0,
+      "category": "identity",
+      "original_label_trace": "unresolved",
+      "note": "Ni1a 末端 Lys 酰胺注释。参考文献为综述，未核实该精确肽的直接毒性实验。",
+      "references": [
+        "https://www.uniprot.org/uniprotkb/P0DSM3/entry"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0DSM3|WTX1A_NEOIV"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P0DSM3|WTX1A_NEOIV"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_424",
+      "sequence": "MDFIIDIIKKIVGLFTGK",
+      "fold": 3,
+      "group_id": "reference_000415",
+      "p_prott5_six": 0.0013591430344932,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0045489821510453,
+        "esm2_mean": 2.0470359357260575e-05,
+        "pepbert_large_historical": 0.0396669041,
+        "pepbert_small_historical": 0.00721406075,
+        "esmif_mean": 0.3449709630306664,
+        "esm2_esmif_mean": 0.0003435515480535
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P85220",
+        "P85223"
+      ],
+      "prior_name": "H2C/H2U",
+      "exact_sequence_archived_assays": 5,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "H2 原摘要支持溶血和人纤维细胞效应。UniProt N-甲酰化与数据库 Free 注释冲突，数值暂保留待原表核验。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/18752624/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P85220|HLY2C_STACC",
+          "sp|P85223|HLY2U_STAUR"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P85220|HLY2C_STACC"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_431",
+      "sequence": "GWKDWLKKGKEWLKAKGPGIVKAALQAATQ",
+      "fold": 0,
+      "group_id": "reference_000422",
+      "p_prott5_six": 0.0529034775941151,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0514600556095877,
+        "esm2_mean": 0.4427319209760785,
+        "pepbert_large_historical": 0.1049690021,
+        "pepbert_small_historical": 0.0853324309,
+        "esmif_mean": 0.1163403195307067,
+        "esm2_esmif_mean": 0.4272325264032163
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P82415"
+      ],
+      "prior_name": "U1-poneritoxin-Ng3b;U1-poneritoxin-Ng3b (U1-PONTX-Ng3b) (Poneratoxin) (Ponericin-G2)",
+      "exact_sequence_archived_assays": 0,
+      "category": "identity",
+      "original_label_trace": "unresolved",
+      "note": "原研究鉴定 Ponericin-G2（P82415），其明确列出的十条合成肽未含 G2。未核实孤立 G2 的单独毒性读数。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/11279030/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P82415|GTX3B_NEOGO"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [
+          "sp|P82415|GTX3B_NEOGO"
+        ],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_447",
+      "sequence": "MFKPRVILLITIIAVFSEFKKAFKGLFEKAANKYLH",
+      "fold": 1,
+      "group_id": "reference_000436",
+      "p_prott5_six": 0.0060196043723889,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0768664365825606,
+        "esm2_mean": 0.0188052608750159,
+        "pepbert_large_historical": 0.03564804885,
+        "pepbert_small_historical": 0.0489056315499999,
+        "esmif_mean": 0.0496183130136518,
+        "esm2_esmif_mean": 0.0069763134288176
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0DUT1"
+      ],
+      "prior_name": "U-limacoditoxin(7)-Dv63;U-limacoditoxin(7)-Dv63 (U-LCTX(7)-Dv63) (Cecropin-like peptide) (Vulnericin)",
+      "exact_sequence_archived_assays": 0,
+      "category": "precursor",
+      "original_label_trace": "unresolved",
+      "note": "Dv63 输入含前体 N 端；原文 Table 2 合成并检测的序列是输入 C 端 21 aa（与 UniProt 当前标注的 17 aa 成熟区不同），果蝇注射麻痹 EP50 10.27 nmol/g。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/33893140/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0DUT1|U763_DORVU"
+        ],
+        "csm_blind_positive": [
+          "sp|P0DUT1|U763_DORVU"
+        ],
+        "csm_positive_cdhit70": [
+          "sp|P0DUT1|U763_DORVU"
+        ],
+        "csm_blind_positive_cdhit70": [
+          "sp|P0DUT1|U763_DORVU"
+        ],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_458",
+      "sequence": "MSKLLVLFVVSAMALLQFSMVEATPQKFHVNGRYGK",
+      "fold": 4,
+      "group_id": "reference_000445",
+      "p_prott5_six": 0.0333433786442981,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0136072909123484,
+        "esm2_mean": 0.0261022889729056,
+        "pepbert_large_historical": 0.011659150945,
+        "pepbert_small_historical": 0.03043244405,
+        "esmif_mean": 0.0223623952880254,
+        "esm2_esmif_mean": 0.0192850633777105
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0DUS4"
+      ],
+      "prior_name": "U-limacoditoxin(1)-Dv5;U-limacoditoxin(1)-Dv5 (U-LCTX(1)-Dv5) (Vulnericin)",
+      "exact_sequence_archived_assays": 0,
+      "category": "precursor",
+      "original_label_trace": "unresolved",
+      "note": "Dv5 输入 36 aa 含信号肽；注释成熟区 26–34，带 N 端焦谷氨酸和 C 端酰胺化。原文 Table 2 的成熟肽实验中昆虫 EC50 >50 nmol/g、ACPR EC50 >10,000 nM，DRG 未见效应。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/33893140/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0DUS4|U15_DORVU"
+        ],
+        "csm_blind_positive": [
+          "sp|P0DUS4|U15_DORVU"
+        ],
+        "csm_positive_cdhit70": [
+          "sp|P0DUS4|U15_DORVU"
+        ],
+        "csm_blind_positive_cdhit70": [
+          "sp|P0DUS4|U15_DORVU"
+        ],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_461",
+      "sequence": "MPKSLLLVLALALLAQTALANGPQGSSDRNWIRLG",
+      "fold": 2,
+      "group_id": "reference_000448",
+      "p_prott5_six": 0.0092790350453271,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1621690352678989,
+        "esm2_mean": 0.0074259159273675,
+        "pepbert_large_historical": 0.09532263485,
+        "pepbert_small_historical": 0.06185860375,
+        "esmif_mean": 0.3416515053055303,
+        "esm2_esmif_mean": 0.0319900230748296
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0DUT4"
+      ],
+      "prior_name": "U-limacoditoxin(13)-Dv73;U-limacoditoxin(13)-Dv73 (U-LCTX(13)-Dv73) (Cecropin-like peptide) (Vulnericin)",
+      "exact_sequence_archived_assays": 0,
+      "category": "precursor",
+      "original_label_trace": "unresolved",
+      "note": "Dv73 输入 35 aa 含信号肽；注释成熟链是 21–34 且 C 端酰胺化。原文 Table 2 使用对应的成熟酰胺化形式，线虫 EC50 94.5 μM，昆虫 EC50 >50 nmol/g。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/33893140/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0DUT4|UD73_DORVU"
+        ],
+        "csm_blind_positive": [
+          "sp|P0DUT4|UD73_DORVU"
+        ],
+        "csm_positive_cdhit70": [
+          "sp|P0DUT4|UD73_DORVU"
+        ],
+        "csm_blind_positive_cdhit70": [
+          "sp|P0DUT4|UD73_DORVU"
+        ],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_463",
+      "sequence": "FVKELWDKVKKMGSAAWSAAKGAFA",
+      "fold": 1,
+      "group_id": "reference_000450",
+      "p_prott5_six": 0.048386570944831,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0305304327574033,
+        "esm2_mean": 0.0027054925459055,
+        "pepbert_large_historical": 0.1159447949999999,
+        "pepbert_small_historical": 0.064883437,
+        "esmif_mean": 0.2601702565034958,
+        "esm2_esmif_mean": 0.0053434034102547
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0DV16"
+      ],
+      "prior_name": "Nc2a",
+      "exact_sequence_archived_assays": 1,
+      "category": "damage",
+      "original_label_trace": "unresolved",
+      "note": "Nc2a 的 HEK293 CC50 48.2–56.9 μM，人红细胞 HC50 >250 μM。复用原表核查，细胞毒性与溶血分开。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/34302796/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0DV16|LTX2A_NEOCU"
+        ],
+        "csm_blind_positive": [
+          "sp|P0DV16|LTX2A_NEOCU"
+        ],
+        "csm_positive_cdhit70": [
+          "sp|P0DV16|LTX2A_NEOCU"
+        ],
+        "csm_blind_positive_cdhit70": [
+          "sp|P0DV16|LTX2A_NEOCU"
+        ],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_706",
+      "sequence": "TPPAGPDVGPR",
+      "fold": 2,
+      "group_id": "reference_000620",
+      "p_prott5_six": 0.0219158226929281,
+      "alternative_probabilities": {
+        "egnn_existing": 0.2512531830358663,
+        "esm2_mean": 0.0609687095280576,
+        "pepbert_large_historical": 0.09670816735,
+        "pepbert_small_historical": 0.2005010394999999,
+        "esmif_mean": 0.0308083713098993,
+        "esm2_esmif_mean": 0.0490880555518693
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0CJ34",
+        "P85024"
+      ],
+      "prior_name": "Bradykinin inhibitor peptide;Bradykinin inhibitor peptide (BIP)",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "Bradykinin inhibitor peptide，原文报告精确序列和抑制相关实验。保留缓激肽/酶活终点，未据此推断细胞毒性。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/19371136/",
+        "https://doi.org/10.1186/s12953-016-0090-0"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P85024|BKIP_CROVV",
+          "sp|P85025|BKIP_AGKBI",
+          "sp|P0CJ34|BKIP_CROAT"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_721",
+      "sequence": "SVAVAGAVIEGATLTFNVLQ",
+      "fold": 2,
+      "group_id": "reference_000437",
+      "p_prott5_six": 0.0842500685791782,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1907828234503253,
+        "esm2_mean": 0.2704167795586568,
+        "pepbert_large_historical": 0.01343377355,
+        "pepbert_small_historical": 0.03564920275,
+        "esmif_mean": 0.0634673000496298,
+        "esm2_esmif_mean": 0.1353309887530809
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P0C1H1"
+      ],
+      "prior_name": "Equinatoxin-1'';Equinatoxin-1'' (DELTA-actitoxin) (Equinatoxin I'')",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "输入 20 aa 对应 Equinatoxin I″ 的部分 N 端测序。研究对象为天然整蛋白和基因家族，未核实孤立片段。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/10414864/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0C1H1|ACTPP_ACTEQ"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_730",
+      "sequence": "LTLNPEMFGKFQIRNGEKIFKKLHQRRP",
+      "fold": 1,
+      "group_id": "reference_000636",
+      "p_prott5_six": 0.0250836202081788,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0438476293228906,
+        "esm2_mean": 0.2477528467007733,
+        "pepbert_large_historical": 0.149256334,
+        "pepbert_small_historical": 0.1422826125,
+        "esmif_mean": 0.0313454631162276,
+        "esm2_esmif_mean": 0.2351176376501194
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "unresolved",
+      "original_label_trace": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "references": [],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_738",
+      "sequence": "VDFASESNKRENQQIVDKHNAL",
+      "fold": 3,
+      "group_id": "reference_000643",
+      "p_prott5_six": 0.093848680290439,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0385947774289462,
+        "esm2_mean": 0.1117670598921064,
+        "pepbert_large_historical": 0.1828109845,
+        "pepbert_small_historical": 0.1217805335,
+        "esmif_mean": 0.4196082661359878,
+        "esm2_esmif_mean": 0.3049746670904875
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "unresolved",
+      "original_label_trace": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "references": [],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_753",
+      "sequence": "GRDGYIAQPENVY",
+      "fold": 3,
+      "group_id": "reference_000652",
+      "p_prott5_six": 0.0324803295767387,
+      "alternative_probabilities": {
+        "egnn_existing": 0.4741762985651864,
+        "esm2_mean": 0.0667465942263002,
+        "pepbert_large_historical": 0.0794686712,
+        "pepbert_small_historical": 0.1381105925,
+        "esmif_mean": 0.3760630220124858,
+        "esm2_esmif_mean": 0.0496384198423347
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "unresolved",
+      "original_label_trace": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "references": [],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_800",
+      "sequence": "NLYQFKEMIRYTIP",
+      "fold": 3,
+      "group_id": "reference_000689",
+      "p_prott5_six": 0.0695610107445151,
+      "alternative_probabilities": {
+        "egnn_existing": 0.4349053297830312,
+        "esm2_mean": 0.1893765491469274,
+        "pepbert_large_historical": 0.2333328125,
+        "pepbert_small_historical": 0.136171937,
+        "esmif_mean": 0.4448323493672254,
+        "esm2_esmif_mean": 0.4119337636779459
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P84472",
+        "P84475"
+      ],
+      "prior_name": "Basic phospholipase A2 T1-1 A chain;Basic phospholipase A2 T1-1 A chain (svPLA2) (EC 3.1.1.4) (Phosphatidylcholine 2-acylhydrolase T1-1 A);Basic phospholipase A2 T1-2 A chain;Basic phospholipase A2 T1-2 A chain (svPLA2) (EC 3.1.1.4) (Phosphatidylcholine 2-acylhydrolase T1-2 A)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "14 aa 只是银环蛇属 β-BTx 样分子的 A 链 N 端。原文测的是纯化双链神经毒素。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/14769867/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P84472|PA2BT_BUNCA",
+          "sp|P84475|PA2BA_BUNCA"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_802",
+      "sequence": "FAKRYVELVIVA",
+      "fold": 0,
+      "group_id": "reference_000690",
+      "p_prott5_six": 0.0502255086734166,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0699485387973742,
+        "esm2_mean": 0.0752088255986116,
+        "pepbert_large_historical": 0.1336574999999999,
+        "pepbert_small_historical": 0.1712308675,
+        "esmif_mean": 0.082260202231352,
+        "esm2_esmif_mean": 0.0591352027326162
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "Q7LZJ1"
+      ],
+      "prior_name": "Snake venom metalloproteinase;Snake venom metalloproteinase (SVMP) (EC 3.4.24.-) (Proteinase E)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "12 aa 是约 21.39 kDa Proteinase E 的 N 端测序结果；原文分离、酶学对象为完整蛋白。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/2188398/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|Q7LZJ1|VM1_CROMN"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_806",
+      "sequence": "LKVPDLPLPESYKKALELAKDDLAREII",
+      "fold": 2,
+      "group_id": "reference_000694",
+      "p_prott5_six": 0.004918111264117,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0418526463082371,
+        "esm2_mean": 0.0667655679251858,
+        "pepbert_large_historical": 0.127495162,
+        "pepbert_small_historical": 0.0929046498499999,
+        "esmif_mean": 0.1147061551989176,
+        "esm2_esmif_mean": 0.0477136650649345
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": "unknown",
+      "exact_sequence_archived_assays": 0,
+      "category": "unresolved",
+      "original_label_trace": "unresolved",
+      "note": "复用旧精确匹配及网页搜索，未恢复可靠身份。",
+      "references": [],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_815",
+      "sequence": "ALPSFSRADRYGRQ",
+      "fold": 4,
+      "group_id": "reference_000701",
+      "p_prott5_six": 0.0132813979627732,
+      "alternative_probabilities": {
+        "egnn_existing": 0.06171543735155,
+        "esm2_mean": 0.0899983364449166,
+        "pepbert_large_historical": 0.114170488,
+        "pepbert_small_historical": 0.1109905315,
+        "esmif_mean": 0.2254026121674769,
+        "esm2_esmif_mean": 0.1060492024096355
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "unresolved",
+      "original_label_trace": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "references": [],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_816",
+      "sequence": "VATSEQFNKTFIELVIVVD",
+      "fold": 0,
+      "group_id": "reference_000702",
+      "p_prott5_six": 0.0400237098154807,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0294515036908829,
+        "esm2_mean": 0.0638951855698458,
+        "pepbert_large_historical": 0.1332478524999999,
+        "pepbert_small_historical": 0.09328986335,
+        "esmif_mean": 0.0735405631302036,
+        "esm2_esmif_mean": 0.0565864786929408
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P86536"
+      ],
+      "prior_name": "Coagulation factor X-activating enzyme heavy chain;Coagulation factor X-activating enzyme heavy chain (EC 3.4.24.58) (Coagulation factor X-activating enzyme chain alpha) (RVV-X heavy chain) (Snake venom metalloproteinase) (SVMP)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "19 aa 对应 RVV-X 重链的局部测序记录；原研究做毒液蛋白分离和结构鉴定，未核实孤立 19 aa 的效应。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/20203422/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P86536|VM3CX_DABRR"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_841",
+      "sequence": "RIKIGLFDQLSRL",
+      "fold": 1,
+      "group_id": "reference_000721",
+      "p_prott5_six": 0.0107528318490765,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0246823961444198,
+        "esm2_mean": 0.0150579678792678,
+        "pepbert_large_historical": 0.0557671413,
+        "pepbert_small_historical": 0.0414911750499999,
+        "esmif_mean": 0.0276359363159692,
+        "esm2_esmif_mean": 0.0183174390108273
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P69392"
+      ],
+      "prior_name": "Beta-pompilidotoxin;Beta-pompilidotoxin (Beta-PMTX)",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "β-Pompilidotoxin 为 C 端酰胺化 13 aa。浦肯野神经元实验测钠通道失活及复苏电流。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/14715935/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6729564/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P69392|PMTXB_BATMC"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_865",
+      "sequence": "LKVPDLPLPESYALNLAD",
+      "fold": 2,
+      "group_id": "singleton_000864",
+      "p_prott5_six": 0.0049955421746126,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1174642920929394,
+        "esm2_mean": 0.0312255735276982,
+        "pepbert_large_historical": 0.134450257,
+        "pepbert_small_historical": 0.0597751866999999,
+        "esmif_mean": 0.2477101343957795,
+        "esm2_esmif_mean": 0.106300432187443
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "unresolved",
+      "original_label_trace": "unresolved",
+      "note": "精确序列检索未恢复可靠身份，与另一条共享前缀不构成身份或活性证据。",
+      "references": [],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_871",
+      "sequence": "NAAVAGAVIEGATLTFEVLQ",
+      "fold": 2,
+      "group_id": "reference_000437",
+      "p_prott5_six": 0.0281014171688872,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0928236627689516,
+        "esm2_mean": 0.2007225774661548,
+        "pepbert_large_historical": 0.0135728731,
+        "pepbert_small_historical": 0.0705027971499999,
+        "esmif_mean": 0.0800342692807211,
+        "esm2_esmif_mean": 0.1316339628078686
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P30833"
+      ],
+      "prior_name": "Cytolysin tenebrosin-A;Cytolysin tenebrosin-A (DELTA-actitoxin)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "Tenebrosin-A 20 aa N 端片段。原研究的豚鼠红细胞溶血及心脏效应来自约 20 kDa 整蛋白。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/1970442/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P30833|ACTPA_ACTTE"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_880",
+      "sequence": "AGNKRPIWIMGAMVNAIKDIDFVNLGANNIEK",
+      "fold": 2,
+      "group_id": "reference_000748",
+      "p_prott5_six": 0.0422124133966718,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0430411834894335,
+        "esm2_mean": 0.0201699941982197,
+        "pepbert_large_historical": 0.037684055,
+        "pepbert_small_historical": 0.05873934735,
+        "esmif_mean": 0.2276497571338063,
+        "esm2_esmif_mean": 0.0199362837445297
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "unresolved",
+      "original_label_trace": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "references": [],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_891",
+      "sequence": "AFVKGSAQRVAHGY",
+      "fold": 0,
+      "group_id": "reference_000756",
+      "p_prott5_six": 0.0338170502826432,
+      "alternative_probabilities": {
+        "egnn_existing": 0.2514653530112363,
+        "esm2_mean": 0.1065261322305687,
+        "pepbert_large_historical": 0.0827016495,
+        "pepbert_small_historical": 0.0815925896,
+        "esmif_mean": 0.1893811122251971,
+        "esm2_esmif_mean": 0.0686068340708317
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [
+        "P0C260"
+      ],
+      "prior_name": "Conomap-Vt;Conomap-Vt (Conp-Vt)",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "Conomap-Vt 成熟肽第 2 位为 D-Phe，C 端酰胺化。原文神经兴奋相关实验表明 D 型比 L 型活性更强，裸序列把两者表示为同一输入。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/16797543/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0C260|CMAT_CONPO"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_907",
+      "sequence": "TVTPEQDRYLQVKKY",
+      "fold": 0,
+      "group_id": "reference_000767",
+      "p_prott5_six": 0.0105089645685355,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0224107866560632,
+        "esm2_mean": 0.0311320709896359,
+        "pepbert_large_historical": 0.1767719234999999,
+        "pepbert_small_historical": 0.0849685818,
+        "esmif_mean": 0.050860891186399,
+        "esm2_esmif_mean": 0.0197956246128503
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P0DM46"
+      ],
+      "prior_name": "Zinc metalloproteinase-disintegrin-like;Zinc metalloproteinase-disintegrin-like (EC 3.4.24.-) (Snake venom metalloproteinase) (SVMP)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "15 aa 对应 SVMP 片段，原研究为珊瑚蛇毒液蛋白组及转录组。未核实孤立 15 aa 活性。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/21515432/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P0DM46|VM3A_MICCO"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_945",
+      "sequence": "GDEEVAKFIEREREAGRLDLSKFP",
+      "fold": 0,
+      "group_id": "reference_000789",
+      "p_prott5_six": 0.0183437702043471,
+      "alternative_probabilities": {
+        "egnn_existing": 0.3307116829786746,
+        "esm2_mean": 0.0691979297043924,
+        "pepbert_large_historical": 0.1646557894999999,
+        "pepbert_small_historical": 0.2014450505,
+        "esmif_mean": 0.0282854292507152,
+        "esm2_esmif_mean": 0.0807231221392216
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "unresolved",
+      "original_label_trace": "unresolved",
+      "note": "精确序列检索和旧档案未恢复可靠分子身份。",
+      "references": [],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_956",
+      "sequence": "DWEYHAHPKPNSFWT",
+      "fold": 4,
+      "group_id": "reference_000806",
+      "p_prott5_six": 0.0398103727946733,
+      "alternative_probabilities": {
+        "egnn_existing": 0.1958158682491809,
+        "esm2_mean": 0.3177685186492656,
+        "pepbert_large_historical": 0.3526225835,
+        "pepbert_small_historical": 0.1757181585,
+        "esmif_mean": 0.4447308327073205,
+        "esm2_esmif_mean": 0.3843656976293928
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "limited_negative",
+      "original_label_trace": "unresolved",
+      "note": "精确序列对应 conomarphin Mr-1。原文合成肽在 100 μM 对大鼠 α4β2 报告 20 ± 8.5% 电流抑制，作者总结四种所测亚型无显著活性。只作条件受限结果。",
+      "references": [
+        "https://www.scielo.br/j/jvatitd/a/6Xtt7D6swjH7h4XGj33LwYS/?format=pdf"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_1109",
+      "sequence": "ARFLHPFQYYTLYRYLTRFLHRYPIYYIRY",
+      "fold": 3,
+      "group_id": "reference_000929",
+      "p_prott5_six": 0.0024317214947154,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0723386752109457,
+        "esm2_mean": 0.0026878877347431,
+        "pepbert_large_historical": 0.1774659675,
+        "pepbert_small_historical": 0.211148657,
+        "esmif_mean": 0.554874502101608,
+        "esm2_esmif_mean": 0.0345338223433132
+      },
+      "alternatives_calling_toxic": [
+        "ESM-IF1"
+      ],
+      "all_models_call_nontoxic": false,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "CPY-Pl1 原文 Fig. 3 给出精确序列，测 Kv1 家族钾通道阻断，对非洲爪蟾卵母细胞表达的 Kv1.6，IC50 为 170 nM。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/18505731/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_1148",
+      "sequence": "FDPALMSMQGMQGGQMPGMAGGQ",
+      "fold": 2,
+      "group_id": "reference_000965",
+      "p_prott5_six": 0.0040371959590958,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0069672015100404,
+        "esm2_mean": 0.2394721351502734,
+        "pepbert_large_historical": 0.0121185677,
+        "pepbert_small_historical": 0.1165594645,
+        "esmif_mean": 0.385493452532011,
+        "esm2_esmif_mean": 0.0286797041249378
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "identity",
+      "original_label_trace": "unresolved",
+      "note": "线性 conopeptide-Cn2。原论文蛋白组/转录组与表格序列线索支持分离鉴定，未找到精确肽毒性测量。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/22705119/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_1392",
+      "sequence": "MLTKFETKSARVKGLSFHPKRPWIL",
+      "fold": 3,
+      "group_id": "singleton_001391",
+      "p_prott5_six": 0.0011650791688091,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0058714411958453,
+        "esm2_mean": 0.0003556014698919,
+        "pepbert_large_historical": 0.0487413388,
+        "pepbert_small_historical": 0.04671631755,
+        "esmif_mean": 0.1442509934855375,
+        "esm2_esmif_mean": 0.000649644544041
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": "Human xenin-25",
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "精确序列匹配 xenin-25，原文合成该肽并测大鼠远端结肠环形肌收缩。未找到能回接 GHXTox 毒性标签的实验。",
+      "references": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7891183/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_1461",
+      "sequence": "QSEEGGSNATKKPYIL",
+      "fold": 4,
+      "group_id": "reference_001197",
+      "p_prott5_six": 0.0536181237987851,
+      "alternative_probabilities": {
+        "egnn_existing": 0.0545041657009462,
+        "esm2_mean": 0.1153034942050555,
+        "pepbert_large_historical": 0.1219647935,
+        "pepbert_small_historical": 0.128226895,
+        "esmif_mean": 0.1584865542248819,
+        "esm2_esmif_mean": 0.0714418578340708
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 0,
+      "existing_annotation_accessions": [],
+      "prior_name": null,
+      "exact_sequence_archived_assays": 0,
+      "category": "specific",
+      "original_label_trace": "unresolved",
+      "note": "同骨架对应 Contulakin-G 或 Thr10 去糖类似物。天然 N 端焦谷氨酸和 Thr10 O-糖基化；小鼠脑室给药的运动效应在糖基化形式约低 10 倍剂量出现，受体终点另计。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/10318778/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4322620/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    },
+    {
+      "sample_id": "peptide_1731",
+      "sequence": "ANIVFDVESATTGTYSTFLTSF",
+      "fold": 3,
+      "group_id": "reference_001396",
+      "p_prott5_six": 0.0175593821758184,
+      "alternative_probabilities": {
+        "egnn_existing": 0.3765242475353386,
+        "esm2_mean": 0.1468443714857832,
+        "pepbert_large_historical": 0.045343142,
+        "pepbert_small_historical": 0.0355279278,
+        "esmif_mean": 0.1979113669323896,
+        "esm2_esmif_mean": 0.1754269274652863
+      },
+      "alternatives_calling_toxic": [],
+      "all_models_call_nontoxic": true,
+      "fragment_flag": 1,
+      "existing_annotation_accessions": [
+        "P86144"
+      ],
+      "prior_name": "Dioicin-1;Dioicin-1 (EC 3.2.2.22) (Ribosome-inactivating protein) (rRNA N-glycosidase)",
+      "exact_sequence_archived_assays": 0,
+      "category": "fragment",
+      "original_label_trace": "unresolved",
+      "note": "22 aa 是 Dioicin-1 局部记录。原研究的多核苷酸糖苷酶/DNA 效应属于整蛋白。",
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/18704492/"
+      ],
+      "upstream_exact_membership": {
+        "csm_positive": [
+          "sp|P86144|RIPD1_PHYDI"
+        ],
+        "csm_blind_positive": [],
+        "csm_positive_cdhit70": [],
+        "csm_blind_positive_cdhit70": [],
+        "toxinpred2_positive": [],
+        "atse_train_labels": [
+          1
+        ],
+        "atse_test_labels": []
+      }
+    }
+  ]
+}

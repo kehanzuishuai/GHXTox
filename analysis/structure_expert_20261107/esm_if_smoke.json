@@ -1,0 +1,907 @@
+{
+  "model": "ESM-IF1",
+  "source": "https://dl.fbaipublicfiles.com/fair-esm/models/esm_if1_gvp4_t16_142M_UR50.pt",
+  "sha256": "be4ba36edec22a9bfaa4946ff6b2815f1f19d8a3d7e0eada8b796d5a0eae9fd4",
+  "device": "cuda",
+  "n": 64,
+  "seconds": 9.551985600002808,
+  "samples": [
+    {
+      "sample_id": "peptide_1",
+      "length": 38,
+      "shape": [
+        38,
+        512
+      ],
+      "repeat_max_abs_difference": 1.6093254089355469e-06,
+      "translation_max_abs_difference": 0.5267444849014282,
+      "centered_translation_max_abs_difference": 3.5822391510009766e-05,
+      "centered_rotation_max_abs_difference": 3.826618194580078e-05,
+      "pooled_centered_shift_max_abs_difference": 3.032386302947998e-06,
+      "pooled_centered_rotation_max_abs_difference": 2.009328454732895e-06
+    },
+    {
+      "sample_id": "peptide_102",
+      "length": 14,
+      "shape": [
+        14,
+        512
+      ],
+      "repeat_max_abs_difference": 9.238719940185547e-07,
+      "translation_max_abs_difference": 0.3605331778526306,
+      "centered_translation_max_abs_difference": 4.488229751586914e-05,
+      "centered_rotation_max_abs_difference": 2.5212764739990234e-05,
+      "pooled_centered_shift_max_abs_difference": 1.035258173942566e-05,
+      "pooled_centered_rotation_max_abs_difference": 4.936009645462036e-06
+    },
+    {
+      "sample_id": "peptide_203",
+      "length": 35,
+      "shape": [
+        35,
+        512
+      ],
+      "repeat_max_abs_difference": 1.3113021850585938e-06,
+      "translation_max_abs_difference": 0.2699829638004303,
+      "centered_translation_max_abs_difference": 4.061497747898102e-05,
+      "centered_rotation_max_abs_difference": 8.124113082885742e-05,
+      "pooled_centered_shift_max_abs_difference": 5.245208740234375e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.1116266250610352e-05
+    },
+    {
+      "sample_id": "peptide_305",
+      "length": 37,
+      "shape": [
+        37,
+        512
+      ],
+      "repeat_max_abs_difference": 1.296401023864746e-06,
+      "translation_max_abs_difference": 0.3591722548007965,
+      "centered_translation_max_abs_difference": 4.1425228118896484e-05,
+      "centered_rotation_max_abs_difference": 1.9252300262451172e-05,
+      "pooled_centered_shift_max_abs_difference": 3.073364496231079e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.601874828338623e-06
+    },
+    {
+      "sample_id": "peptide_406",
+      "length": 28,
+      "shape": [
+        28,
+        512
+      ],
+      "repeat_max_abs_difference": 8.940696716308594e-07,
+      "translation_max_abs_difference": 0.3563286066055298,
+      "centered_translation_max_abs_difference": 2.0563602447509766e-05,
+      "centered_rotation_max_abs_difference": 1.6188248991966248e-05,
+      "pooled_centered_shift_max_abs_difference": 1.5087425708770752e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.0952353477478027e-06
+    },
+    {
+      "sample_id": "peptide_507",
+      "length": 46,
+      "shape": [
+        46,
+        512
+      ],
+      "repeat_max_abs_difference": 1.7508864402770996e-06,
+      "translation_max_abs_difference": 0.3798201382160187,
+      "centered_translation_max_abs_difference": 0.00012083351612091064,
+      "centered_rotation_max_abs_difference": 0.00013212859630584717,
+      "pooled_centered_shift_max_abs_difference": 1.2122094631195068e-05,
+      "pooled_centered_rotation_max_abs_difference": 1.2926757335662842e-05
+    },
+    {
+      "sample_id": "peptide_609",
+      "length": 39,
+      "shape": [
+        39,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1920928955078125e-06,
+      "translation_max_abs_difference": 0.34690824151039124,
+      "centered_translation_max_abs_difference": 2.396106719970703e-05,
+      "centered_rotation_max_abs_difference": 6.287544965744019e-05,
+      "pooled_centered_shift_max_abs_difference": 3.0100345611572266e-06,
+      "pooled_centered_rotation_max_abs_difference": 4.597008228302002e-06
+    },
+    {
+      "sample_id": "peptide_710",
+      "length": 12,
+      "shape": [
+        12,
+        512
+      ],
+      "repeat_max_abs_difference": 1.0728836059570312e-06,
+      "translation_max_abs_difference": 0.4520064890384674,
+      "centered_translation_max_abs_difference": 8.046627044677734e-06,
+      "centered_rotation_max_abs_difference": 7.212162017822266e-06,
+      "pooled_centered_shift_max_abs_difference": 2.5443732738494873e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.5497207641601562e-06
+    },
+    {
+      "sample_id": "peptide_811",
+      "length": 23,
+      "shape": [
+        23,
+        512
+      ],
+      "repeat_max_abs_difference": 1.430511474609375e-06,
+      "translation_max_abs_difference": 0.48486971855163574,
+      "centered_translation_max_abs_difference": 0.00011192262172698975,
+      "centered_rotation_max_abs_difference": 3.11732292175293e-05,
+      "pooled_centered_shift_max_abs_difference": 1.2665987014770508e-05,
+      "pooled_centered_rotation_max_abs_difference": 4.559755325317383e-06
+    },
+    {
+      "sample_id": "peptide_913",
+      "length": 27,
+      "shape": [
+        27,
+        512
+      ],
+      "repeat_max_abs_difference": 9.685754776000977e-07,
+      "translation_max_abs_difference": 0.3148251175880432,
+      "centered_translation_max_abs_difference": 0.00022989511489868164,
+      "centered_rotation_max_abs_difference": 1.379847526550293e-05,
+      "pooled_centered_shift_max_abs_difference": 2.0831823348999023e-05,
+      "pooled_centered_rotation_max_abs_difference": 1.6354024410247803e-06
+    },
+    {
+      "sample_id": "peptide_1014",
+      "length": 25,
+      "shape": [
+        25,
+        512
+      ],
+      "repeat_max_abs_difference": 1.4901161193847656e-06,
+      "translation_max_abs_difference": 0.8942508697509766,
+      "centered_translation_max_abs_difference": 2.3126602172851562e-05,
+      "centered_rotation_max_abs_difference": 9.544193744659424e-06,
+      "pooled_centered_shift_max_abs_difference": 2.5033950805664062e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.3671815395355225e-06
+    },
+    {
+      "sample_id": "peptide_1116",
+      "length": 38,
+      "shape": [
+        38,
+        512
+      ],
+      "repeat_max_abs_difference": 1.2516975402832031e-06,
+      "translation_max_abs_difference": 0.27137207984924316,
+      "centered_translation_max_abs_difference": 1.2099742889404297e-05,
+      "centered_rotation_max_abs_difference": 3.3974647521972656e-06,
+      "pooled_centered_shift_max_abs_difference": 2.0563602447509766e-06,
+      "pooled_centered_rotation_max_abs_difference": 5.252659320831299e-07
+    },
+    {
+      "sample_id": "peptide_1217",
+      "length": 37,
+      "shape": [
+        37,
+        512
+      ],
+      "repeat_max_abs_difference": 1.5497207641601562e-06,
+      "translation_max_abs_difference": 0.5480058193206787,
+      "centered_translation_max_abs_difference": 2.4497509002685547e-05,
+      "centered_rotation_max_abs_difference": 7.152557373046875e-06,
+      "pooled_centered_shift_max_abs_difference": 1.2777745723724365e-06,
+      "pooled_centered_rotation_max_abs_difference": 7.413327693939209e-07
+    },
+    {
+      "sample_id": "peptide_1318",
+      "length": 28,
+      "shape": [
+        28,
+        512
+      ],
+      "repeat_max_abs_difference": 1.5795230865478516e-06,
+      "translation_max_abs_difference": 0.59773188829422,
+      "centered_translation_max_abs_difference": 8.89897346496582e-05,
+      "centered_rotation_max_abs_difference": 0.00012790411710739136,
+      "pooled_centered_shift_max_abs_difference": 7.912516593933105e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.0497868061065674e-05
+    },
+    {
+      "sample_id": "peptide_1420",
+      "length": 31,
+      "shape": [
+        31,
+        512
+      ],
+      "repeat_max_abs_difference": 1.4901161193847656e-06,
+      "translation_max_abs_difference": 0.37202003598213196,
+      "centered_translation_max_abs_difference": 7.253885269165039e-05,
+      "centered_rotation_max_abs_difference": 8.165836334228516e-06,
+      "pooled_centered_shift_max_abs_difference": 4.880130290985107e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.2069940567016602e-06
+    },
+    {
+      "sample_id": "peptide_1521",
+      "length": 21,
+      "shape": [
+        21,
+        512
+      ],
+      "repeat_max_abs_difference": 9.387731552124023e-07,
+      "translation_max_abs_difference": 0.40301579236984253,
+      "centered_translation_max_abs_difference": 1.0460615158081055e-05,
+      "centered_rotation_max_abs_difference": 1.817941665649414e-05,
+      "pooled_centered_shift_max_abs_difference": 1.6354024410247803e-06,
+      "pooled_centered_rotation_max_abs_difference": 2.384185791015625e-06
+    },
+    {
+      "sample_id": "peptide_1622",
+      "length": 37,
+      "shape": [
+        37,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1771917343139648e-06,
+      "translation_max_abs_difference": 0.21423518657684326,
+      "centered_translation_max_abs_difference": 0.004074297845363617,
+      "centered_rotation_max_abs_difference": 0.0001265406608581543,
+      "pooled_centered_shift_max_abs_difference": 0.0002468675374984741,
+      "pooled_centered_rotation_max_abs_difference": 5.900859832763672e-06
+    },
+    {
+      "sample_id": "peptide_1724",
+      "length": 34,
+      "shape": [
+        34,
+        512
+      ],
+      "repeat_max_abs_difference": 1.4901161193847656e-06,
+      "translation_max_abs_difference": 0.26440292596817017,
+      "centered_translation_max_abs_difference": 1.5527009963989258e-05,
+      "centered_rotation_max_abs_difference": 4.013627767562866e-05,
+      "pooled_centered_shift_max_abs_difference": 1.430511474609375e-06,
+      "pooled_centered_rotation_max_abs_difference": 3.3602118492126465e-06
+    },
+    {
+      "sample_id": "peptide_1825",
+      "length": 43,
+      "shape": [
+        43,
+        512
+      ],
+      "repeat_max_abs_difference": 1.3709068298339844e-06,
+      "translation_max_abs_difference": 0.1328471601009369,
+      "centered_translation_max_abs_difference": 4.3451786041259766e-05,
+      "centered_rotation_max_abs_difference": 4.116445779800415e-06,
+      "pooled_centered_shift_max_abs_difference": 2.7120113372802734e-06,
+      "pooled_centered_rotation_max_abs_difference": 5.438923835754395e-07
+    },
+    {
+      "sample_id": "peptide_1926",
+      "length": 20,
+      "shape": [
+        20,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1026859283447266e-06,
+      "translation_max_abs_difference": 0.25783300399780273,
+      "centered_translation_max_abs_difference": 1.8753111362457275e-05,
+      "centered_rotation_max_abs_difference": 0.00019440054893493652,
+      "pooled_centered_shift_max_abs_difference": 3.170222043991089e-06,
+      "pooled_centered_rotation_max_abs_difference": 2.759695053100586e-05
+    },
+    {
+      "sample_id": "peptide_2028",
+      "length": 21,
+      "shape": [
+        21,
+        512
+      ],
+      "repeat_max_abs_difference": 1.0579824447631836e-06,
+      "translation_max_abs_difference": 0.7050883769989014,
+      "centered_translation_max_abs_difference": 0.00024540722370147705,
+      "centered_rotation_max_abs_difference": 0.0002449424937367439,
+      "pooled_centered_shift_max_abs_difference": 3.7282705307006836e-05,
+      "pooled_centered_rotation_max_abs_difference": 3.49581241607666e-05
+    },
+    {
+      "sample_id": "peptide_2129",
+      "length": 31,
+      "shape": [
+        31,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1473894119262695e-06,
+      "translation_max_abs_difference": 0.3793416917324066,
+      "centered_translation_max_abs_difference": 0.000364840030670166,
+      "centered_rotation_max_abs_difference": 0.0033313632011413574,
+      "pooled_centered_shift_max_abs_difference": 2.5697052478790283e-05,
+      "pooled_centered_rotation_max_abs_difference": 0.00020039081573486328
+    },
+    {
+      "sample_id": "peptide_2231",
+      "length": 39,
+      "shape": [
+        39,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1324882507324219e-06,
+      "translation_max_abs_difference": 0.1966213583946228,
+      "centered_translation_max_abs_difference": 0.003389328718185425,
+      "centered_rotation_max_abs_difference": 0.0013599991798400879,
+      "pooled_centered_shift_max_abs_difference": 0.00033543631434440613,
+      "pooled_centered_rotation_max_abs_difference": 9.713694453239441e-05
+    },
+    {
+      "sample_id": "peptide_2332",
+      "length": 23,
+      "shape": [
+        23,
+        512
+      ],
+      "repeat_max_abs_difference": 8.046627044677734e-07,
+      "translation_max_abs_difference": 0.4538262188434601,
+      "centered_translation_max_abs_difference": 8.374452590942383e-06,
+      "centered_rotation_max_abs_difference": 2.473592758178711e-06,
+      "pooled_centered_shift_max_abs_difference": 1.3075768947601318e-06,
+      "pooled_centered_rotation_max_abs_difference": 4.76837158203125e-07
+    },
+    {
+      "sample_id": "peptide_2433",
+      "length": 39,
+      "shape": [
+        39,
+        512
+      ],
+      "repeat_max_abs_difference": 1.0728836059570312e-06,
+      "translation_max_abs_difference": 0.20087134838104248,
+      "centered_translation_max_abs_difference": 0.00030162185430526733,
+      "centered_rotation_max_abs_difference": 6.467103958129883e-05,
+      "pooled_centered_shift_max_abs_difference": 2.8463080525398254e-05,
+      "pooled_centered_rotation_max_abs_difference": 1.039355993270874e-05
+    },
+    {
+      "sample_id": "peptide_2535",
+      "length": 23,
+      "shape": [
+        23,
+        512
+      ],
+      "repeat_max_abs_difference": 8.642673492431641e-07,
+      "translation_max_abs_difference": 0.21725738048553467,
+      "centered_translation_max_abs_difference": 1.4126300811767578e-05,
+      "centered_rotation_max_abs_difference": 4.366040229797363e-06,
+      "pooled_centered_shift_max_abs_difference": 1.430511474609375e-06,
+      "pooled_centered_rotation_max_abs_difference": 6.174668669700623e-07
+    },
+    {
+      "sample_id": "peptide_2636",
+      "length": 31,
+      "shape": [
+        31,
+        512
+      ],
+      "repeat_max_abs_difference": 1.2740492820739746e-06,
+      "translation_max_abs_difference": 0.23826844990253448,
+      "centered_translation_max_abs_difference": 0.0036574378609657288,
+      "centered_rotation_max_abs_difference": 0.00021475553512573242,
+      "pooled_centered_shift_max_abs_difference": 0.00038748979568481445,
+      "pooled_centered_rotation_max_abs_difference": 1.9222497940063477e-05
+    },
+    {
+      "sample_id": "peptide_2737",
+      "length": 48,
+      "shape": [
+        48,
+        512
+      ],
+      "repeat_max_abs_difference": 1.2516975402832031e-06,
+      "translation_max_abs_difference": 0.15781982243061066,
+      "centered_translation_max_abs_difference": 0.00011701881885528564,
+      "centered_rotation_max_abs_difference": 4.9814581871032715e-05,
+      "pooled_centered_shift_max_abs_difference": 8.83638858795166e-06,
+      "pooled_centered_rotation_max_abs_difference": 4.507601261138916e-06
+    },
+    {
+      "sample_id": "peptide_2839",
+      "length": 21,
+      "shape": [
+        21,
+        512
+      ],
+      "repeat_max_abs_difference": 1.0728836059570312e-06,
+      "translation_max_abs_difference": 0.23026254773139954,
+      "centered_translation_max_abs_difference": 1.4007091522216797e-05,
+      "centered_rotation_max_abs_difference": 8.52346420288086e-06,
+      "pooled_centered_shift_max_abs_difference": 2.205371856689453e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.2367963790893555e-06
+    },
+    {
+      "sample_id": "peptide_2940",
+      "length": 32,
+      "shape": [
+        32,
+        512
+      ],
+      "repeat_max_abs_difference": 9.5367431640625e-07,
+      "translation_max_abs_difference": 0.6732686161994934,
+      "centered_translation_max_abs_difference": 1.0877847671508789e-05,
+      "centered_rotation_max_abs_difference": 5.614757537841797e-05,
+      "pooled_centered_shift_max_abs_difference": 1.9073486328125e-06,
+      "pooled_centered_rotation_max_abs_difference": 5.336478352546692e-06
+    },
+    {
+      "sample_id": "peptide_3041",
+      "length": 42,
+      "shape": [
+        42,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1622905731201172e-06,
+      "translation_max_abs_difference": 0.13915100693702698,
+      "centered_translation_max_abs_difference": 1.590326428413391e-05,
+      "centered_rotation_max_abs_difference": 1.271069049835205e-05,
+      "pooled_centered_shift_max_abs_difference": 2.175569534301758e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.0281801223754883e-06
+    },
+    {
+      "sample_id": "peptide_3143",
+      "length": 20,
+      "shape": [
+        20,
+        512
+      ],
+      "repeat_max_abs_difference": 9.5367431640625e-07,
+      "translation_max_abs_difference": 0.21150809526443481,
+      "centered_translation_max_abs_difference": 7.249414920806885e-06,
+      "centered_rotation_max_abs_difference": 2.294778823852539e-06,
+      "pooled_centered_shift_max_abs_difference": 8.717179298400879e-07,
+      "pooled_centered_rotation_max_abs_difference": 5.960464477539062e-07
+    },
+    {
+      "sample_id": "peptide_3244",
+      "length": 21,
+      "shape": [
+        21,
+        512
+      ],
+      "repeat_max_abs_difference": 7.152557373046875e-07,
+      "translation_max_abs_difference": 0.3478117883205414,
+      "centered_translation_max_abs_difference": 9.03010368347168e-06,
+      "centered_rotation_max_abs_difference": 7.092952728271484e-06,
+      "pooled_centered_shift_max_abs_difference": 1.5720725059509277e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.2218952178955078e-06
+    },
+    {
+      "sample_id": "peptide_3346",
+      "length": 31,
+      "shape": [
+        31,
+        512
+      ],
+      "repeat_max_abs_difference": 1.2814998626708984e-06,
+      "translation_max_abs_difference": 0.34690630435943604,
+      "centered_translation_max_abs_difference": 1.710653305053711e-05,
+      "centered_rotation_max_abs_difference": 6.455183029174805e-05,
+      "pooled_centered_shift_max_abs_difference": 1.2814998626708984e-06,
+      "pooled_centered_rotation_max_abs_difference": 6.198883056640625e-06
+    },
+    {
+      "sample_id": "peptide_3447",
+      "length": 33,
+      "shape": [
+        33,
+        512
+      ],
+      "repeat_max_abs_difference": 1.519918441772461e-06,
+      "translation_max_abs_difference": 0.19351422786712646,
+      "centered_translation_max_abs_difference": 1.099705696105957e-05,
+      "centered_rotation_max_abs_difference": 6.735324859619141e-06,
+      "pooled_centered_shift_max_abs_difference": 1.043081283569336e-06,
+      "pooled_centered_rotation_max_abs_difference": 7.301568984985352e-07
+    },
+    {
+      "sample_id": "peptide_3548",
+      "length": 46,
+      "shape": [
+        46,
+        512
+      ],
+      "repeat_max_abs_difference": 1.3709068298339844e-06,
+      "translation_max_abs_difference": 0.2747300863265991,
+      "centered_translation_max_abs_difference": 2.1420419216156006e-05,
+      "centered_rotation_max_abs_difference": 2.215057611465454e-05,
+      "pooled_centered_shift_max_abs_difference": 2.2277235984802246e-06,
+      "pooled_centered_rotation_max_abs_difference": 2.0116567611694336e-06
+    },
+    {
+      "sample_id": "peptide_3650",
+      "length": 47,
+      "shape": [
+        47,
+        512
+      ],
+      "repeat_max_abs_difference": 1.7881393432617188e-06,
+      "translation_max_abs_difference": 0.40989577770233154,
+      "centered_translation_max_abs_difference": 1.1563301086425781e-05,
+      "centered_rotation_max_abs_difference": 6.9141387939453125e-06,
+      "pooled_centered_shift_max_abs_difference": 1.0132789611816406e-06,
+      "pooled_centered_rotation_max_abs_difference": 6.165355443954468e-07
+    },
+    {
+      "sample_id": "peptide_3751",
+      "length": 34,
+      "shape": [
+        34,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1324882507324219e-06,
+      "translation_max_abs_difference": 0.21972444653511047,
+      "centered_translation_max_abs_difference": 0.00029712170362472534,
+      "centered_rotation_max_abs_difference": 0.0031211376190185547,
+      "pooled_centered_shift_max_abs_difference": 1.818127930164337e-05,
+      "pooled_centered_rotation_max_abs_difference": 0.0002314746379852295
+    },
+    {
+      "sample_id": "peptide_3852",
+      "length": 29,
+      "shape": [
+        29,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1622905731201172e-06,
+      "translation_max_abs_difference": 0.161343052983284,
+      "centered_translation_max_abs_difference": 0.0001628840691410005,
+      "centered_rotation_max_abs_difference": 9.614229202270508e-05,
+      "pooled_centered_shift_max_abs_difference": 2.2932887077331543e-05,
+      "pooled_centered_rotation_max_abs_difference": 1.68532133102417e-05
+    },
+    {
+      "sample_id": "peptide_3954",
+      "length": 15,
+      "shape": [
+        15,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1324882507324219e-06,
+      "translation_max_abs_difference": 0.5939221978187561,
+      "centered_translation_max_abs_difference": 3.76775860786438e-05,
+      "centered_rotation_max_abs_difference": 1.2964010238647461e-05,
+      "pooled_centered_shift_max_abs_difference": 5.520880222320557e-06,
+      "pooled_centered_rotation_max_abs_difference": 2.3208558559417725e-06
+    },
+    {
+      "sample_id": "peptide_4055",
+      "length": 37,
+      "shape": [
+        37,
+        512
+      ],
+      "repeat_max_abs_difference": 9.98377799987793e-07,
+      "translation_max_abs_difference": 0.3680275082588196,
+      "centered_translation_max_abs_difference": 0.00017368793487548828,
+      "centered_rotation_max_abs_difference": 8.441507816314697e-05,
+      "pooled_centered_shift_max_abs_difference": 1.920759677886963e-05,
+      "pooled_centered_rotation_max_abs_difference": 6.377696990966797e-06
+    },
+    {
+      "sample_id": "peptide_4156",
+      "length": 37,
+      "shape": [
+        37,
+        512
+      ],
+      "repeat_max_abs_difference": 1.430511474609375e-06,
+      "translation_max_abs_difference": 0.5645008683204651,
+      "centered_translation_max_abs_difference": 0.0001195371150970459,
+      "centered_rotation_max_abs_difference": 0.0003094673156738281,
+      "pooled_centered_shift_max_abs_difference": 7.554888725280762e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.3250857591629028e-05
+    },
+    {
+      "sample_id": "peptide_4258",
+      "length": 50,
+      "shape": [
+        50,
+        512
+      ],
+      "repeat_max_abs_difference": 2.1457672119140625e-06,
+      "translation_max_abs_difference": 0.4508163332939148,
+      "centered_translation_max_abs_difference": 2.6494264602661133e-05,
+      "centered_rotation_max_abs_difference": 1.6376376152038574e-05,
+      "pooled_centered_shift_max_abs_difference": 1.2516975402832031e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.080334186553955e-06
+    },
+    {
+      "sample_id": "peptide_4359",
+      "length": 24,
+      "shape": [
+        24,
+        512
+      ],
+      "repeat_max_abs_difference": 9.5367431640625e-07,
+      "translation_max_abs_difference": 0.35876530408859253,
+      "centered_translation_max_abs_difference": 7.361173629760742e-06,
+      "centered_rotation_max_abs_difference": 0.0001399219036102295,
+      "pooled_centered_shift_max_abs_difference": 2.1997839212417603e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.2725591659545898e-05
+    },
+    {
+      "sample_id": "peptide_4461",
+      "length": 44,
+      "shape": [
+        44,
+        512
+      ],
+      "repeat_max_abs_difference": 1.125037670135498e-06,
+      "translation_max_abs_difference": 0.3434922397136688,
+      "centered_translation_max_abs_difference": 0.00028272345662117004,
+      "centered_rotation_max_abs_difference": 3.7342309951782227e-05,
+      "pooled_centered_shift_max_abs_difference": 1.9669532775878906e-05,
+      "pooled_centered_rotation_max_abs_difference": 3.784196451306343e-06
+    },
+    {
+      "sample_id": "peptide_4562",
+      "length": 47,
+      "shape": [
+        47,
+        512
+      ],
+      "repeat_max_abs_difference": 1.3709068298339844e-06,
+      "translation_max_abs_difference": 0.2786172330379486,
+      "centered_translation_max_abs_difference": 1.2755393981933594e-05,
+      "centered_rotation_max_abs_difference": 1.6316771507263184e-05,
+      "pooled_centered_shift_max_abs_difference": 1.6987323760986328e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.1771917343139648e-06
+    },
+    {
+      "sample_id": "peptide_4663",
+      "length": 44,
+      "shape": [
+        44,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1920928955078125e-06,
+      "translation_max_abs_difference": 0.29861709475517273,
+      "centered_translation_max_abs_difference": 0.00010940432548522949,
+      "centered_rotation_max_abs_difference": 0.00018274784088134766,
+      "pooled_centered_shift_max_abs_difference": 1.0877847671508789e-05,
+      "pooled_centered_rotation_max_abs_difference": 1.633167266845703e-05
+    },
+    {
+      "sample_id": "peptide_4765",
+      "length": 36,
+      "shape": [
+        36,
+        512
+      ],
+      "repeat_max_abs_difference": 1.6093254089355469e-06,
+      "translation_max_abs_difference": 0.3074897825717926,
+      "centered_translation_max_abs_difference": 0.0001010596752166748,
+      "centered_rotation_max_abs_difference": 9.065866470336914e-05,
+      "pooled_centered_shift_max_abs_difference": 8.881092071533203e-06,
+      "pooled_centered_rotation_max_abs_difference": 7.4803829193115234e-06
+    },
+    {
+      "sample_id": "peptide_4866",
+      "length": 28,
+      "shape": [
+        28,
+        512
+      ],
+      "repeat_max_abs_difference": 1.0952353477478027e-06,
+      "translation_max_abs_difference": 0.4276461601257324,
+      "centered_translation_max_abs_difference": 9.5367431640625e-06,
+      "centered_rotation_max_abs_difference": 1.4007091522216797e-05,
+      "pooled_centered_shift_max_abs_difference": 1.3560056686401367e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.5050172805786133e-06
+    },
+    {
+      "sample_id": "peptide_4967",
+      "length": 12,
+      "shape": [
+        12,
+        512
+      ],
+      "repeat_max_abs_difference": 9.238719940185547e-07,
+      "translation_max_abs_difference": 0.37257683277130127,
+      "centered_translation_max_abs_difference": 3.11732292175293e-05,
+      "centered_rotation_max_abs_difference": 1.677870750427246e-05,
+      "pooled_centered_shift_max_abs_difference": 5.930662155151367e-06,
+      "pooled_centered_rotation_max_abs_difference": 3.0249357223510742e-06
+    },
+    {
+      "sample_id": "peptide_5069",
+      "length": 16,
+      "shape": [
+        16,
+        512
+      ],
+      "repeat_max_abs_difference": 9.685754776000977e-07,
+      "translation_max_abs_difference": 0.3055264949798584,
+      "centered_translation_max_abs_difference": 7.659196853637695e-06,
+      "centered_rotation_max_abs_difference": 5.029141902923584e-05,
+      "pooled_centered_shift_max_abs_difference": 1.6614794731140137e-06,
+      "pooled_centered_rotation_max_abs_difference": 6.5267086029052734e-06
+    },
+    {
+      "sample_id": "peptide_5170",
+      "length": 16,
+      "shape": [
+        16,
+        512
+      ],
+      "repeat_max_abs_difference": 1.0132789611816406e-06,
+      "translation_max_abs_difference": 0.2981923520565033,
+      "centered_translation_max_abs_difference": 0.0002431720495223999,
+      "centered_rotation_max_abs_difference": 0.0002187378704547882,
+      "pooled_centered_shift_max_abs_difference": 6.571412086486816e-05,
+      "pooled_centered_rotation_max_abs_difference": 4.652142524719238e-05
+    },
+    {
+      "sample_id": "peptide_5271",
+      "length": 25,
+      "shape": [
+        25,
+        512
+      ],
+      "repeat_max_abs_difference": 1.1920928955078125e-06,
+      "translation_max_abs_difference": 0.767432451248169,
+      "centered_translation_max_abs_difference": 0.00012075528502464294,
+      "centered_rotation_max_abs_difference": 4.976987838745117e-06,
+      "pooled_centered_shift_max_abs_difference": 9.989365935325623e-06,
+      "pooled_centered_rotation_max_abs_difference": 8.940696716308594e-07
+    },
+    {
+      "sample_id": "peptide_5373",
+      "length": 37,
+      "shape": [
+        37,
+        512
+      ],
+      "repeat_max_abs_difference": 1.2516975402832031e-06,
+      "translation_max_abs_difference": 0.3810306489467621,
+      "centered_translation_max_abs_difference": 9.417533874511719e-06,
+      "centered_rotation_max_abs_difference": 9.510666131973267e-06,
+      "pooled_centered_shift_max_abs_difference": 1.0579824447631836e-06,
+      "pooled_centered_rotation_max_abs_difference": 8.009374141693115e-07
+    },
+    {
+      "sample_id": "peptide_5474",
+      "length": 16,
+      "shape": [
+        16,
+        512
+      ],
+      "repeat_max_abs_difference": 8.642673492431641e-07,
+      "translation_max_abs_difference": 0.2961817979812622,
+      "centered_translation_max_abs_difference": 4.26173210144043e-06,
+      "centered_rotation_max_abs_difference": 1.8496066331863403e-06,
+      "pooled_centered_shift_max_abs_difference": 9.5367431640625e-07,
+      "pooled_centered_rotation_max_abs_difference": 4.76837158203125e-07
+    },
+    {
+      "sample_id": "peptide_5576",
+      "length": 14,
+      "shape": [
+        14,
+        512
+      ],
+      "repeat_max_abs_difference": 7.748603820800781e-07,
+      "translation_max_abs_difference": 0.32283830642700195,
+      "centered_translation_max_abs_difference": 1.3723969459533691e-05,
+      "centered_rotation_max_abs_difference": 6.854534149169922e-06,
+      "pooled_centered_shift_max_abs_difference": 2.816319465637207e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.2516975402832031e-06
+    },
+    {
+      "sample_id": "peptide_5677",
+      "length": 14,
+      "shape": [
+        14,
+        512
+      ],
+      "repeat_max_abs_difference": 1.0281801223754883e-06,
+      "translation_max_abs_difference": 0.5882967710494995,
+      "centered_translation_max_abs_difference": 0.0001619085669517517,
+      "centered_rotation_max_abs_difference": 8.07344913482666e-05,
+      "pooled_centered_shift_max_abs_difference": 3.868015483021736e-05,
+      "pooled_centered_rotation_max_abs_difference": 1.3232231140136719e-05
+    },
+    {
+      "sample_id": "peptide_5778",
+      "length": 11,
+      "shape": [
+        11,
+        512
+      ],
+      "repeat_max_abs_difference": 8.046627044677734e-07,
+      "translation_max_abs_difference": 0.5273687839508057,
+      "centered_translation_max_abs_difference": 3.2186508178710938e-06,
+      "centered_rotation_max_abs_difference": 3.844499588012695e-06,
+      "pooled_centered_shift_max_abs_difference": 1.1324882507324219e-06,
+      "pooled_centered_rotation_max_abs_difference": 7.897615432739258e-07
+    },
+    {
+      "sample_id": "peptide_5880",
+      "length": 13,
+      "shape": [
+        13,
+        512
+      ],
+      "repeat_max_abs_difference": 8.344650268554688e-07,
+      "translation_max_abs_difference": 0.4016813635826111,
+      "centered_translation_max_abs_difference": 2.562999725341797e-06,
+      "centered_rotation_max_abs_difference": 2.5779008865356445e-06,
+      "pooled_centered_shift_max_abs_difference": 6.854534149169922e-07,
+      "pooled_centered_rotation_max_abs_difference": 7.152557373046875e-07
+    },
+    {
+      "sample_id": "peptide_5981",
+      "length": 41,
+      "shape": [
+        41,
+        512
+      ],
+      "repeat_max_abs_difference": 1.341104507446289e-06,
+      "translation_max_abs_difference": 0.29161137342453003,
+      "centered_translation_max_abs_difference": 0.0001322329044342041,
+      "centered_rotation_max_abs_difference": 4.7147274017333984e-05,
+      "pooled_centered_shift_max_abs_difference": 9.987503290176392e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.9725412130355835e-06
+    },
+    {
+      "sample_id": "peptide_6082",
+      "length": 40,
+      "shape": [
+        40,
+        512
+      ],
+      "repeat_max_abs_difference": 1.126900315284729e-06,
+      "translation_max_abs_difference": 0.3471747636795044,
+      "centered_translation_max_abs_difference": 3.6329030990600586e-05,
+      "centered_rotation_max_abs_difference": 7.316470146179199e-05,
+      "pooled_centered_shift_max_abs_difference": 3.844499588012695e-06,
+      "pooled_centered_rotation_max_abs_difference": 9.98377799987793e-06
+    },
+    {
+      "sample_id": "peptide_6184",
+      "length": 44,
+      "shape": [
+        44,
+        512
+      ],
+      "repeat_max_abs_difference": 1.4603137969970703e-06,
+      "translation_max_abs_difference": 0.15172521770000458,
+      "centered_translation_max_abs_difference": 0.00010591745376586914,
+      "centered_rotation_max_abs_difference": 0.00015420466661453247,
+      "pooled_centered_shift_max_abs_difference": 6.139278411865234e-06,
+      "pooled_centered_rotation_max_abs_difference": 6.794929504394531e-06
+    },
+    {
+      "sample_id": "peptide_6285",
+      "length": 15,
+      "shape": [
+        15,
+        512
+      ],
+      "repeat_max_abs_difference": 9.685754776000977e-07,
+      "translation_max_abs_difference": 0.544252872467041,
+      "centered_translation_max_abs_difference": 8.597970008850098e-06,
+      "centered_rotation_max_abs_difference": 7.299706339836121e-06,
+      "pooled_centered_shift_max_abs_difference": 2.0265579223632812e-06,
+      "pooled_centered_rotation_max_abs_difference": 1.7136335372924805e-06
+    },
+    {
+      "sample_id": "peptide_6387",
+      "length": 20,
+      "shape": [
+        20,
+        512
+      ],
+      "repeat_max_abs_difference": 1.0132789611816406e-06,
+      "translation_max_abs_difference": 0.16634076833724976,
+      "centered_translation_max_abs_difference": 7.316470146179199e-06,
+      "centered_rotation_max_abs_difference": 5.21540641784668e-06,
+      "pooled_centered_shift_max_abs_difference": 1.1473894119262695e-06,
+      "pooled_centered_rotation_max_abs_difference": 8.642673492431641e-07
+    }
+  ],
+  "note": "encoder sanity only, no labels, no evaluation or training"
+}

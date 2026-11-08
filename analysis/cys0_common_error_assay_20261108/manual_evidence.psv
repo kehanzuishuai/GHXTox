@@ -1,0 +1,67 @@
+38|fragment|18328522|原文小鼠 LD50 5.6 mg/kg 的对象是 44 kDa 双亚基 SBTX。输入仅为 17 kDa 亚基的测序片段。
+162|fragment|9876306|输入是 4,958 Da 完整 Granulitoxin 的 N 端 21 aa。小鼠腹腔给药 2 h LD50 400 ± 83 μg/kg 对应完整分离物。
+322|specific|20705590|Cono-NPY1。原文小鼠脑室给药后观察行为；C 端酰胺化。未将该终点等同于溶血。
+418|identity|https://www.uniprot.org/uniprotkb/P0DSM3/entry|Ni1a 末端 Lys 酰胺注释。参考文献为综述，未核实该精确肽的直接毒性实验。
+431|identity|11279030|原研究鉴定 Ponericin-G2（P82415），其明确列出的十条合成肽未含 G2。未核实孤立 G2 的单独毒性读数。
+802|fragment|2188398|12 aa 是约 21.39 kDa Proteinase E 的 N 端测序结果；原文分离、酶学对象为完整蛋白。
+816|fragment|20203422|19 aa 对应 RVV-X 重链的局部测序记录；原研究做毒液蛋白分离和结构鉴定，未核实孤立 19 aa 的效应。
+891|specific|16797543|Conomap-Vt 成熟肽第 2 位为 D-Phe，C 端酰胺化。原文神经兴奋相关实验表明 D 型比 L 型活性更强，裸序列把两者表示为同一输入。
+907|fragment|21515432|15 aa 对应 SVMP 片段，原研究为珊瑚蛇毒液蛋白组及转录组。未核实孤立 15 aa 活性。
+945|unresolved||精确序列检索和旧档案未恢复可靠分子身份。
+44|damage|37888622|C 端酰胺化 EMP-AF。人红细胞在 320 μg/mL 下溶血 100%，EC50 110.6 ± 9.8 μM，PBS 37°C 1 h。
+59|damage|10669014|Grammistin Gs2，亦对应 Pp4a 序列。原文 Gs2 有直接溶血和鱼毒性，溶血活性约为 Gs1 的 6–11 倍。
+97|damage|37888622;https://pmc.ncbi.nlm.nih.gov/articles/PMC5097029/|酰胺化 Mastoparan-L。人红细胞在 320 μg/mL 下溶血 100%，EC50 82.9 ± 3.8 μM。另一篇同序列对照中酰胺化形式细胞毒性更强，见 Fig. 4A。
+156|specific|31028742|Conorfamide-As1a 与 As1b 共用裸序列，分别为酰胺化和游离形式。原文测 nAChR 与 ASIC 调节，α7 和肌型 nAChR 抑制可达 nM 浓度范围。
+447|precursor|33893140|Dv63 输入含前体 N 端；原文 Table 2 合成并检测的序列是输入 C 端 21 aa（与 UniProt 当前标注的 17 aa 成熟区不同），果蝇注射麻痹 EP50 10.27 nmol/g。
+463|damage|34302796|Nc2a 的 HEK293 CC50 48.2–56.9 μM，人红细胞 HC50 >250 μM。复用原表核查，细胞毒性与溶血分开。
+730|unresolved||精确序列检索和旧档案未恢复可靠分子身份。
+841|specific|14715935;https://pmc.ncbi.nlm.nih.gov/articles/PMC6729564/|β-Pompilidotoxin 为 C 端酰胺化 13 aa。浦肯野神经元实验测钠通道失活及复苏电流。
+50|specific|18201803|成熟 Conorfamide-Sr2 有第 4、8 位 γ-羧基谷氨酸和 C 端酰胺化；原研究测小鼠、软体动物行为效应。
+76|damage|19109988;36548715|Osmin 成熟天然形式 C 端酰胺化；有合成肽溶血实验。另有细胞实验，效应随细胞类型变化。
+104|fragment|17555860|输入是 Partitagin 的 19 aa 部分序列。完整金属蛋白酶有出血效应，原摘要报告所测条件下未见致死、肌毒性或水肿。
+110|fragment|8914839|输入是葡萄球菌 β-毒素研究中用于鉴定的 N 端 19 aa。测定及比较的是完整鞘磷脂酶。
+247|fragment|2597699|输入为 momorcochin-S 部分序列。实验对象为约 30 kDa 核糖体失活蛋白及其免疫毒素构建体。
+289|fragment|17320133|输入 14 aa 约 1.48 kDa，注释对应 5,885.28 Da 分子的一部分。原研究报告家蝇毒性来自若干毒液组分，不能转给 14 aa。
+298|specific|https://doi.org/10.1111/j.1432-1033.2004.04128.x;https://pmc.ncbi.nlm.nih.gov/articles/PMC10206162/|精确骨架对应 Poneratoxin，成熟形式 C 端酰胺化。原研究支持钠通道效应，未核实 GHXTox 原标签采用哪项。
+320|identity|21952754|原研究用质谱鉴定绿曼巴富脯氨酸糖肽；UniProt 映射存在不同剪切产物及 O-糖基化。未核实 19 aa 裸肽的功能。
+461|precursor|33893140|Dv73 输入 35 aa 含信号肽；注释成熟链是 21–34 且 C 端酰胺化。原文 Table 2 使用对应的成熟酰胺化形式，线虫 EC50 94.5 μM，昆虫 EC50 >50 nmol/g。
+706|specific|19371136;https://doi.org/10.1186/s12953-016-0090-0|Bradykinin inhibitor peptide，原文报告精确序列和抑制相关实验。保留缓激肽/酶活终点，未据此推断细胞毒性。
+721|fragment|10414864|输入 20 aa 对应 Equinatoxin I″ 的部分 N 端测序。研究对象为天然整蛋白和基因家族，未核实孤立片段。
+806|unresolved||复用旧精确匹配及网页搜索，未恢复可靠身份。
+865|unresolved||精确序列检索未恢复可靠身份，与另一条共享前缀不构成身份或活性证据。
+871|fragment|1970442|Tenebrosin-A 20 aa N 端片段。原研究的豚鼠红细胞溶血及心脏效应来自约 20 kDa 整蛋白。
+880|unresolved||精确序列检索和旧档案未恢复可靠分子身份。
+1148|identity|22705119|线性 conopeptide-Cn2。原论文蛋白组/转录组与表格序列线索支持分离鉴定，未找到精确肽毒性测量。
+79|fragment|https://www.uniprot.org/uniprotkb/P86348/entry|20 aa 为碱性磷酸酶的局部记录，数据库注明末端不完整。原论文线索指向酶的纯化，孤立片段没有查到实验。
+102|damage|37888622|C 端酰胺化 Polybia-MP III。人红细胞在 320 μg/mL 下溶血 79%，EC50 38.5 ± 5.9 μM，PBS 37°C 1 h。
+139|identity|3138972;https://www.uniprot.org/uniprotkb/P11698/entry|P11698 有 N 端甲酰化与溶血注释，另一个同序列条目为相似性推断。已读原摘要确认淋球菌抑制分离物及部分测序，未直接核实完整 44 aa 的红细胞结果。
+151|fragment|11565904|输入是 Bj IV PLA2 部分序列；研究分离和表征的是完整 PLA2 蛋白。
+174|specific|15572194|Polybine-II 天然 N 端乙酰化。原文对比不同 N 端形式，乙酰化与炎症活性增强相关；所测形式均未观察到溶血或抗菌。
+193|specific|https://pmc.ncbi.nlm.nih.gov/articles/PMC4090780/;15629533|原文用精确序列的未甲酰化合成 δ-toxin 测肥大细胞脱颗粒及皮肤炎症；天然记录另有 N-甲酰化，独立论文/数据库有红细胞结果，分开保留。
+228|specific|16626777;https://pmc.ncbi.nlm.nih.gov/articles/PMC6428940/|Bombolitin-6 先有质谱鉴定，后续有 BL6 抗菌与 DPC 膜模拟物结合及构象实验。未核实该肽的直接宿主毒性，不借用 Bombolitin V 的结果。
+251|damage|18752624|H1 原摘要支持溶血和人纤维细胞效应。UniProt N-甲酰化与数据库 Free 注释冲突，HD50 的单位及条件暂不当作已核实原表。
+259|analogue|11279030|原文详细实验用少一个 Lys 的 W3-desK，天然 W3 末端为 LKKKKQ，合成体为 LKKKQ。数据库按天然 W3 序列回挂红细胞结果，不作为本条的直接测量。
+309|fragment|11676502|28 aa 是 38 kDa pleuturegin 的 N 端测序片段。原文 IC50 0.5 nM 对应完整蛋白在兔网织红细胞裂解液中的翻译抑制。
+347|damage|https://www.jstage.jst.go.jp/article/fishsci1994/67/5/67_5_928/_pdf|Grammistin Pp3 原文有马红细胞及脂质体实验。脂质体泄漏与实际红细胞溶血分开解释。
+366|specific|19716363|Fulvonin 原文有大鼠痛觉过敏，B1 受体拮抗剂可阻断。终点为疼痛及受体相关作用。
+424|damage|18752624|H2 原摘要支持溶血和人纤维细胞效应。UniProt N-甲酰化与数据库 Free 注释冲突，数值暂保留待原表核验。
+738|unresolved||精确序列检索和旧档案未恢复可靠分子身份。
+753|unresolved||精确序列检索和旧档案未恢复可靠分子身份。
+800|fragment|14769867|14 aa 只是银环蛇属 β-BTx 样分子的 A 链 N 端。原文测的是纯化双链神经毒素。
+1109|specific|18505731|CPY-Pl1 原文 Fig. 3 给出精确序列，测 Kv1 家族钾通道阻断，对非洲爪蟾卵母细胞表达的 Kv1.6，IC50 为 170 nM。
+1392|specific|https://pmc.ncbi.nlm.nih.gov/articles/PMC7891183/|精确序列匹配 xenin-25，原文合成该肽并测大鼠远端结肠环形肌收缩。未找到能回接 GHXTox 毒性标签的实验。
+1731|fragment|18704492|22 aa 是 Dioicin-1 局部记录。原研究的多核苷酸糖苷酶/DNA 效应属于整蛋白。
+11|fragment|22438972;https://dramp.cpu-bioinfor.org/browse/All_Information.php?dataset=General&id=DRAMP02478|31 aa 对应 LAAO 部分序列。该 31 aa 正好拼接了原文三个分别合成且各自酰胺化的衍生肽（13、8、10 aa）。原文列出的实验对象是整蛋白或单独衍生肽，不能把数据库对 31 aa 的记录当成原文对该拼接体的测量。
+40|fragment|12963119|25 aa 只是 Aralin A 链的局部序列。原文细胞毒性测的是约 29.1+32.2 kDa 双亚基蛋白。
+58|damage|10669014;https://www.jstage.jst.go.jp/article/fishsci1994/67/5/67_5_928/_pdf|Grammistin Gs1。有直接溶血和鱼毒性；原文与 Gs2 比活性较低，后续见磷脂抑制溶血。
+124|fragment|3262509|16 aa 为 trichokirin 部分 N 端序列；原研究中核糖体失活对象为约 27 kDa 整蛋白。
+175|fragment|19896371|32 aa 为 NJF 局部序列。原文纤溶测的是 28–32 kDa 蛋白。
+324|precursor|31557881|输入 37 aa 含信号肽及前体区域，原实验测的是 26–35 位成熟酰胺化十肽，对蚜虫有麻痹及存活效应。
+373|specific|19682520|Porflan 原文测小鼠微循环白细胞募集与黏附，支持炎症作用，未把结果换算成一般细胞毒性。
+378|identity|16626777|Bombolitin-7 有质谱序列证据，未找到精确肽直接功能实验，不用 Bombolitin-6 或 V 的结果替代。
+397|fragment|18760294|15 aa 是 VAFXA-I 重链的部分序列；原文凝血因子活化对象为约 58 kDa 多链分子。
+401|fragment|8310445|12 aa 为抗凝蛋白的部分序列；原文凝血因子抑制由纯化完整蛋白测定。
+458|precursor|33893140|Dv5 输入 36 aa 含信号肽；注释成熟区 26–34，带 N 端焦谷氨酸和 C 端酰胺化。原文 Table 2 的成熟肽实验中昆虫 EC50 >50 nmol/g、ACPR EC50 >10,000 nM，DRG 未见效应。
+815|unresolved||精确序列检索和旧档案未恢复可靠分子身份。
+956|limited_negative|https://www.scielo.br/j/jvatitd/a/6Xtt7D6swjH7h4XGj33LwYS/?format=pdf|精确序列对应 conomarphin Mr-1。原文合成肽在 100 μM 对大鼠 α4β2 报告 20 ± 8.5% 电流抑制，作者总结四种所测亚型无显著活性。只作条件受限结果。
+1461|specific|10318778;https://pmc.ncbi.nlm.nih.gov/articles/PMC4322620/|同骨架对应 Contulakin-G 或 Thr10 去糖类似物。天然 N 端焦谷氨酸和 Thr10 O-糖基化；小鼠脑室给药的运动效应在糖基化形式约低 10 倍剂量出现，受体终点另计。

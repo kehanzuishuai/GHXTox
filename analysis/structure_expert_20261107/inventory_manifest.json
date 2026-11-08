@@ -1,0 +1,6 @@
+{
+  "n": 6387,
+  "geometry_sha256": "77720d48a3586e5cf3007d003cb9106b61aa4d8e0bb932d928441fa1acaa0c42",
+  "seed_uncertainty_sha256": "165826fb6e00f6507b4b45b3925d6d7c026ae9ae0903313cf8cc4371acc12dbe",
+  "note": "Overlapping post-hoc descriptive groups; OOF seed_std_raw from 6 seeds, other prediction columns from another fold calibration; labels for description only; not proof of geometry usefulness."
+}

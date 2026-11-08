@@ -1,0 +1,265 @@
+{
+  "endpoint": "fixed-dose human RBC percent hemolysis",
+  "grade": "figure estimates and published bounds, separate from tabulated/exact data",
+  "figure_pairs": [
+    {
+      "name": "Gomesin",
+      "sequence": "QCRRLCYKQRCVTYCRGR",
+      "family": "gomesin/tachyplesin-like beta hairpin",
+      "source": "https://doi.org/10.1074/jbc.M001491200",
+      "source_pdf": "https://webs.iiitd.edu.in/raghava/parapep/refpdf/10942757.pdf",
+      "locator": "Figure 4; Experimental Procedures",
+      "assay": {
+        "rbc_species": "human",
+        "rbc_percent": 0.4,
+        "buffer": "PBS",
+        "temperature_c": 37,
+        "incubation_minutes": 60,
+        "readout_nm": 405,
+        "concentration_unit": "uM",
+        "reported_error": null
+      },
+      "shared_chemistry": {
+        "n_terminal": "pyroglutamate",
+        "disulfides_1_based": [
+          [
+            2,
+            15
+          ],
+          [
+            6,
+            11
+          ]
+        ]
+      },
+      "changed_terminal": "c_terminal",
+      "points": [
+        {
+          "concentration": 0.1,
+          "concentration_estimated": false,
+          "acid_percent_approx": 4,
+          "amide_percent_approx": 3,
+          "delta_percentage_points_approx": -1
+        },
+        {
+          "concentration": 0.2,
+          "concentration_estimated": true,
+          "acid_percent_approx": 3,
+          "amide_percent_approx": 2,
+          "delta_percentage_points_approx": -1
+        },
+        {
+          "concentration": 0.4,
+          "concentration_estimated": true,
+          "acid_percent_approx": 8,
+          "amide_percent_approx": 1,
+          "delta_percentage_points_approx": -7
+        },
+        {
+          "concentration": 0.8,
+          "concentration_estimated": true,
+          "acid_percent_approx": 16,
+          "amide_percent_approx": 9,
+          "delta_percentage_points_approx": -7
+        },
+        {
+          "concentration": 1.6,
+          "concentration_estimated": true,
+          "acid_percent_approx": 15,
+          "amide_percent_approx": 13,
+          "delta_percentage_points_approx": -2
+        },
+        {
+          "concentration": 3.1,
+          "concentration_estimated": true,
+          "acid_percent_approx": 21,
+          "amide_percent_approx": 17,
+          "delta_percentage_points_approx": -4
+        },
+        {
+          "concentration": 6.2,
+          "concentration_estimated": true,
+          "acid_percent_approx": 19,
+          "amide_percent_approx": 10,
+          "delta_percentage_points_approx": -9
+        },
+        {
+          "concentration": 12.5,
+          "concentration_estimated": true,
+          "acid_percent_approx": 13,
+          "amide_percent_approx": 10,
+          "delta_percentage_points_approx": -3
+        },
+        {
+          "concentration": 25,
+          "concentration_estimated": true,
+          "acid_percent_approx": 19,
+          "amide_percent_approx": 17,
+          "delta_percentage_points_approx": -2
+        },
+        {
+          "concentration": 50,
+          "concentration_estimated": true,
+          "acid_percent_approx": 16,
+          "amide_percent_approx": 15,
+          "delta_percentage_points_approx": -1
+        },
+        {
+          "concentration": 100,
+          "concentration_estimated": false,
+          "acid_percent_approx": 23,
+          "amide_percent_approx": 20,
+          "delta_percentage_points_approx": -3
+        }
+      ],
+      "notes": "Canonical Q at position 1 is the FASTA proxy for pyroglutamate. Visual reading of plotted markers, whole percentage points. Intermediate concentration coordinates are approximate. Error bars and replicate counts for this figure are not reported."
+    },
+    {
+      "name": "AurH1",
+      "sequence": "WFKIIKK",
+      "family": "aurein-derived",
+      "source": "https://link.springer.com/article/10.1186/s12866-023-03090-7",
+      "locator": "Figure 4 and hemolysis methods",
+      "assay": {
+        "rbc_species": "human",
+        "buffer": "PBS",
+        "temperature_c": 37,
+        "incubation_minutes": 60,
+        "readout_nm": 414,
+        "concentration_unit": "ug/mL",
+        "replicates": 3,
+        "reported_error": "error bars plotted; type not stated; replicate-level data not available in figure"
+      },
+      "shared_chemistry": {
+        "n_terminal": "free"
+      },
+      "changed_terminal": "c_terminal",
+      "points": [
+        {
+          "concentration": 1000,
+          "concentration_estimated": false,
+          "acid_percent_approx": 3.8,
+          "amide_percent_approx": 3.4,
+          "delta_percentage_points_approx": -0.4
+        },
+        {
+          "concentration": 500,
+          "concentration_estimated": false,
+          "acid_percent_approx": 2.1,
+          "amide_percent_approx": 1.9,
+          "delta_percentage_points_approx": -0.2
+        },
+        {
+          "concentration": 250,
+          "concentration_estimated": false,
+          "acid_percent_approx": 1.1,
+          "amide_percent_approx": 1.1,
+          "delta_percentage_points_approx": 0
+        },
+        {
+          "concentration": 125,
+          "concentration_estimated": false,
+          "acid_percent_approx": 0.6,
+          "amide_percent_approx": 0.6,
+          "delta_percentage_points_approx": 0
+        },
+        {
+          "concentration": 62.5,
+          "concentration_estimated": false,
+          "acid_percent_approx": 0.5,
+          "amide_percent_approx": 0.5,
+          "delta_percentage_points_approx": 0
+        },
+        {
+          "concentration": 31.25,
+          "concentration_estimated": false,
+          "acid_percent_approx": 0.4,
+          "amide_percent_approx": 0.4,
+          "delta_percentage_points_approx": 0
+        },
+        {
+          "concentration": 15.62,
+          "concentration_estimated": false,
+          "acid_percent_approx": 0.2,
+          "amide_percent_approx": 0.3,
+          "delta_percentage_points_approx": 0.1
+        },
+        {
+          "concentration": 7.81,
+          "concentration_estimated": false,
+          "acid_percent_approx": 0.2,
+          "amide_percent_approx": 0.1,
+          "delta_percentage_points_approx": -0.1
+        }
+      ],
+      "notes": "Visual estimate from bar tops to 0.1 percentage point. Similar-height values should be read as near the visual resolution, not exact equality. Very small or indistinct bars below 7.81 ug/mL omitted. At 1000 ug/mL error-bar half-widths visually about 0.2 percentage points for both forms. Paper reports no significant difference."
+    }
+  ],
+  "bounded_pairs": [
+    {
+      "name": "ChBac3.4",
+      "sequence": "RFRLPFRRPPIRIHPPPFYPPFRRFL",
+      "family": "caprine bactenecin",
+      "source": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2020.552905/full",
+      "locator": "Table 1, Figure 3 and Hemolytic Activity",
+      "changed_terminal": "c_terminal",
+      "assay": {
+        "rbc_species": "human",
+        "rbc_percent": 2.5,
+        "buffer": "PBS",
+        "temperature_c": 37,
+        "incubation_minutes": 30,
+        "readout_nm": 540,
+        "concentration_unit": "uM",
+        "independent_assays": 3,
+        "technical_replicates": 3,
+        "reported_error": "standard deviation plotted, overlapping curves"
+      },
+      "highest_tested_concentration": 64,
+      "acid_percent_upper_bound_exclusive": 5,
+      "amide_percent_upper_bound_exclusive": 5,
+      "notes": "Bound refers to plotted means. Do not infer exact delta or statistical equivalence."
+    },
+    {
+      "name": "ChBac3.4-1",
+      "sequence": "RFRLPFRRIHPPPFVRIHPPPFYRRFL",
+      "family": "caprine bactenecin",
+      "source": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2020.552905/full",
+      "locator": "Table 1, Figure 3 and Hemolytic Activity",
+      "changed_terminal": "c_terminal",
+      "assay": {
+        "rbc_species": "human",
+        "rbc_percent": 2.5,
+        "buffer": "PBS",
+        "temperature_c": 37,
+        "incubation_minutes": 30,
+        "readout_nm": 540,
+        "concentration_unit": "uM",
+        "independent_assays": 3,
+        "technical_replicates": 3,
+        "reported_error": "standard deviation plotted, overlapping curves"
+      },
+      "highest_tested_concentration": 64,
+      "acid_percent_upper_bound_exclusive": 5,
+      "amide_percent_upper_bound_exclusive": 5,
+      "notes": "Bound refers to plotted means. Do not infer exact delta or statistical equivalence."
+    }
+  ],
+  "external_candidate": {
+    "name": "Termini",
+    "source": "https://doi.org/10.64898/2026.04.09.717597",
+    "data_repository": "https://data.mendeley.com/datasets/5bknbrhyv5/1",
+    "tested_molecules": 120,
+    "tested_backbones": 60,
+    "assay": {
+      "rbc_species": "human",
+      "donor_count": 1,
+      "buffer": "PBS pH 7.4",
+      "temperature": "room temperature",
+      "incubation_minutes": 240,
+      "independent_assays": 3
+    },
+    "status": "fixed-dose response data pending",
+    "notes": "120 forms across 60 backbones is study scope, not a count of eligible terminal-only comparisons. Need experimental dose-response data and per-form sample mapping; some forms change both ends and some HC50 estimates exceed the assay window."
+  }
+}

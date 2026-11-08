@@ -1,0 +1,130 @@
+{
+  "p_1d": {
+    "mcc": 0.8833390811565709,
+    "auroc": 0.9784798451722158,
+    "auprc": 0.9599988774701204,
+    "brier": 0.042160707227312355,
+    "fn": 45,
+    "fp": 15,
+    "corrected": 7,
+    "added_errors": 6
+  },
+  "matched_sequence": {
+    "mcc": 0.7938578027799896,
+    "auroc": 0.9577005654842905,
+    "auprc": 0.9199312186487444,
+    "brier": 0.06595714182915598,
+    "fn": 73,
+    "fp": 32,
+    "corrected": 10,
+    "added_errors": 54
+  },
+  "matched_spatial": {
+    "mcc": 0.789837516602124,
+    "auroc": 0.9563881580936829,
+    "auprc": 0.9017703296335037,
+    "brier": 0.06894558671508969,
+    "fn": 63,
+    "fp": 45,
+    "corrected": 12,
+    "added_errors": 59
+  },
+  "six_plus_matched_sequence": {
+    "mcc": 0.8813679161117848,
+    "auroc": 0.9783120142731863,
+    "auprc": 0.9609017829966394,
+    "brier": 0.04272631927825677,
+    "fn": 44,
+    "fp": 17,
+    "corrected": 0,
+    "added_errors": 0
+  },
+  "six_plus_matched_spatial": {
+    "mcc": 0.8872895795866346,
+    "auroc": 0.978236414769119,
+    "auprc": 0.9603528814195252,
+    "brier": 0.04299014744553814,
+    "fn": 41,
+    "fp": 17,
+    "corrected": 7,
+    "added_errors": 4
+  },
+  "matched_fusion_comparison": {
+    "delta_mcc": 0.005921663474849792,
+    "group_bootstrap_95ci": [
+      -0.006135626930750792,
+      0.019126741830472117
+    ],
+    "groups": 1052,
+    "draws": 2000
+  },
+  "weaker_reverse": {
+    "n": 29,
+    "p_1d": {
+      "correct": 0,
+      "bce": 1.4077844423702528
+    },
+    "matched_sequence": {
+      "correct": 9,
+      "bce": 1.69806528593113
+    },
+    "matched_spatial": {
+      "correct": 9,
+      "bce": 1.637623444235733
+    },
+    "six_plus_matched_sequence": {
+      "correct": 1,
+      "bce": 1.368965888799704
+    },
+    "six_plus_matched_spatial": {
+      "correct": 2,
+      "bce": 1.3606576420514087
+    }
+  },
+  "cys0_toxic_strong_reverse": {
+    "n": 10,
+    "p_1d": {
+      "correct": 0,
+      "bce": 3.725737140683183
+    },
+    "matched_sequence": {
+      "correct": 0,
+      "bce": 2.5851134037355683
+    },
+    "matched_spatial": {
+      "correct": 0,
+      "bce": 2.8245939826279973
+    },
+    "six_plus_matched_sequence": {
+      "correct": 0,
+      "bce": 3.1056467260318543
+    },
+    "six_plus_matched_spatial": {
+      "correct": 0,
+      "bce": 3.2659109170251126
+    }
+  },
+  "cys0_nontoxic": {
+    "n": 592,
+    "p_1d": {
+      "correct": 586,
+      "bce": 0.054836629734056376
+    },
+    "matched_sequence": {
+      "correct": 592,
+      "bce": 0.060234240018734266
+    },
+    "matched_spatial": {
+      "correct": 590,
+      "bce": 0.053529707063768694
+    },
+    "six_plus_matched_sequence": {
+      "correct": 588,
+      "bce": 0.05484255379734158
+    },
+    "six_plus_matched_spatial": {
+      "correct": 588,
+      "bce": 0.052507869437835954
+    }
+  }
+}

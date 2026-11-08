@@ -1,5 +1,17 @@
 # GHXTox
 
+## 最新研究进展（2026-11-08）
+
+以六种子纯一维的训练集外折预测为基础，已完成 Cys=0 高置信反向样本的原实验与训练邻居核查。67 条原标签有毒样本中，62 条在所比较的多个分支均判为无毒。67 条按首要证据包括 22 条部分序列、4 条前体、1 条类似物、10 条有直接宿主损伤证据，其余为特定效应或身份待核。实验对象与原标签的生成链需逐条核对，证据类别不能直接当作错标结论。[逐样本核查](analysis/cys0_common_error_assay_20261108/REPORT.md)
+
+已复用 Mastoparan、Ponericin 和 Grammistin 同实验对照，整理 10 条直接损伤样本对应外折的训练邻居。HR1 裸序列在训练数据中为负类，对应的酰胺化形式在原文人红细胞实验中有溶血活性，原标签依据尚未确认。六条正确预测对照尚缺与目标同条件的溶血实验。[同实验比较](analysis/cys0_common_error_assay_20261108/SAME_ASSAY_COMPARISONS.md) · [归因与家族覆盖](analysis/cys0_integrated_attribution_20261108/REPORT.md) · [邻居与对照](analysis/cys0_neighbor_controls_20261108/REPORT.md) · [HR1 和对照核查](analysis/cys0_neighbor_controls_20261108/HR1_AND_CONTROL_AUDIT.md)
+
+末端修饰证据已整理到人红细胞配对面板。原文定量主表含 6 项研究、10 条序列和 23 个剂量配对，其中 C 端有 7 条序列。Gomesin 等图估读和限值另列。Termini 补充材料与数据归档已核查，目前尚未找到可纳入主表的逐剂量数据。当前规模适合作诊断，尚不能支持对新家族的可靠训练验证。[配对面板](analysis/terminal_pair_readiness_20261108/HUMAN_RBC_PANEL.md) · [图与限值](analysis/terminal_pair_readiness_20261108/HUMAN_RBC_FAMILY_EXTENSION.md) · [Termini 核查](analysis/terminal_pair_readiness_20261108/TERMINI_SOURCE_AUDIT.md)
+
+后续优先复用已核实的同实验肽面板，对齐原标签、受试分子、物种和终点，审查训练家族覆盖，再评估可靠三维结构是否带来额外信息。所有现有结果是回顾性分析，Test1/Test2 先前用于开发且彼此重叠。 仓库保留小型研究记录，部分复算脚本仍需本地预测、原始数据或权重。
+
+
+
 ## 最新研究进展（2026-11-06）
 
 本节优先于下方历史交接记录。原有三个种子和新增三个种子的全量训练及五折预测已完成，无需重训旧种子。六种子一维与三维按历史比例 0.72/0.28 融合：训练 OOF MCC 0.85580→0.85937，Test1 0.87225→0.87776，Test2 0.65989→0.65339；差异不支持稳定收益的结论。Test2 是 Test1 子集，测试集曾用于开发。

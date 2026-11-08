@@ -1,0 +1,119 @@
+{
+  "doi": "10.64898/2026.04.09.717597",
+  "version": 1,
+  "supplement": {
+    "url": "https://www.biorxiv.org/content/biorxiv/early/2026/04/10/2026.04.09.717597/DC1/embed/media-1.docx",
+    "sha256": "92dc590f89f9054f9e9c8e4609fab07080a58f2da5b1bba089536cf54714f705",
+    "locator": "Figure S8 (word/media/image8.emf), fitted HC50 and CC50 per ID; no fixed-dose values."
+  },
+  "archive": {
+    "url": "https://data.mendeley.com/datasets/5bknbrhyv5/1",
+    "sha256": "0efadbf00ed710233b136fd8372876cdfc9758028170e77ad0edb6f75fb038df",
+    "file_counts": {
+      "activity_prediction": 30,
+      "activity_regression": 30,
+      "AMPs": 14,
+      "toxic_datasets": 2
+    },
+    "data_s1_fasta_entries": 32095
+  },
+  "assay": {
+    "species": "human",
+    "donors": 1,
+    "donor_blood_type": "A-",
+    "temperature": "room temperature",
+    "minutes": 240,
+    "buffer": "PBS pH 7.4",
+    "readout_nm": 405,
+    "reported_independent_replicates": 3,
+    "method_peptide_solution_range_uM": [
+      0.78,
+      100
+    ],
+    "figure_upper_display_threshold_uM": 128
+  },
+  "hc50_is_fitted": true,
+  "forms": [
+    {
+      "id": 24780,
+      "sequence": "RRFIKRGKTAIRRRPRAIIIRII",
+      "n": "free",
+      "c": "acid",
+      "hc50_uM": 21935,
+      "mapping": "explicit"
+    },
+    {
+      "id": 24782,
+      "sequence": "RRFIKRGKTAIRRRPRAIIIRII",
+      "n": "free",
+      "c": "amide",
+      "hc50_uM": 5700,
+      "mapping": "explicit"
+    },
+    {
+      "id": 24781,
+      "sequence": "RRFIKRGKTAIRRRPRAIIIRII",
+      "n": "acetyl",
+      "c": "acid",
+      "hc50_uM": 6167,
+      "mapping": "explicit"
+    },
+    {
+      "id": 24783,
+      "sequence": "RRFIKRGKTAIRRRPRAIIIRII",
+      "n": "acetyl",
+      "c": "amide",
+      "hc50_uM": 2239,
+      "mapping": "explicit"
+    },
+    {
+      "id": 10152,
+      "sequence": "PWKLWKKVIKLVKKWLRL",
+      "n": "free",
+      "c": "acid",
+      "hc50_uM": 0.1797,
+      "mapping": "explicit"
+    },
+    {
+      "id": 10155,
+      "sequence": "PWKLWKKVIKLVKKWLRL",
+      "n": "acetyl",
+      "c": "amide",
+      "hc50_uM": 0.1524,
+      "mapping": "explicit"
+    },
+    {
+      "id": 8032,
+      "sequence": "KKWKKFFKAAKKFAKKIG",
+      "n": "free",
+      "c": "acid",
+      "hc50_uM": 5.5e+47,
+      "mapping": "HC50 and CC50 crossmatch"
+    },
+    {
+      "id": 8034,
+      "sequence": "KKWKKFFKAAKKFAKKIG",
+      "n": "free",
+      "c": "amide",
+      "hc50_uM": 8256,
+      "mapping": "HC50 and CC50 crossmatch"
+    },
+    {
+      "id": 19460,
+      "sequence": null,
+      "n": null,
+      "c": null,
+      "hc50_uM": 29.5,
+      "mapping": "ID only"
+    },
+    {
+      "id": 19462,
+      "sequence": null,
+      "n": null,
+      "c": null,
+      "hc50_uM": 36.8,
+      "mapping": "ID only"
+    }
+  ],
+  "eligible_new_fixed_dose_pairs": 0
+}

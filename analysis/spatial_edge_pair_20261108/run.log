@@ -1,0 +1,72 @@
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\functional.py:5504: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+epoch=001 train_loss=0.5751 val_loss=0.4767 val_auprc=0.8846 val_mcc=0.7348 gate=0.385
+epoch=002 train_loss=0.4692 val_loss=0.4211 val_auprc=0.8936 val_mcc=0.7119 gate=0.376
+epoch=003 train_loss=0.4107 val_loss=0.3797 val_auprc=0.9197 val_mcc=0.7881 gate=0.375
+Best checkpoint saved to D:\dachuang2026\GHXTox\analysis\spatial_edge_pair_20261108\fold0\matched_sequence\best_model.pt (fixed_epoch=3.000000)
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:720: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  return torch._transformer_encoder_layer_fwd(
+Evaluation metrics saved to D:\dachuang2026\GHXTox\analysis\spatial_edge_pair_20261108\fold0\matched_sequence\calibration_metrics.json
+accuracy: 0.902973
+balanced_accuracy: 0.878818
+precision: 0.860215
+recall: 0.816327
+f1: 0.837696
+mcc: 0.769104
+auroc: 0.942553
+auprc: 0.896047
+mean_global_gate: 0.375370
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:720: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  return torch._transformer_encoder_layer_fwd(
+Evaluation metrics saved to D:\dachuang2026\GHXTox\analysis\spatial_edge_pair_20261108\fold0\matched_sequence\test_metrics.json
+accuracy: 0.915814
+balanced_accuracy: 0.882872
+precision: 0.890909
+recall: 0.805479
+f1: 0.846043
+mcc: 0.790210
+auroc: 0.957701
+auprc: 0.919931
+mean_global_gate: 0.375010
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\functional.py:5504: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+epoch=001 train_loss=0.5793 val_loss=0.4814 val_auprc=0.8874 val_mcc=0.7336 gate=0.384
+epoch=002 train_loss=0.4734 val_loss=0.4091 val_auprc=0.9017 val_mcc=0.7119 gate=0.373
+epoch=003 train_loss=0.4110 val_loss=0.3991 val_auprc=0.9152 val_mcc=0.7705 gate=0.376
+Best checkpoint saved to D:\dachuang2026\GHXTox\analysis\spatial_edge_pair_20261108\fold0\matched_spatial\best_model.pt (fixed_epoch=3.000000)
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:720: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  return torch._transformer_encoder_layer_fwd(
+Evaluation metrics saved to D:\dachuang2026\GHXTox\analysis\spatial_edge_pair_20261108\fold0\matched_spatial\calibration_metrics.json
+accuracy: 0.877934
+balanced_accuracy: 0.866449
+precision: 0.780952
+recall: 0.836735
+f1: 0.807882
+mcc: 0.719506
+auroc: 0.946596
+auprc: 0.895195
+mean_global_gate: 0.376066
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:306: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+D:\anaconda\envs\pytorch_env\lib\site-packages\torch\nn\modules\transformer.py:720: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  return torch._transformer_encoder_layer_fwd(
+Evaluation metrics saved to D:\dachuang2026\GHXTox\analysis\spatial_edge_pair_20261108\fold0\matched_spatial\test_metrics.json
+accuracy: 0.905586
+balanced_accuracy: 0.886332
+precision: 0.831978
+recall: 0.841096
+f1: 0.836512
+mcc: 0.770166
+auroc: 0.956388
+auprc: 0.901770
+mean_global_gate: 0.375625
